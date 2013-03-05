@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+
+\usepackage{mathptmx,helvet,courier,bm}
+\usepackage{amsmath,amssymb,stmaryrd}
+\usepackage[sort&compress,numbers]{natbib}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{longtable}
+
+% make the page wider, taller and fit floating figures better
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.85in} 
+\addtolength{\headsep}{-.1in}
+\addtolength{\textheight}{1.5in}
+\renewcommand{\topfraction}{.9}
+\renewcommand{\textfraction}{.01}
+\renewcommand{\floatpagefraction}{.99}
+\addtolength{\textfloatsep}{-10pt}
+\setcounter{bottomnumber}{2}
+\renewcommand{\bottomfraction}{.95}
+\renewcommand{\topfraction}{.99}
+
+% Personal commands
+%
+\newcommand{\equationname}{equation}
+
+% Demarcate figures
+\newcommand{\topfigrule}{\relax\noindent\rule[-6pt]{\columnwidth}{.4pt}}
+\newcommand{\botfigrule}{\relax\noindent\rule[16pt]{\columnwidth}{.4pt}}
+
+%
+% A more standardized way of making paper titles
+%
+\author{Jacob Calder, Iwo Dubaniowski, C. Vic Hu, Subhashini Venugopalan\\[4pt]
+EE380L Data Mining\\
+University of Texas at Austin\\
+\url{https://github.com/cvhu/ee380l-ghosh-project}
+}
+\title{title}
+
+\begin{document}
+\sloppy
+
+\maketitle
+%\section{}
+%\subsection{}
+
+
+\section{Introduction}
+	The project proposed by Professor Rai involves analyzing a set of approximately 1000 patents that pertain to solar energy technologies obtained from the US Patent and Trademark Office\cite{us_patent}. The information provided for each patent contains the inventor(s); assignees; dates of filing, application, and issue; keywords based on standard patent classifications; geographical location of the assignee firm or inventor; etc. The patents have been pre-classified based on the portion of the supply chain the patents apply to. Additionally, the data has undergone simple topic modeling/LDA analysis based using the MAchine Learning for LanguagE Toolkit (MALLET) Java-package\cite{mallet}.
+
+\section{Motivation?}	The overall goal of the project is to develop a method of clustering the patents that will allow for the discovery of temporal and spatial connections between groups of patents linked to “spillovers” in innovation. In other words, it is not uncommon for an innovation to leads to other innovations. One breakthrough that will quickly be implemented into other problems and lead to other breakthroughs. While this is intuitively easy to understand it is not easy to track or measure. Traditionally, this is tracked using citations, though this is not a reliable method because patents often cite a wide variety of other patents, many of which are not pertinent. This project will attempt to analyze the abstracts and bodies of the patents to find common phrases and attempt to use these links as a way of analyzing the spillovers from one patent to another.
+ 
+\section{Outline of Approach}
+	As a first step, we would like to identify and define some metrics to measure the performance of clustering with respect discovering spillovers. The most challenging aspect of the project is to come up with a language model to represent the patents. We will begin by attempting to apply known language models such as Bigram and Probabilistic Context Free Grammar (PCFG)  for topic modelling. We will then cluster the patents and attempt to find links between the clusters and patents within individual clusters and verify the performance based on the defined metrics.
+
+\section{Outcome}
+The expected outcome of the project is to identify a language model (or a combination of models) and clustering techniques that can best capture knowledge transfer and spillover. The end result is intended to be a general method that can find connections between patents regardless of type of technology as well as an analysis of the provided solar power patents.
+
+
+\begin{thebibliography}{1}
+
+\bibitem{us_patent}
+The United States Patent and Trademark Office, http://www.uspto.gov/patents/process/search/. 2012
+\bibitem{mallet}
+McCallum, Andrew Kachites.  "MALLET: A Machine Learning for Language Toolkit."
+    http://mallet.cs.umass.edu. 2002.
+\end{thebibliography}
+
+
+\end{document}  
