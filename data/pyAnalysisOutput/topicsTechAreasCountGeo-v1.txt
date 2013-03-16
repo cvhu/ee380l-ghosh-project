@@ -1,0 +1,7 @@
+1 Solar Inverter 1
+5 Solar Mounting/Rack 1
+6 Solar Mounting/Rack 1
+9 Solar Inverter 1
+10 Solar Mounting/Rack 2
+10 Solar Inverter 1
+14 Solar Inverter 1
