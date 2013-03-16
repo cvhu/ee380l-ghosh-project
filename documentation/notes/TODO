@@ -1,1 +1,21 @@
+
+16 March 2013
+
 1. Need to make tech areas consistent (extra info makes same tech area to be counted differently)
+
+12 March 2013
+Notes on Meeting with Maureen
+
+----Filtering the patent search - we discussed quite a bit on how we can filter the patent search (from scraped data) to get relevant patents. Some of Maureen suggestions are below:
+        1. narrow our search based on classification numbers (class of publication)
+        2. pick relevant technology areas
+        3. reduce search space to "Claims" instead of all text. The claims will be most relevant in our actual algorithm.
+        4. Use the existing database topic model words as initial point and search/filter based on the topic words from our initial model.
+
+----Topic model suggestions
+        1. Current topics make sense. Would be good if we can convert them to phrases.
+        2. Compare correlated topics with the classification number and technology areas. This gives us a measure of how well our topic model is doing.
+        3. Continue with our idea on splitting Geographies, and Time patents and analyzing topic modeling for each to verify hypothesis (time spillover, patent focus areas for each geo)
+        4. In addition, try to do Step 3 for Assignee (companies), Established/Start-up fields as well. (I was thinking of bucketing companies based on the number of patents >10, 5-9, 2-4, 1 etc,)
+        5. Our stopword list seems fine (and we wouldn't encounter the problem if we convert our algorithm to look at phrases).
+
