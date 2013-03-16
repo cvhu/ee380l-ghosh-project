@@ -1,0 +1,15 @@
+0	0.07401	load disposed plug wall lines diodes potential air efficiency converting switched automatically carrying comb busbar rear designed holding relates 
+1	0.16949	inverter grid time bus mode component torque element based frequency disclosed structure maximum phasors slope board plate spd uninterruptible 
+2	0.12674	production array air structural shingle local lead perimeter tilt pamcc strut period fault modular burst accommodate torque structures maximum 
+3	0.10942	pv dc plurality electric member housing connected metal side thermal end arm battens cycle tab cable carrier tiles half 
+4	0.07682	cell clips bracket bottom slider elongate circuit surface beams member structures conductive facade fastening shaped strip spaced simplified fluid 
+5	2.06081	system power includes plurality module panel configured support coupled base array output grid panels portion include mounting roof electrically 
+6	0.9473	photovoltaic mounting structure rail support side provided members roof device adapted parallel mounted devices edge rails member generating formed 
+7	0.07656	switching circuit generator housing bridge connection terminals side part fastening terminal intermediate generators parallel chamber supply configured fuse contacts 
+8	0.82828	connected module voltage cell unit device direct elements connecting invention element box point means comprising includes electric panel contact 
+9	1.60119	solar modules mounting frame surface assembly pv energy provide module methods panel embodiment comprises integrated panels apparatus plurality installation 
+10	2.12657	power dc inverter solar photovoltaic voltage ac current converter output control input electrical energy source circuit system controller method 
+11	0.03738	splices rack phase spacer sun link truss male body adapted current stress leg bases lag lip concentrator pulse outward 
+12	0.18096	panel channel clamp rails pipe main rotate flange motor window sun variable legs sequence chain memory collectors clamps body 
+13	0.07403	power conversion array device switch achieve circuitry configurable apparatus elements cell converters include object removably branch supply rails aspects 
+14	0.16116	bracket frame number assemblies portions material cap pier sheet roofing aperture rotating ballast generates waveform angle disposed opposite elongated 

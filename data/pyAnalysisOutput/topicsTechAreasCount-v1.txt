@@ -1,0 +1,124 @@
+0 Solar Mounting/Rack 30
+0 Solar Mounting/Rack  3
+0 Solar Mounting/Rack; Solar Inverter 1
+0 Solar Mounting/Rack   13
+1 Solar Inverter 6
+1 Solar Mounting/Rack 23
+1 Solar Inverter; Solar Monitoring 1
+1 Solar Mounting/Rack  2
+1 Solar Mounting/Rack (Junction box) 1
+1 Solar Mounting/Rack   4
+2 Solar Mounting/Rack; Solar Track 2
+2 Solar Mounting/Rack 30
+2 Solar Mounting/Rack;  1
+2 Solar Mounting/Rack (rack Substrate part) 4
+2 Solar Mounting/Rack (electrical systems) 1
+2 Solar Mounting/Rack  1
+2 Solar Mounting/Rack;   1
+2 Solar Mounting/Rack   12
+3 Solar Inverter; Solar Mounting/Rack 1
+3 Solar Inverter 43
+3 Solar Mounting/Rack 2
+3 Solar Inverter; Solar Monitoring 3
+3 Solar Monitoring;  Solar Inverter 1
+3 Solar Inverter; Solar Mounting/Rack;  1
+3 Solar Monitoring; Solar Inverter 1
+3 Solar Mounting/Rack; (Inverter mount) 1
+3 Solar Inverter  5
+3 Solar Inverter;  2
+3 Solar Inverter; Solar Power Management 1
+4 Solar Mounting/Rack;    1
+4 Solar Mounting/Rack; Solar Monitoring 1
+4 Solar Inverter 2
+4 Solar Mounting/Rack 28
+4 Solar Mounting/Rack (Receiver, concentrator) 1
+4 Solar Inverter; Solar Mounting/Rack;  1
+4 Solar Mounting/Rack (electrical safety) 1
+4 Solar Mounting/Rack(electrical wiring) 1
+4 Solar Mounting/Rack  2
+4 Solar Mounting/Rack (Junction box) 1
+4 Solar Mounting/Rack;  1
+4 Solar Mounting/Rack   5
+5 Solar Inverter 3
+5 Solar Mounting/Rack 18
+5 Solar Mounting/Rack;  1
+5 Solar Mounting/Rack (Electrical connection) 1
+5 Solar Mounting/Rack; Solar Inverter 1
+5 Solar Mounting/Rack   8
+6 Solar Inverter 28
+6 Solar Inverter' Solar Monitoring 1
+6 Solar Mounting/Rack 1
+6 Solar Inverter; Solar Monitoring 1
+6 Solar Monitoring; Solar Inverter 2
+6 Solar Inverter  2
+6 Solar Inverter;  3
+6 Solar  Monitoring; Solar Inverter 1
+6 Solar Inverter;  Solar Mounting/Rack 1
+7 Solar Mounting/Rack; Solar Inverter  1
+7 Solar Inverter; Solar Mounting/Rack 2
+7 Solar Inverter 6
+7 Solar Mounting/Rack 8
+7 Solar Mounting/Rack;  1
+7 Solar Mounting/Rack;   1
+7 Solar Mounting/Rack (Electrical connection) 1
+7 Solar Mounting/Rack; (Junction Box) 1
+7 Solar Inverter  2
+7 Solar Inverter;  1
+7 Solar Mounting/Rack  2
+7 Solar Mounting/Rack (Junction box) 1
+7 Solar Mounting/Rack   1
+8 Solar Inverter; Solar Mounting/Rack 2
+8 Solar Inverter 10
+8 Solar Mounting/Rack 20
+8 Solar Inverter; Solar Monitoring 3
+8 Solar Mounting/Rack (electrical hardware) 1
+8 Solar Mounting/Rack  1
+9 Solar Mounting/Rack; Solar Monitoring 1
+9 Solar Inverter; Solar Mounting/Rack 4
+9 Solar Monitoring;  Solar Inverter 1
+9 Solar Inverter 4
+9 Solar Mounting/Rack 17
+9 Solar Mounting/Rack;   1
+9 Solar Monitoring; Solar Inverter 1
+9 Solar Mounting/Rack; Solar Inverter 1
+9 Solar Mounting/Rack  1
+9 Solar Mounting/Rack; (Junction Box) 1
+10 Solar Mounting/Rack; Solar Monitoring 1
+10 Solar Mounting/Rack; Solar Track 1
+10 Solar Inverter 4
+10 Solar Mounting/Rack 23
+10 Solar Mounting/Rack;  1
+10 Solar Mounting/Rack (electrical) 1
+10 Solar Monitoring/Rack 1
+10 Solar Track; Solar Mounting/Rack 1
+10 Solar Mounting/Rack   3
+11 Solar Mounting/Rack 23
+11 Solar Mounting/Rack;  2
+11 Solar Mounting/Rack (electrical safety) 1
+11 Solar Mounting/Rack; Solar Inverter 1
+11 Solar Mounting/Rack  3
+11 Solar Mounting/Rack   3
+11 Solar Mounting/Rack (Junction box) 1
+11 Solar Mounting/Rack; (Junction Box) 3
+12 Solar Inverter 28
+12 Solar Mounting/Rack 2
+12 Solar Inverter; Solar Monitoring 4
+12 Solar Monitoring;  Solar Inverter 1
+12 Solar Inverter  4
+12 Solar Inverter;  1
+12 Solar Mounting/Rack (Junction box) 1
+12 Solar Inverter;   2
+13 Solar Mounting/Rack  (for monitoring systems) 1
+13 Solar Inverter 11
+13 Solar Mounting/Rack 6
+13 Solar Inverter; Solar Monitoring 7
+13 Solar Monitoring; Solar Inverter 5
+13 Solar Mounting/Rack; (PV system) 1
+13 Solar Monitoring; Solar Inverter;   1
+14 Solar Inverter 42
+14 Solar Inverter;   1
+14 Solar Monitoring; Solar Inverter 3
+14 Solar Monitoring; Solar inverter 1
+14 Solar Inverter  2
+14 Solar Inverter;  2
+14 Solar Inverter; Solar Monitoring 10

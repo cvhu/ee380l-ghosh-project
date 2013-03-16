@@ -1,0 +1,5 @@
+bin/mallet train-topics --input ../../ee380l-ghosh-project/data/malletdata/inputFiles/oneAbsPerLine.mallet --num-topics 15 --output-state ../../ee380l-ghosh-project/data/malletdata/outputFiles/allAbs-topic-state.gz --output-topic-keys ../../ee380l-ghosh-project/data/malletdata/outputFiles/allAbs-keys-v1.txt --output-doc-topics ../../ee380l-ghosh-project/data/malletdata/outputFiles/allAbs_composition-v1.txt
+
+bin/mallet train-topics --optimize-interval 20 --input ../../ee380l-ghosh-project/data/malletdata/inputFiles/oneAbsPerLine.mallet --num-topics 15 --output-topic-keys ../../ee380l-ghosh-project/data/malletdata/outputFiles/allAbs-keys-v2.txt --output-doc-topics ../../ee380l-ghosh-project/data/malletdata/outputFiles/allAbs_composition-v2.txt
+
+bin/mallet train-topics --optimize-interval 20 --input ../../ee380l-ghosh-project/data/malletdata/inputFiles/geoAbstracts.mallet --num-topics 15 --output-topic-keys ../../ee380l-ghosh-project/data/malletdata/outputFiles/geoAbs-keys-v1.txt --output-doc-topics ../../ee380l-ghosh-project/data/malletdata/outputFiles/geoAbs_composition-v1.txt
