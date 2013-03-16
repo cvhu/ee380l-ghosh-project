@@ -4,6 +4,7 @@
 __author__="vsubhashini"
 
 import csv
+import re
 
 def import_text(filename,separator):
   for line in csv.reader(open(filename), delimiter=separator, skipinitialspace=True):
@@ -16,6 +17,7 @@ class Abstracts:
     """Represents top 3 topics of an abstract"""
     def __init__(self):
       self.topicnums = []
+      self.geo = ''
 
   class TopicTA:
     """Represents the tech area counts for the topic"""
@@ -28,10 +30,11 @@ class Abstracts:
     self.classNum = []
     self.topicTAlist = {} #dictionary of dictionaries
 
-  def getTopics(self, compositionFile):
+  def getTopics(self, compositionFile, geoTF):
     """
       composition file has abstract's correlation with suggested topic (in desceding order of corr)
     """
+    geoPattern = '/(\w+).txt';
     with open(compositionFile, 'r') as cfid:
       next(cfid) #ignore firstline
       for line in cfid:
@@ -40,6 +43,8 @@ class Abstracts:
 	topic.topicnums.append(int(line[2]))
 	topic.topicnums.append(int(line[4]))
 	topic.topicnums.append(int(line[6]))
+	if geoTF:
+	  topic.geo = re.findall(geoPattern, line[1])[0];
 	self.topicTriples.append(topic)
 
   def getTechAreas(self, patentFile):
@@ -50,7 +55,7 @@ class Abstracts:
       if count==0:
 	count+=1
 	continue
-      self.techArea.append(line[7])
+      self.techArea.append(line[7].strip())
      #self.classNum.append(??);
 
   def matchTopicTechArea(self):
@@ -75,14 +80,26 @@ class Abstracts:
       counter+=1
      #print topic list
 
+  def printGeoTopicTriples(self, outfile):
+    with open(outfile,'w+') as ofid:
+      for topicTriple in self.topicTriples:
+        line = topicTriple.geo+": "+str(topicTriple.topicnums) +"\n"
+	print line
+	ofid.write(line)
+
 def main():
-  compositionFile="../data/malletdata/outputFiles/allAbs_composition.txt";
+  compositionFile="../data/malletdata/outputFiles/geoAbs_composition-v2.txt";
   patentFile="../data/Solar_Innovation_Database_PRP_(version_1).csv";
-  outputFile="../data/pyAnalysisOutput/topicsTechAreasCount.txt";
+  outputFile="../data/pyAnalysisOutput/topicsTechAreasCountgeo-v2.txt";
   abstracts = Abstracts()
-  abstracts.getTopics(compositionFile)
+  geoTF=False
+  if "geo" in compositionFile:
+    geoTF = True
+  abstracts.getTopics(compositionFile, geoTF)
   abstracts.getTechAreas(patentFile)
   abstracts.matchTopicTechArea()
+  if geoTF: 
+    abstracts.printGeoTopicTriples("../data/pyAnalysisOutput/topics4geo-v2.txt")
   #print abstracts.topicTriples[5].topicnums;
   #print abstracts.techArea
   with open(outputFile,'w+') as opfid:
