@@ -30,8 +30,12 @@ def getYearDistribution(patentFile, outfile):
   total=0
   for year in yearCount:
     total+=yearCount[year]
-    print year, yearCount[year]
-  print "Total: " + str(total)
+    line= str(year) +" " +str( yearCount[year]) + "\n"
+    print line
+    ofid.write(line)
+  line= "Total: " + str(total) + "\n"
+  ofid.write(line)
+  ofid.close()
 
 def main():
   patentFile="../data/Solar_Innovation_Database_PRP.csv";
