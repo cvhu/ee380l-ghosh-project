@@ -1,0 +1,15 @@
+0	3.33333	frame mounting roof surface includes plate bracket members roofing base laminate structural tile portions secured rooftop adapted ballast fastener 
+1	3.33333	plurality comprises elements line adapted integrated disposed connected part mounted building components heat air electric channel wall thermal back 
+2	3.33333	mounting support structure panels rails system mounted parallel supporting structures attached comprises brackets spaced axis attachment torque holding tube 
+3	3.33333	power dc converter ac input output conversion supply source converters maximum circuitry sources achieve convert boost efficiency electronic transmission 
+4	3.33333	member side surface end housing element edge material support shaped contact substantially arranged flat area fastening outer central conductive 
+5	3.33333	device rail includes devices provided connection position track set configuration tracker wind sensor removably collection slot relative time mechanism 
+6	3.33333	voltage current direct source load switching point alternating frequency high operation converting switch electric mains battery elements semiconductor terminals 
+7	3.33333	module pv includes configured coupled embodiment comprising box ground apparatus layer coupling interface couple fault open distribution detector transfer 
+8	3.33333	photovoltaic array cell including cells installation methods disclosed providing arrays embodiments board reduce connect active applied low exemplary techniques 
+9	3.33333	modules electrical plurality connector electrically provide provided connecting conductor connection wiring component connected supports connectors grounding formed cable conductors 
+10	3.33333	solar invention means method section form relates tracking present sun disclosed longitudinal light order sunlight cost angle simple truss 
+11	3.33333	panel assembly portion base include upper lower junction extending clamp body top receive adjacent assemblies bottom direction configured flexible 
+12	3.33333	circuit connected phase inverters grid output generator series bridge terminal apparatus multiple transformer terminals current positive arrangement switches intermediate 
+13	3.33333	system energy control unit signal generation bus systems coupled units generating string data monitoring storage signals link provide state 
+14	3.33333	inverter power grid output ac controller operating utility include maximum based number predetermined method mode generate stage generated controlling 

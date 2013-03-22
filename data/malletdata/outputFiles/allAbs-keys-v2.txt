@@ -1,0 +1,15 @@
+0	0.12792	power dc ac inverter output converter voltage input system current source configured controller phase includes coupled direct converters supply 
+1	0.10031	module photovoltaic includes cell support side device cells layer material area installation modules laminate embodiment devices substrate structure provided 
+2	0.05431	mounting element solar rail surface plurality elements device means members provided modules adapted invention system support relates photovoltaic membrane 
+3	0.05	voltage circuit current inverter switching direct bridge connected alternating frequency high source output terminals intermediate pulse switches elements node 
+4	0.07116	mounting support panels solar structure photovoltaic system plurality rails rail assembly structures bracket mounted modules brackets surface torque upper 
+5	0.08274	frame panel member solar support base mounting includes end assembly surface portion clamp side air structure configured opening extending 
+6	0.06335	roof surface plate base portion includes top shaped mounting bottom side surfaces elongated threaded supporting substantially portions attached edge 
+7	0.04895	housing connector electrical box electrically module conductor junction connecting contact cable connectors includes solar connection conductive plurality photovoltaic part 
+8	0.03005	power photovoltaic dc conversion control achieve inverter circuitry high solar mode switch elements pairs grid efficiency source voltage converter 
+9	0.0458	roof system energy plurality roofing devices solar building tile thermal metal heat photovoltaic wall mounted adapted units electrical tiles 
+10	0.06937	power energy system point maximum control unit photovoltaic time inverters data output generation operating capacitor storage voltage number mpp 
+11	0.03938	generator photovoltaic connected current control signal terminal switch string line input unit system lines generators semiconductor inverter load electrical 
+12	0.05998	solar panel cell energy invention array sun cells panels tracker tracking structure axis assembly sunlight truss film main increased 
+13	0.06069	inverter grid power electrical energy system bus utility device includes current circuit output source electric frequency generation ac control 
+14	0.10518	pv modules photovoltaic array module plurality system provide connected solar configured portion panel coupling includes arrays electrical disclosed coupled 
