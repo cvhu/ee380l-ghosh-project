@@ -35,11 +35,14 @@ def getYearDistribution(patentFile, outfile):
     ofid.write(line)
   line= "Total: " + str(total) + "\n"
   ofid.write(line)
+  print line
   ofid.close()
 
 def main():
-  patentFile="../data/Solar_Innovation_Database_PRP.csv";
-  outputFile="../data/pyAnalysisOutput/yearDistribution.txt";
+  #patentFile="../data/Solar_Innovation_Database_PRP_patents.csv";
+  #outputFile="../data/pyAnalysisOutput/patentyearDistribution.txt";
+  patentFile="../data/Solar_Innovation_Database_PRP_applications.csv";
+  outputFile="../data/pyAnalysisOutput/applicationyearDistribution.txt";
   getYearDistribution(patentFile, outputFile)
 
 if __name__=="__main__":

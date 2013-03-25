@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+
+\usepackage{mathptmx,helvet,courier,bm}
+\usepackage{amsmath,amssymb,stmaryrd}
+\usepackage[sort&compress,numbers]{natbib}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{fullpage}
+
+\setcounter{bottomnumber}{2}
+
+% Personal commands
+%
+\newcommand{\equationname}{equation}
+
+% Demarcate figures
+\newcommand{\topfigrule}{\relax\noindent\rule[-6pt]{\columnwidth}{.4pt}}
+\newcommand{\botfigrule}{\relax\noindent\rule[16pt]{\columnwidth}{.4pt}}
+
+%
+% A more standardized way of making paper titles
+%
+%\author{}
+\author{Jacob Calder\footnote{jcalder@utexas.edu}, Iwo Dubaniowski \footnote{mduban@gmail.com}, C. Vic Hu \footnote{vic@cvhu.org}, Subhashini Venugopalan\footnote{vsubhashini@utexas.edu}\\[4pt]
+\-\\
+EE380L Data Mining\\
+University of Texas at Austin\\
+\url{https://github.com/cvhu/ee380l-ghosh-project}
+}
+\title{Mining for spillovers in patents \\ Plan of attack}
+
+\begin{document}
+\sloppy
+
+\maketitle
+\section{Approach}
+Here is a detailed systematic approach to make inferences from the topic model.
+\begin{enumerate}
+\item Consolidate the data consisting of - abstract, claims, date of filing/grant, geographical location, technlogy area, classification numbers, patent-holder information and other (less important) details.
+\item Run the topic model (a few times) on the abstract and claims, to generate a list of consistent topics word clusters. Call this $TopicWordsCluster_{TM}$.
+\item To make any inference, we first need to associate the $TopicWordsCluster_{TM}$ with the actual topic (e.g. with respect to the example in Topic Modelling web page and tutorial (\url{http://www.programminghistorian.org/lessons/topic-modelling-and-mallet}), that would be cricket, movies, wildlife etc.) And we don't know these topics, so we need to identify them based on the technology areas and classification numbers. \label{topicwords2topics}
+\begin{enumerate}
+ \item Identify the technology areas correlated with each $TopicWordsCluster_{TM}$. \\
+This can be done by first identifying the most correlated topics for each document. Then, associating the document's technology area with that $TopicWordsCluster_{TM}$. Doing this for all documents, we can get a list of technology areas corresponding to each topic, and counting the frequecies will give us a single technology area for each topic. \\
+This has been tested on the abstracts. The scripts and results can be found in \url{https://github.com/cvhu/ee380l-ghosh-project/tree/master/data/pyAnalysisOutput}
+
+\item Similarly associate classification classes with every $TopicWordsCluster_{TM}$. \\
+To accomplish this, first get the classification names and details corresponding to each of the classification numbers for each patent. Now, the algorithm is very similar to the previous step (as in technology areas). For each patent, identify the most correlated topic and associate it's classification details to that topic. Then refine by topic to identify the list of classifications for each $TopicWordsCluster_{TM}$, and pick the top 3-4 classifications.
+\end{enumerate}
+
+\item From the previous step, we should have now generated a set of $Topics_{TM}$ or topic names for each $TopicWordsCluster_{TM}$ based on technology area and patent classification details. The next step is to do the actual inference with respect to geographies and time.
+\begin{enumerate}
+\item For geographies (and time), run the topic model again to generate a bunch of $TopicWordsCluster_{Geo}$ (correspondingly $TopicWordsCluster_{Years}$). Map $TopicWordsCluster_{Geo}$ ($TopicWordsCluster_{Years}$) with $TopicWordsCluster_{TM}$ based on the words directly (or re-doing step \ref{topicwords2topics}). The result of this will be $Topics_{Geo}$ (and $Topics_{Years}$).
+\item Now we will have for each geography the set of most frequent $Topics$, and we should be able to test our hypothesis:
+\begin{itemize}
+\item Are certain geographies (and years) associated with specific topics? 
+\item Is there a progression in the set of topics across years?
+\item Map $Topics_{Geo}$ (and $Topics_{Years}$) to see if $(Topic_i, Geo_j, Year_k)$ has some association with $(Topic_i, Geo_l, Year_{j+1})$ etc.
+\end{itemize}
+\end{enumerate}
+\end{enumerate}
+
+%\subsection{}
+
+
+\end{document}  
