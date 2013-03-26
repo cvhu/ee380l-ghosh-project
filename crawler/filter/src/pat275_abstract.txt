@@ -1,0 +1,1 @@
+A DC to AC inverter used in a solar cell power system can include an improved control scheme for cooling itself and optimizing power output.

@@ -1,0 +1,1 @@
+A method for the startup of a solar power inverter in which a waiting period is increased between successive attempts to start the inverter. This method allows the inverter to start up in a reasonable amount of time while avoiding excessive cycling during prolonged periods of low light.

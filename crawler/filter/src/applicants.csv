@@ -1,0 +1,557 @@
+a_id, name, city, state, company, company city, company state
+a155, ogilvie; clarence r.,huntington,vt,international business machines corporation , armonk,  ny
+a328, sasakawa; tadashi,tokyo,jp,pasco corporation , tokyo,  jp
+a375, brzezowski; edward h.,chester,nj,noveda technologies  inc. , branchburg,  nj
+a64, buchhold; stefan,lohfelden,de,sma technologie ag , niestetal,  de
+a543, mansoor; arshad,oak ridge,tn,electric power research institute  inc. , charlotte,  nc
+a499, ko; jeong min,jaeju-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a131, adams; frank j.,los altos,ca,sunpower corporation , san jose,  ca
+a249, ubben; enno,salzbergen,de,general electric company , schenectady,  ny
+a537, lanza; carlo john,islip,ny,
+a520, king; zachary adam,townsend,ma,greenray inc. , westford,  wa
+a429, spagnuolo; giovanni,fisciano,it,
+a31, farkas; kenneth j.,brighton,mi,ballard power systems corporation , dearborn,  mi
+a304, mueller; gundolf,fuldabrueck,de,sma solar technology ag , niestetal,  de
+a501, makhota; maxym,campbell,ca,tigo energy  inc. , los gatos,  ca
+a495, kim; jong soo,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a230, ruskin; raymond henry,kensington,md,ruskin; raymond henry , kensington,  md
+a194, juchem; ralf,niestetal,de,sma solar technology ag , niestetal,  de
+a125, rosner; s jeffrey,palo alto,ca,agilent technologies  inc , santa clara,  ca
+a75, lai; li-hsiang,kaohsiung,tw,uis abler electronics co.  ltd. , hsintien,  taipei hsien  tw
+a183, hadar; ron,cupertino,ca,tigo energy  inc. , los gatos,  ca
+a173, concho; christine,barstow,ca,solarcity corporation , foster city,  ca
+a85, hoffman; brian,bend,or,pv powered  inc. , bend,  or
+a325, schultz; aaron,san jose,ca,miasole , santa clara,  ca
+a26, murai; yukio,tokyo,jp,ebara corporation , tokyo,  jp
+a542, agamy; mohammed,niskayuna,ny,general electric company , niskayuna,  ny
+a541, todorovic; maja harfman,niskayuna,ny,general electric company , niskayuna,  ny
+a496, lee; byoung kuk,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a56, bowman; eric l.,henderson,nv,
+a449, wurmlinger; stephen p.,scurry,tx,solarbridge technologies  inc. , austin,  tx
+a409, serban; emanuel,new westminster,ca,xantrex technology inc. , livermore,  ca
+a167, gilmore; jack a.,fort collins,co,advanced energy industries  inc. , fort collins,  co
+a377, casey; leo francis,lexington,ma,satcon technology corporation , boston,  ma
+a284, good; robert scott,camp hill,pa,tyco electronics corporation , berwyn,  pa
+a517, moore; jackson,oakland,ca,etm electromatic  inc. , newark,  ca
+a372, burge-allenspach; anton,ormalingen,ch,gunther spelsberg gmbh & co. kg , schalksmuhle,  de
+a447, marroquin; marco a.,austin,tx,solarbridge technologies  inc. , austin,  tx
+a80, greizer; frank,kaufungen,de,sma solar technology ag. , niestetal,  de
+a474, belikoff; michael a.,mendham,nj,first solar  inc , perrysburg,  oh
+a82, hubler; uwe,kassel,de,sma solar technology ag. , niestetal,  de
+a444, gilmore; jack arthur,fort collins,co,advanced energy industries  inc , fort collins,  co
+a47, aschenbrenner; peter,palo alto,ca,sunpower corporation , san jose,  ca
+a28, almy; charles,berkeley,ca,powerlight corp. , berkeley,  ca
+a90, delgado; eladio clemente,burnt hills,ny,general electric company , niskayuna,  ny
+a217, cripps; jeffrey l.,waterford,mi,criptonic energy solutions  inc. , waterford,  mi
+a538, beck; bernhard,volkach ot dimbach,de,adensis gmbh , kolitzheim,  de
+a84, vogel; thomas,menden,de,kostal industrie elektrik gmbh , ludenscheid,  de
+a299, spagnuolo; giovanni,salerno,it,power-one italy s.p.a. , arezzo,  it
+a545, lai; jih-sheng,blacksburg,va,electric power research institute  inc. , charlotte,  nc
+a97, vendig; herb,hoffman estates,il,
+a4, hammerstrom; donald j.,w. richland,wa,international power systems  inc. , calgary,  ca
+a157, williams; keith r.,essex junction,vt,international business machines corporation , armonk,  ny
+a556, pulvirenti; francesco,acireale,it,
+a518, littmmann; bodo w.,palo alto,ca,etm electromatic  inc. , newark,  ca
+a33, mori; masahiro,kyoto,jp,canon kabushiki kaisha , tokyo,  jp
+a253, kirkpatrick; richard,toronto,ca,yoursolarhome inc. , vaughan,  ontario  ca
+a51, brunner; i meco indriaja marcus,honolulu,hi,university of hawai'i , honolulu,  hi
+a341, bechtel; neidhardt,kassel,de,sma solar technology ag , niestetal,  de
+a355, chisenga; lesley,cambridge,gb,enecsys limited , cambridgeshire,  gb
+a9, matsushita; masaaki,nara,jp,canon kabushiki kaisha , tokyo,  jp
+a83, rottger; dieter,frondenberg,de,kostal industrie elektrik gmbh , ludenscheid,  de
+a348, laschinski; joachim,kassel,de,sma solar technology ag , niestetal,  de
+a502, friebe; jens,vellmar,de,sma solar technology ag , niestetal,  de
+a111, dinwoodie; thomas l.,piedmont,ca,sunpower corporation  systems , richmond,  ca
+a351, graves; simon,berkeley,ca,sunpower corporation , san jose,  ca
+a503, chapman; patrick l.,urbana,il,solarbridge technologies  inc. , austin,  tx
+a189, armstrong; joseph h.,littleton,co,ascent solar technologies inc. , littleton,  co
+a533, cesnak; lorand,weikendorf,at,siemens aktiengesellschaft , munchen,  de
+a430, vitelli; massimo,fisciano,it,
+a482, clemens; daniel,niestetal,de,sma solar technology ag , niestetal,  de
+a34, shiomi; ayako,shizuoka,jp,canon kabushiki kaisha , tokyo,  jp
+a166, fornage; martin,petaluma,ca,enphase energy  inc. , petaluma,  ca
+a530, matsui; ryoji,gose,jp,sharp kabushiki kaisha , osaka,  jp
+a8, takabayashi; akiharu,nara,jp,canon kabushiki kaisha , tokyo,  jp
+a354, mumtaz; asim,cambridge,gb,enecsys limited , cambridgeshire,  gb
+a6, banister; mark p.,tucson,az,
+a294, kim; jong hae,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a463, barlock; paul regis,blaine,wa,nnw ventures  llc , blaine,  wa
+a178, shingleton; jefferson g.,auburn,ny,sunpower corporation  systems , berkeley,  ca
+a67, heckeroth; steve,albion,ca,united solar ovonic llc , auburn hills,  mi
+a293, jang; dea min,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a222, fein; gene s.,lenox,ma,
+a411, tofflemire; mark,alameda,ca,architectural glass and aluminum corporation  inc. , alameda,  ca
+a417, boensch; matthias,bielefeld,de,weidmueller interface gmbh & co. kg , detmold,  de
+a480, wolf; -ing. henrik,kassel,de,sma solar technology ag , niestetal,  de
+a536, ou; ting-chia,taoyuan,tw,atomic energy council--institute of nuclear energy research , lungtan,  taoyuan  tw
+a320, delmerico; robert william,clifton park,ny,general electric company , schenectady,  ny
+a540, sabate; juan antonio,gansevoort,ny,general electric company , niskayuna,  ny
+a551, delmerico; robert william,clifton park,ny,general electric company , niskayuna,  ny
+a332, little; ruel davenport,concord,ma,greenray inc. , westford,  ma
+a446, allen; gary e,rochester,mi,luma resources  llc , rochester hills,  mi
+a107, nordvedt; jan-erik,radal,no,epsis as , bergen,  no
+a399, forrest; brad,cary,nc,
+a473, thompson; christopher,narragansett,ri,first solar  inc. , perrysburg,  oh
+a117, arend; oliver,lohfelden,de,smasolar technology ag , niestetal,  de
+a66, bremicker; sven,alheim-baumbach,de,sma technologie ag , niestetal,  de
+a231, kinsley; homan b.,bohannon,va,ruskin; raymond henry , kensington,  md
+a196, frank; oliver,hannover,de,sma solar technology ag , niestetal,  de
+a150, chang; ching-lang,antioch,ca,beautiful world llc , antioch,  ca
+a209, leeds; michael,san francisco,ca,skyline solar  inc. , mountain view,  ca
+a57, siri; kasemsan,torrance,ca,
+a43, schmidt; frank,poring,de,enocean gmbh , oberhaching,  de
+a141, nehls; charles olen,allen park,mi,unistrut international corporation , wayne,  mi
+a263, ohm; dal y.,south riding,va,pv powered  inc. , bend,  or
+a531, yagi; ayumi,yamatotakada,jp,sharp kabushiki kaisha , osaka,  jp
+a134, beck; thorsten,bad arolsen-wetterburg,de,weidmueller interface gmbh & co. kg , detmold,  de
+a238, hartman; ben,new york,ny,nextek power systems  inc. , detroit,  mi
+a359, alkhouli; osama mohammad,peoria,il,caterpillar inc. , peoria,  il
+a121, heidenreich; david c.,akron,oh,ebo group  inc. , sharon center,  oh
+a200, blumenstein; felix,hessisch lichtenau,de,sma solar technology ag , niestetal,  de
+a113, leonhardt; gerald,kassel,de,smasolar technology ag , niestetal,  de
+a532, yoshimi; naoki,kashiba,jp,sharp kabushiki kaisha , osaka,  jp
+a79, victor; matthais,niestetal,de,sma solar technology ag. , niestetal,  de
+a197, schlabbach; juergen,bielefeld,de,sma solar technology ag , niestetal,  de
+a342, hardt; christian,kassel,de,sma solar technology ag , niestetal,  de
+a406, mittan; margaret birmingham,oakland,ca,sunlink corporation , san rafael,  ca
+a264, kumar; vivek,bihar,in,general electric company , schenectady,  ny
+a59, garvison; paul,frederick,md,bp corporation north america inc. , warrenville,  il
+a471, doorty; andrew,northport,ny,symbol technologies  inc. , holtsville,  ny
+a410, hoff; thomas e.,napa,ca,clean power research  l.l.c. , napa,  ca
+a309, beekhuis; christiaan willem,san jose,ca,power-one renewable energy solutions  llc , camarillo,  ca
+a523, redmann; lutz,kleinmachnow,de,johas & redmann automationstechnik gmbh , berlin,  de
+a548, diez-hochleitner ruiz; alfredo,madrid,es,asea brown boveri  s.a. , madrid,  es
+a112, mascolo; gianluigi,danville,ca,sunpower corporation  systems , richmond,  ca
+a132, klein; david l.,palo alto,ca,sunpower corporation , san jose,  ca
+a392, pietrzak; arnd,berlin,de,solar integrated technologies gmbh , mainz,  de
+a192, jensen; douglas g.,lakewood,co,ascent solar technologies inc. , littleton,  co
+a331, kern; gregory allen,lafayette,co,greenray inc. , westford,  ma
+a254, eklund; mats,vienna,at,siemens ag osterreich , vienna,  at
+a311, djabbari; ali,saratoga,ca,national semiconductor corporation , santa clara,  ca
+a159, bittmann; clemens,wels,at,fronius international gmbh , pettenbach,  at
+a405, miros; robert h. j.,fairfax,ca,sunlink corporation , san rafael,  ca
+a138, pueschner; klaus,detmold,de,weidmuller interface gmbh & co. kg , detmold,  de
+a492, kular; andrew c.,ottawa,ca,
+a476, mahn; chris,peoria,az,first solar  inc , perrysburg,  oh
+a227, genschorek; gido,rangsdorf,de,conergy ag , rangsdorf,  de
+a289, han; sang kyoo,daejeon,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a94, laschinski; joachim ralf,kassel,de,sma technologie ag , niestetal,  de
+a555, signorelli; tiziana teresa,aci bonaccorsi,it,
+a443, gottlieb; richard,guilford,vt,
+a41, bulst; wolf-eckhart,munich,de,enocean gmbh , oberhaching,  de
+a170, rumsey; daniel l.,inglewood,ca,
+a236, harrist; daniel w.,carnegie,pa,powercast corporation , ligonier,  pa
+a521, lee; sang hun,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a506, krein; philip t.,champaign,il,solarbridge technologies  inc. , austin,  tx
+a48, meder; stephen e.,kailua,hi,university of hawai'i , honolulu,  hi
+a390, fishman; oleg s.,maple glen,pa,rowan technologies  inc. , rancocas,  nj
+a163, krein; philip t.,champaign,il,solarbridge technologies  inc. , champaign,  il
+a70, acharya; kaustuva,chicago,il,the board of trustees of the university of illinois , chicago,  il
+a508, foss; andrew,san jose,ca,texas instruments incorporated , dallas,  tx
+a247, cribbs; timothy b.,roanoke,va,general electric company , schenectady,  ny
+a275, rive; peter,san francisco,ca,solarcity corporation , foster city,  ca
+a13, bhavaraju; vijay,canton,mi,ballard power systems corporation , dearborn,  mi
+a201, gerlach; ann-katrin,kassel,de,sma solar technology ag , niestetal,  de
+a245, shah; minesh a.,clifton park,ny,general electric company , schenectady,  ny
+a315, miller; landon,tuscaloosa,al,international business machines corporation , armonk,  ny
+a363, spicer; michael j.,lancaster,pa,tyco electronics corporation , berwyn,  pa
+a515, keshner; marvin,sonora,ca,etm electromatic  inc. , newark,  ca
+a160, garvison; paul l.,frederick,md,bp corporation north america inc. , warrenville,  il
+a78, levy; emanuel edward,saratoga,ca,andalay solar  inc. , saratoga,  ca
+a10, mukai; takaaki,nara,jp,canon kabushiki kaisha , tokyo,  jp
+a333, king; zachary adam,townsend,ma,greenray inc. , westford,  ma
+a453, beck; bernhard,volkach,de,blitzstrom gmbh , kolitzheim,  de
+a143, kohler; claus,leutkirch,de,diehl ako stiftung & co. kg , wangen,  de
+a312, lisi; gianpaolo,campbell,ca,national semiconductor corporation , santa clara,  ca
+a479, zeni; mark,branchburg,nj,first solar  inc , perrysburg,  oh
+a318, walling; reigh allen,clifton park,ny,general electric company , schenectady,  ny
+a486, belur; raghuveer r.,los altos hills,ca,enphase energy  inc. , petaluma,  ca
+a431, brown; malcolm p.,san francisco,ca,sunlink corporation , san rafael,  ca
+a270, mullins; monty,rohnert park,ca,thompson technology industries  inc. , novato,  ca
+a525, hammerbacher; milfred dale,waterloo,ca,spheral solar power inc. , cambridge,  ca
+a268, a; hemanth kumar,karnataka,in,general electric company , schenectady,  ny
+a528, hoang; my thi hoai,kitchener,ca,spheral solar power inc. , cambridge,  ca
+a149, thomas; benjamin,powhatan,va,
+a367, wagoner; robert gregory,roanoke,va,general electric company , schenectady,  ny
+a258, adest; meir,raanana,il,solaredge  ltd. , herzelia,  il
+a228, plaisted; joshua reed,oakland,ca,pvt solar  inc. , berkeley,  ca
+a280, de rooij; michael andrew,schenectady,ny,general electric company , niskayuna,  ny
+a262, sella; guy,bitan aharon,il,solaredge  ltd. , herzelia,  il
+a535, kogard; markus,hagenbrunn,at,siemens aktiengesellschaft , munchen,  de
+a237, realmuto; richard a.,commack,ny,nextek power systems  inc. , detroit,  mi
+a401, carlson; dave,anaheim,ca,eagel view technologies  inc. , redmond,  wa
+a16, eichenholz; jason m.,orlando,fl,m & m systems  inc. , ormond beach,  fl
+a297, femia; nicola,salerno,it,power-one italy s.p.a. , arezzo,  it
+a243, mascolo; gianluigi,emeryville,ca,sunpower corporation  systems , richmond,  wa
+a554, privitera; salvatore giuseppe,catania,it,
+a337, myers; amanda louise,chula vista,ca,san diego gas & electric company , san diego,  ca
+a505, kimball; jonathan w.,rolla,mo,solarbridge technologies  inc. , austin,  tx
+a455, bettenwort; gerd,kassel,de,sma solar technology ag , niestetal,  de
+a418, holterhoff; klaus,olpe,de,weidmueller interface gmbh & co. kg , detmold,  de
+a432, stancel; robert,loss altos hills,ca,sunlink corporation , san rafael,  ca
+a485, west; brian,san francisco,ca,pvt solar  inc. , fremont,  ca
+a340, strnad; michael,kassel,de,sma solar technology ag , niestetal,  de
+a278, ho; nelson david,fremont,ca,solarcity corporation , foster city,  ca
+a478, pappicco; david,park ridge,nj,first solar  inc , perrysburg,  oh
+a161, haun; darrell n.,sugar land,tx,solarcraft  inc. , stafford,  tx
+a135, schild; wolfgang,herford,de,weidmueller interface gmbh & co. kg , detmold,  de
+a362, paull; james b.,andover,ma,stellaris corporation , north andover,  ma
+a45, liebendorfer; john e.,albuquerque,nm,unirac  inc. , albuquerque,  nm
+a403, zanarini; sergio,casalfiumanese,it,elettronica santerno s.p.a. , campodarsego,  it
+a136, boensch; matthias,bielefeld,de,weidmuller interface gmbh & co. kg , detmold,  de
+a23, minami; masahiro,kawasaki,jp,ebara corporation , tokyo,  jp
+a306, fife; john m.,bend,or,pv powered  inc. , bend,  or
+a144, falk; andreas,kassel,de,sma solar technology ag , niestetal,  de
+a181, mascolo; gianluigi,danville,ca,sunpower corporation  systems , berkeley,  ca
+a457, buchhold; stefan,lohfelden,de,sma solar technology ag , niestetal,  de
+a356, amaratunga; gehan anil joseph,cambridge,gb,enecsys limited , cambridgeshire,  gb
+a361, tamburrino; peter,antioch,il,microsun technologies llc , lisle,  il
+a193, prior; oliver,marsberg,de,sma solar technology ag , niestetal,  de
+a475, cabuhay; henry b.,morris plains,nj,first solar  inc , perrysburg,  oh
+a516, pligavko; alexandra katrina,oakland,ca,etm electromatic  inc. , newark,  ca
+a393, beck; bernhard,volkach,de,adensis gmbh , dresden,  de
+a265, anjanappa; hemanth kumar,andhra pradesh,in,general electric company , schenectady,  ny
+a12, deng; duo,canton,mi,ballard power systems corporation , dearborn,  mi
+a54, crosser; larry g.,perrysburg,oh,first solar  inc. , perrysburg,  oh
+a324, leiba; aaron,san francisco,ca,apple inc. , cupertino,  ca
+a394, muller; tim,ottendorf-okrilla,de,adensis gmbh , dresden,  de
+a435, said el-barbari; said farouk,freising,de,general electric company , niskayuna,  ny
+a378, prestero; mark george,boxford,ma,satcon technology corporation , boston,  ma
+a440, roddick; timothy james,vancouver,ca,msr innovations inc. , british columbia,  ca
+a504, kuhn; brian t.,champaign,il,solarbridge technologies  inc. , austin,  tx
+a458, bremicker; sven,alheim-baumbach,de,sma solar technology ag , niestetal,  de
+a397, banks; susan,durham,nc,
+a53, aitchison; david j.,mesa,az,first solar  inc. , perrysburg,  oh
+a174, jensen; soren,oakland,ca,solarcity corporation , foster city,  ca
+a110, shingleton; jefferson g.,auburn,ny,sunpower corporation  systems , richmond,  ca
+a462, lenox; carl j. s.,oakland,ca,sunpower corporation , san jose,  ca
+a459, cramer; gunther,kassel,de,sma solar technology ag , niestetal,  de
+a500, lee; tae won,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a246, kirchner; andreas,osnabrueck,de,general electric company , schenectady,  ny
+a46, miller; craig howard,alexandria,va,gridpoint  inc. , washington,  dc
+a343, gebert; bernd,niestetal,de,sma solar technology ag , niestetal,  de
+a438, bremicker; sven,alheim,de,sma solar technology ag , niestetal,  de
+a129, gilmore; jack arthur,fort collins,co,advanced energy industries  inc. , fort collins,  co
+a139, holterhoff; klaus,olpe,de,weidmuller interface gmbh & co. kg , detmold,  de
+a221, victor; matthias,niestetal,de,sma solar technology ag , niestotal,  de
+a99, wai; rong-jong,liouying township,tainan county, tw,yuan ze university , taoyuan,  tw
+a88, de rooij; michael andrew,clifton park,ny,general electric company , niskayuna,  ny
+a434, gherardini; stephen daniel,harrisburg,pa,tyco electronics corporation , berwyn,  pa
+a550, almansa leandrez; jose alfonso,madrid,es,asea brown boveri  s.a. , madrid,  es
+a210, woodard; nathan,los angeles,ca,skyline solar  inc. , mountain view,  ca
+a302, sirianni; antonio,catanzaro,it,power-one italy s.p.a. , arezzo,  it
+a96, reichenbacher; wolfgang kurt,staufenberg,de,sma technologie ag , niestetal,  de
+a255, hackl; franz,vienna,at,siemens ag osterreich , vienna,  at
+a319, cardinal; mark edward,altamont,ny,general electric company , schenectady,  ny
+a398, elliott; scott d.,holly springs,nc,
+a450, balog; robert s.,college station,tx,solarbridge technologies  inc. , austin,  tx
+a388, takada; shinichi,fremont,ca,paceco corp. , hayward,  ca
+a50, ansberry; david m.,honolulu,hi,university of hawai'i , honolulu,  hi
+a511, eaglesham; david,perrysburg,oh,first solar  inc , perrysburg,  oh
+a484, plaisted; joshua reed,oakland,ca,pvt solar  inc. , fremont,  ca
+a507, gray; alexander,champaign,il,solarbridge technologies  inc. , austin,  tx
+a176, hines; stephen p.,glendale,ca,
+a269, thompson; daniel s.,san rafael,ca,thompson technology industries  inc. , novato,  ca
+a147, macdonald; willard s.,bolinas,ca,solmetric corporation , sebastopol,  ca
+a100, wang; wen-hung,dali,tw,yuan ze university , taoyuan,  tw
+a190, foster; matthew b.,lone tree,co,ascent solar technologies inc. , littleton,  co
+a346, engel; bernd,wolfenbuettel,de,sma solar technology ag , niestetal,  de
+a547, vega betoret; alejandro,madrid,es,asea brown boveri  s.a. , madrid,  es
+a211, allen; nathan,pasadena,ca,energy innovations  inc. , pasadena,  ca
+a290, kim; jong sun,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a477, monaco; michael j.,stanhope,nj,first solar  inc , perrysburg,  oh
+a469, schatz; douglas s.,wilson,wy,ampt  llc , fort collins,  co
+a212, luconi; gregg f.,monrovia,ca,energy innovations  inc. , pasadena,  ca
+a137, beck; thorsten,bad arolsen-wetterburg,de,weidmuller interface gmbh & co. kg , detmold,  de
+a60, green; ezra,west hempstead,ny,
+a271, proctor; richard i.,san rafael,ca,thompson technology industries  inc. , novato,  ca
+a151, noble; robert l.,encinitas,ca,envision solar  llc , san diego,  ca
+a274, greizer; frank,niestetal,de,sma solar technology ag , niestetal,  de
+a493, zhu; zuohang,ottawa,ca,
+a314, tweedie; richard,santa rosa,ca,
+a285, macdougall; alan r.,beaverton,or,tyco electronics corporation , berwyn,  pa
+a251, sheehan; gary t.,malvern,pa,
+a25, kawai; masahito,tokyo,jp,ebara corporation , tokyo,  jp
+a61, dockweiler; robert,wantagh,ny,
+a402, cripps; jeffrey l.,waterford,mi,
+a44, sczesny; oliver,aschheim,de,enocean gmbh , oberhaching,  de
+a288, roh; chung wook,seoul,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a335, mallwitz; regine,kassel,de,sma solar technology ag , niestetal,  de
+a300, petrone; giovanni,salerno,it,power-one italy s.p.a. , arezzo,  it
+a383, buck-anderson; andrew,ben lomond,ca,
+a368, barker; sidney allen,troutville,va,general electric company , schenectady,  ny
+a122, west; john raymond,guerneville,ca,
+a344, schill; christoph,ravensburg,de,diehl ako stiftung & co. kg , wangen,  de
+a73, wu; chin-chang,kaohsiung,tw,uis abler electronics co.  ltd. , hsintien,  taipei hsien  tw
+a266, jose; chery,kerala,in,general electric company , schenectady,  ny
+a11, itoyama; shigenori,nara,jp,canon kabushiki kaisha , tokyo,  jp
+a369, wolfs; peter,rockhampton,au,tigo energy  inc. , los gatos,  ca
+a380, huang; chao-jui,wugu township,taipei county, tw,chicony power technology co.  ltd. , wugu township,  taipei county  tw
+a267, puravankara; vinish,kerala,in,general electric company , schenectady,  ny
+a408, holland; rodney h.,novato,ca,sunlink corporation , san rafael,  ca
+a522, jonas; stefan,berlin,de,johas & redmann automationstechnik gmbh , berlin,  de
+a232, komamine; tatsuya,kashihara,jp,sharp kabushiki kaisha , osaka,  jp
+a93, arend; oliver,lohfelden,de,sma technologie ag , niestetal,  de
+a427, granozio; domenico,fisciano,it,
+a81, bremicker; sven,alheim,de,sma solar technology ag. , niestetal,  de
+a92, kuhnel; christian,kassel,de,sma technologie ag , niestetal,  de
+a313, kernahan; kent,cupertino,ca,array converter  inc. , sunnyvale,  ca
+a180, dinwoodie; thomas l.,piedmont,ca,sunpower corporation  systems , berkeley,  ca
+a191, port; jonathan s.,pacific palisades,ca,ascent solar technologies inc. , littleton,  co
+a165, hoffman; brian john,bend,or,pv powered  inc. , bend,  or
+a19, toyomura; fumitaka,nara,jp,canon kabushiki kaisha , tokyo,  jp
+a483, drangmeister; harald,hunfeld,de,sma solar technology ag , niestetal,  de
+a386, haenlein; hans-christoph,san jose,ca,zap solar  inc. , san rafael,  ca
+a384, west; john r.,guerneville,ca,zap solar  inc. , san rafael,  ca
+a303, donth; andreas,edermuende,de,sma solar technology ag , niestetal,  de
+a2, schienbein; lawrence a.,kennewick,wa,international power systems  inc. , calgary,  ca
+a119, reichenbacher; wolfgang kurt,staufenberg,de,smasolar technology ag , niestetal,  de
+a226, blackmond; edwin arthur,milpitas,ca,
+a104, woro; aaron william,boulder,co,ecometriks  llc , boulder,  co
+a223, merritt; edward,lenox,ma,
+a71, chou; hung-liang,kaohsiung,tw,uis abler electronics co.  ltd. , hsintien,  taipei hsien  tw
+a373, kellerman; dallas,belleville,il,cablofil  inc. , mascoutah,  il
+a235, greene; charles e.,pittsburgh,pa,powercast corporation , ligonier,  pa
+a199, friebe; jens,norten-hardenberg,de,sma solar technology ag , niestetal,  de
+a220, greizer; frank,kaufungen,de,sma solar technology ag , niestotal,  de
+a250, nachamkin; jack,glen mills,pa,
+a35, lim; chinchou,kyoto,jp,canon kabushiki kaisha , tokyo,  jp
+a396, dibachi; farzad,albuquerque,nm,ebay inc. , san jose,  ca
+a526, crossley; glen alexander,hamilton,ca,spheral solar power inc. , cambridge,  ca
+a76, taylor; bill,bend,or,pv powered  inc. , bend,  or
+a172, tarbell; ben,palo alto,ca,solarcity corporation , foster city,  ca
+a218, haines; lance p,wilmington,ma,american power conversion corporation , west kingston,  ri
+a488, hsieh; wei-chih,hsinchu,tw,national chiao tung university , hsinchu,  tw
+a282, spanoche; sorin andrei,sunnyvale,ca,array converter inc. , sunnyvale,  ca
+a353, culligan; matthew,berkeley,ca,sunpower corporation , san jose,  ca
+a277, poklemba; roland,fremont,ca,solarcity corporation , foster city,  ca
+a124, porter; robert m.,wellington,co,ampt  llc , fort collins,  co
+a62, o'connor; william,bethpage,ny,
+a87, russell; miles clayton,lincoln,ma,schott solar  inc. , billerica,  ma
+a460, mueller; burkard,kassel,de,sma solar technologies ag , niestetal,  de
+a24, ichikawa; hiroaki,kawasaki,jp,ebara corporation , tokyo,  jp
+a439, metten; erich christian,surrey,ca,msr innovations inc. , british columbia,  ca
+a128, seymour; eric,fort collins,co,advanced energy industries  inc. , fort collins,  co
+a185, arditi; shmuel,los gatos,ca,tigo energy  inc. , los gatos,  ca
+a182, powell; earl g.,sunnyvale,ca,tigo energy  inc. , los gatos,  ca
+a204, port; jonathan,los angeles,ca,
+a36, mukai; takaaki,kyoto,jp,canon kabushiki kaisha , tokyo,  jp
+a422, o'brien; kathleen ann,niskayuna,ny,general electric company , niskayuna,  ny
+a529, yamada; kazuo,nara,jp,sharp kabushiki kaisha , osaka,  jp
+a244, cardinal; mark edward,schenectady,ny,general electric company , schenectady,  ny
+a519, little; ruel davenport,concord,ma,greenray inc. , westford,  wa
+a448, parker; thomas paul,dallas,tx,solarbridge technologies  inc. , austin,  tx
+a126, hoke; charles d,menlo park,ca,agilent technologies  inc , santa clara,  ca
+a242, dinwoodie; thomas l.,piedmont,ca,sunpower corporation  systems , richmond,  wa
+a404, morici; riccardo,castelmaggiore,it,elettronica santerno s.p.a. , campodarsego,  it
+a206, cammack; john k,palo alto,ca,solar red systems  inc. , sunnyvale,  ca
+a260, galin; yoav,raanana,il,solaredge  ltd. , herzelia,  il
+a494, won; chung yuen,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a239, kernahan; kent,cupertino,ca,array converter inc. , sunnyvale,  ca
+a184, kikinis; dan,saratoga,ca,tigo energy  inc. , los gatos,  ca
+a539, elasser; ahmed,latham,ny,general electric company , niskayuna,  ny
+a321, miller; nicholas wright,delmar,ny,general electric company , schenectady,  ny
+a281, glaser; john stanley,niskayuna,ny,general electric company , niskayuna,  ny
+a68, mazumder; sudip k.,chicago,il,the board of trustees of the university of illinois , chicago,  il
+a86, lenox; carl j.,oakland,ca,sunpower corporation  systems , richmond,  ca
+a142, illerhaus; edmund,bergatreute,de,diehl ako stiftung & co. kg , wangen,  de
+a42, pistor; klaus,linden,de,enocean gmbh , oberhaching,  de
+a336, torre; william vincent,chula vista,ca,san diego gas & electric company , san diego,  ca
+a512, thompson; christopher,narragansett,ri,first solar  inc , perrysburg,  oh
+a552, schelenz; owen jannis samuel,schenectady,ny,general electric company , niskayuna,  ny
+a21, wai; rong-jong,liouying township,tw,yuan ze university , jhongli,  tw
+a490, ritter; allen michael,roanoke,va,general electric company , schenectady,  ny
+a74, feng; ya-tsung,kaohsiung,tw,uis abler electronics co.  ltd. , hsintien,  taipei hsien  tw
+a118, bettenwort; gerd,kassel,de,smasolar technology ag , niestetal,  de
+a286, kim; jin wook,seoul,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a413, ubben; enno,steinfurt,de,general electric company , schenectady,  ny
+a381, chen; ben-sheng,wugu township,taipei county, tw,chicony power technology co.  ltd. , wugu township,  taipei county  tw
+a187, chen; wayne t.,plano,tx,triune ip llc , richardson,  tx
+a330, russell; miles clayton,lincoln,ma,greenray inc. , westford,  ma
+a510, hunter; jefferey allen,troy,oh,f3 & i2  llc , troy,  oh
+a391, liu; jun,camas,wa,
+a153, herzig; michael,cold spring,ny,
+a77, cinnamon; barry,saratoga,ca,andalay solar  inc. , saratoga,  ca
+a40, albsmeier; andre,munich,de,enocean gmbh , oberhaching,  de
+a366, smith; david,daleville,va,general electric company , schenectady,  ny
+a307, mills-price; michael a.,bend,or,pv powered  inc. , bend,  or
+a158, luger; andreas,kaltenberg,at,fronius international gmbh , pettenbach,  at
+a205, augenbraun; joseph e,foster city,ca,solar red systems  inc. , sunnyvale,  ca
+a317, hassan-ali; mudhafar,petaluma,ca,enphase energy  inc. , petaluma,  ca
+a442, pao; frank,boston,ma,
+a146, maytubby; c. daniel,frisco,tx,elk premium building products  inc. , dallas,  tx
+a272, zhang; zhan,san rafael,ca,thompson technology industries  inc. , novato,  ca
+a171, carian; peter j.,inglewood,ca,
+a106, midttun; mons,hjellestad,no,epsis as , bergen,  no
+a1, droppo; gerald w.,richland,wa,international power systems  inc. , calgary,  ca
+a385, manansala; christina c.,guerneville,ca,zap solar  inc. , san rafael,  ca
+a481, wegener; thomas,kassel,de,sma solar technology ag , niestetal,  de
+a162, haun; donald n.,stafford,tx,solarcraft  inc. , stafford,  tx
+a198, zacharias; peter,kassel,de,sma solar technology ag , niestetal,  de
+a103, kirkpatrick; richard,toronto,ca,yoursolarhome inc. , vaughn,  ontario  ca
+a49, pennetier; olivier a.,honolulu,hi,university of hawai'i , honolulu,  hi
+a283, giefers; stefan,detmold,de,
+a487, wu; chun-yi,hsinchu,tw,national chiao tung university , hsinchu,  tw
+a17, valentine; paul a.,deland,fl,m & m systems  inc. , ormond beach,  fl
+a3, harris; brent earle,calgary,ca,international power systems  inc. , calgary,  ca
+a202, scheuermann; jan,niedenstein,de,sma solar technology ag , niestetal,  de
+a123, ledenev; anatoli,fort collins,co,ampt  llc , fort collins,  co
+a350, botkin; jonathan,el cerrito,ca,sunpower corporation , san jose,  ca
+a133, boensch; matthis,bielefeld,de,weidmueller interface gmbh & co. kg , detmold,  de
+a468, schaefer; maik,berlin,de,solon se , berlin,  de
+a295, nocentini; danio,florence,it,power-one italy s.p.a. , arezzo,  it
+a433, duesterhoeft; scott stephen,etters,pa,tyco electronics corporation , berwyn,  pa
+a352, danning; matt,oakland,ca,sunpower corporation , san jose,  ca
+a465, chen; yin-fan,taipei hsien,tw,hon hai precision industry co.  ltd. , tu-cheng,  new taipei  tw
+a145, mccaskill; john r.,mckinney,tx,elk premium building products  inc. , dallas,  tx
+a472, llamas martinez garza; luis,manorville,ny,symbol technologies  inc. , holtsville,  ny
+a415, kent; perry l.,mansfield,oh,mitchell; robert w. , marango,  oh
+a305, kube; klaus,friedland,de,sma solar technology ag , niestetal,  de
+a498, moon; hee sung,gwangju,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a241, shingleton; jefferson g.,auburn,ny,sunpower corporation  systems , richmond,  wa
+a95, leonhardt; gerald alexander,kassel,de,sma technologie ag , niestetal,  de
+a154, goodnow; kenneth j.,essex,vt,international business machines corporation , armonk,  ny
+a534, kernstock; harald,vienna,at,siemens aktiengesellschaft , munchen,  de
+a127, nishimura; ken a,fremont,ca,agilent technologies  inc , santa clara,  ca
+a553, rua; francesco,catania,it,
+a419, werthen; jan-gustav,cresskill,nj,
+a120, russell; miles c.,lincoln,ma,schott solar  inc. , billerica,  ma
+a451, esram; trishan,urbana,il,solarbridge technologies  inc. , austin,  tx
+a416, abbott; ryan d.,la rue,oh,mitchell; robert w. , marango,  oh
+a152, adelson; william s.,ramona,ca,envision solar  llc , san diego,  ca
+a497, choe; gyu yeong,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a527, barnes; brett michael,guelph,ca,spheral solar power inc. , cambridge,  ca
+a273, muller; burkhard,kassel,de,sma solar technology ag , niestetal,  de
+a169, simburger; edward j.,agoura hills,ca,
+a441, scultety; jason leonard,vancouver,ca,msr innovations inc. , british columbia,  ca
+a436, roesner; robert,unterfoehring,de,general electric company , niskayuna,  ny
+a276, cooper; chebar ivan,berkeley,ca,solarcity corporation , foster city,  ca
+a177, strizki; michael,hopewell,nj,renewable energy holdings  llc , hopewell,  nj
+a489, hwang; wei,hsinchu,tw,national chiao tung university , hsinchu,  tw
+a365, klodowski; anthony michael,hardy,va,general electric company , schenectady,  ny
+a323, warren; daniel a.,san jose,ca,apple inc. , cupertino,  ca
+a27, nakajima; kaoru,tokyo,jp,ebara corporation , tokyo,  jp
+a148, altaii; karim,harrisonburg,va,
+a164, taylor; william fillmore,bend,or,pv powered  inc. , bend,  or
+a464, donnelly; matthew kenneth,gallatin gateway,mt,nnw ventures  llc , blaine,  wa
+a426, femia; nicola,fisciano,it,
+a115, laschinski; joachim ralf,kassel,de,smasolar technology ag , niestetal,  de
+a179, brewster; elise r.,berkeley,ca,sunpower corporation  systems , berkeley,  ca
+a456, muller; tobias,escherode,de,sma solar technology ag , niestetal,  de
+a400, pershing; chris,redmond,wa,eagel view technologies  inc. , redmond,  wa
+a5, sung; chang-che,junghe,tw,phoenixtec power co.  ltd. , taipei,  tw
+a89, steigerwald; robert louis,burnt hills,ny,general electric company , niskayuna,  ny
+a364, wilson; david t.,jacobus,pa,tyco electronics corporation , berwyn,  pa
+a69, burra; rajni k.,chicago,il,the board of trustees of the university of illinois , chicago,  il
+a509, singamsetti; v n s raju,ambajipeta mandal,in,general electric company , schenectady,  ny
+a461, haugh; julianne f.,austin,tx,international business machines corporation , armonk,  ny
+a371, gerull; walter,schalksmuhle,de,gunther spelsberg gmbh & co. kg , schalksmuhle,  de
+a18, poddany; james j.,northwood,oh,first solar  llc , perrysburg,  oh
+a215, browder; john h.,roanoke,tx,international development llc , roanoke,  tx
+a248, galbraith; anthony,wirtz,va,general electric company , schenectady,  ny
+a467, schwarze; sascha oliver,berlin,de,solon se , berlin,  de
+a329, rosenblatt; michael,campbell,ca,apple inc. , cupertino,  ca
+a298, vitelli; massimo,caserta,it,power-one italy s.p.a. , arezzo,  it
+a140, cahaly; jim,west newbury,ma,weidmuller interface gmbh & co. kg , detmold,  de
+a338, colburn; michael james,san diego,ca,san diego gas & electric company , san diego,  ca
+a203, zin; matthias,jesberg,de,sma solar technology ag , niestetal,  de
+a327, leonard; john andrew,roanoke,va,general electric company , schenectady,  ny
+a358, illindala; mahesh sitaram,dunlap,il,caterpillar inc. , peoria,  il
+a546, khan; faisal habib,knoxville,tn,electric power research institute  inc. , charlotte,  nc
+a544, rajagopalan; satish,knoxville,tn,electric power research institute  inc. , charlotte,  nc
+a240, lyden; robert m.,aloha,or,
+a55, foote; james b.,toledo,oh,first solar  inc. , perrysburg,  oh
+a52, mapes; donald r.,prescott,az,first solar  inc. , perrysburg,  oh
+a234, ohkoshi; yasushi,sakai,jp,sharp kabushiki kaisha , osaka,  jp
+a513, schenck; michael,san francisco,ca,first solar  inc , perrysburg,  oh
+a407, seery; martin n.,san rafael,ca,sunlink corporation , san rafael,  ca
+a292, oh; dong seong,incheon,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a382, ackerson; george lee,ben lomond,ca,
+a296, macerini; sauro,arezzo,it,power-one italy s.p.a. , arezzo,  it
+a301, de rosa; filippo,salerno,it,power-one italy s.p.a. , arezzo,  it
+a108, melton; david s.,albuquerque,nm,sacred power corporation , albuquerque,  nm
+a349, avrutsky; mordechay,alphai menashe,il,tigo energy  inc. , los gatos,  ca
+a207, park; darrell s,south pasadena,ca,solar red systems  inc. , sunnyvale,  ca
+a252, nikiforov; vladimir,richmond hill,ca,yoursolarhome inc. , vaughan,  ontario  ca
+a91, bettenwort; gerd,kassel,de,sma technologie ag , niestetal,  de
+a195, victor; matthias,niestetal,de,sma solar technology ag , niestetal,  de
+a514, rettger; philip,moraga,ca,etm electromatic  inc. , newark,  ca
+a339, giefers; stefan,detmold,de,phoenix contact gmbh & co. kg , blomberg,  de
+a233, aramaki; yoshihiro,ikoma-gun,jp,sharp kabushiki kaisha , osaka,  jp
+a376, grabowski; joseph g.,red bank,nj,noveda technologies  inc. , branchburg,  nj
+a109, armijo-caster; odes,albuquerque,nm,sacred power corporation , albuquerque,  nm
+a168, beekhuis; christiaan willem,san jose,ca,fat spaniel technologies  inc. , san jose,  ca
+a524, stevens; gary don,kitchener,ca,spheral solar power inc. , cambridge,  ca
+a452, foley; jeremiah noel,austin,tx,solarbridge technologies  inc. , austin,  tx
+a256, reithmayer; franz,vienna,at,siemens ag osterreich , vienna,  at
+a357, yu; dachuan,normal,il,caterpillar inc. , peoria,  il
+a279, spanoche; sorin andrei,santa clara,ca,array converter inc. , sunnyvale,  ca
+a334, engel; bernd,wolfenbuttel,de,sma solar technology ag , niestetal,  de
+a421, morgal; richard alan,san diego,ca,
+a387, takehara; toru,foster city,ca,paceco corp. , hayward,  ca
+a63, laschinksi; joachim,kassel,de,sma technologie ag , niestetal,  de
+a316, wahl; eric r.,new castle,co,
+a156, ventrone; sebastian t.,s. burlington,vt,international business machines corporation , armonk,  ny
+a214, stahl; daniel eugene,middletown,pa,tyco electronics corporation , berwyn,  pa
+a549, sanz landivar; oscar,madrid,es,asea brown boveri  s.a. , madrid,  es
+a39, hartman; benjamin,new york,ny,nextek power systems inc. , hauppauge,  ny
+a224, brescia; joe,alameda,ca,architectural glass and aluminum corporation  inc. , alameda,  ca
+a175, ardell-smith; zack,san leandro,ca,solarcity corporation , foster city,  ca
+a466, lopez; miguel bartolome,leon,es,general electric company , schenectady,  ny
+a213, lauermann; mark edwin,harrisburg,pa,tyco electronics corporation , berwyn,  pa
+a310, zhang; jianhui,san jose,ca,national semiconductor corporation , santa clara,  ca
+a424, linke; edward j.,milford,ct,opel  inc. , shelton,  ct
+a188, smith; brett e.,mckinney,tx,triune ip llc , richardson,  tx
+a261, fishelov; amir,tel aviv,il,solaredge  ltd. , herzelia,  il
+a347, greizer; frank,kaufungen,de,sma solar technology ag , niestetal,  de
+a454, fishman; oleg s.,maple glen,pa,alencon acquisition co.  llc. , plymouth meeting,  pa
+a437, shen; jie,bayern,de,general electric company , niskayuna,  ny
+a326, matan; stefan,navato,ca,xslent energy technologies  llc , novato,  ca
+a423, teichmann; ralph,niskayuna,ny,general electric company , niskayuna,  ny
+a322, sander; wendell b.,los gatos,ca,apple inc. , cupertino,  ca
+a22, duan; rou-yong,guosing township,tw,yuan ze university , jhongli,  tw
+a216, cinnamon; barry,saratoga,ca,andalay solar  inc. , los gatos,  ca
+a186, teggatz; ross e.,mckinney,tx,triune ip llc , richardson,  tx
+a20, mimura; toshihiko,nara,jp,canon kabushiki kaisha , tokyo,  jp
+a65, greizer; frank,kaufungen,de,sma technologie ag , niestetal,  de
+a428, petrone; giovanni,fisciano,it,
+a259, handelsman; lior,givataim,il,solaredge  ltd. , herzelia,  il
+a38, realmuto; richard a.,commack,ny,nextek power systems inc. , hauppauge,  ny
+a379, rajda; janos,mississauga,ca,satcon technology corporation , boston,  ma
+a389, scanlon; mark,sedona,az,sedona energy labs  limited company , flagstaff,  az
+a308, hummel; steven g.,bend,or,pv powered  inc. , bend,  or
+a420, wu; ta-chung,san jose,ca,
+a360, harwath; frank,naperville,il,microsun technologies llc , lisle,  il
+a72, chiang; wen-jung,kaohsiung,tw,uis abler electronics co.  ltd. , hsintien,  taipei hsien  tw
+a30, tuladhar; anil,dearborn heights,mi,ballard power systems corporation , dearborn,  mi
+a114, kuhnel; christian,kassel,de,smasolar technology ag , niestetal,  de
+a370, friebe; jens,noerten-hardenberg,de,sma solar technology ag , niestetal,  de
+a414, abbott; ronald e.,la rue,oh,mitchell; robert w. , marango,  oh
+a470, roslak; thomas,northport,ny,symbol technologies  inc. , holtsville,  ny
+a7, makita; hidehisa,kyoto,jp,canon kabushiki kaisha , tokyo,  jp
+a102, nikiforov; vladimir,richmond hill,ca,yoursolarhome inc. , vaughn,  ontario  ca
+a395, dibachi; rhonda,albuquerque,nm,ebay inc. , san jose,  ca
+a225, brescia; joe,alameda,ca,
+a116, bremicker; sven,alheim,de,smasolar technology ag , niestetal,  de
+a208, johnson; eric c.,mountain view,ca,skyline solar  inc. , mountain view,  ca
+a58, warfield; donald b.,woodbine,md,bp corporation north america inc. , warrenville,  il
+a229, west; brian,san francisco,ca,pvt solar  inc. , berkeley,  ca
+a32, grand; kerry e.,chesterfield,mi,ballard power systems corporation , dearborn,  mi
+a29, luconi; gregg frederick,pasadena,ca,energy innovations  inc. , pasadena,  ca
+a491, shepard; mark e.,roanoke,va,general electric company , schenectady,  ny
+a98, song; shin-min,naperville,il,
+a15, ducharme; alfred d.,orlando,fl,m & m systems  inc. , ormond beach,  fl
+a37, kobayashi; ikutaro,tokyo,jp,nec corporation , tokyo,  jp
+a291, won; jae sun,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a287, hong; sung soo,gyunggi-do,kr,samsung electro-mechanics co.  ltd. , gyunggi-do,  kr
+a412, chapman; patrick,austin,tx,solarbridge technologies  inc. , austin,  tx
+a130, hines; braden e.,pasadena,ca,soliant energy inc. , monrovia,  ca
+a345, cramer; guenther,kassel,de,sma solar technology ag , niestetal,  de
+a219, bremicker; sven,alheim,de,sma solar technology ag , niestotal,  de
+a374, makhota; maxym,cupertino,ca,tigo energy  inc. , los gatos,  ca
+a445, seymour; eric,fort collins,co,advanced energy industries  inc , fort collins,  co
+a425, egiziano; luigi,fisciano,it,
+a257, strobl; walter,vienna,at,siemens ag osterreich , vienna,  at
+a14, dubovsky; stephen m.,silver spring,md,morningstar  inc. , columbia,  md
+a105, courter; anthony,linden,tn,
+a101, klein; richard,new york,ny,quixotic systems  inc. , new york,  ny

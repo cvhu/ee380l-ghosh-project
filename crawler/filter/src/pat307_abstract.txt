@@ -1,0 +1,1 @@
+A direct current (DC) power system uses High Concentration Photovoltaic (HCPV) modules and Building-Integrated Photovoltaic (BIPV) module. Power outputs of the HCPV/BIPV modules are mixed to improve utilization of generated power. Thus, solar power is used through best power control and energy conservation.

@@ -1,0 +1,1 @@
+Briefly described, the invention provides a photovoltaic assembly power output utilizing device which partially charges a capacitor assembly. This capacitor assembly is then partially discharged by a DC/DC power converter in different ranges of voltages in which the power output from the photovoltaic assembly peaks for different light intensities.

@@ -1,0 +1,1 @@
+A photovoltaic power generating apparatus is provided which comprises a single solar cell element formed on a substrate and a plurality of power conversion devices individually connected to the solar cell element for converting an output of the solar cell element.

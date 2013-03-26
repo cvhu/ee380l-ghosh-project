@@ -1,0 +1,1 @@
+The subject matter of the present invention is a method of automatically recognizing an electrical system by which both the voltage of an electrical system (2) and the phase angle between phases of the system are monitored so that human technical failure upon connecting a plant (1) to said electrical system (2) be reliably prevented.

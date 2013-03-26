@@ -1,0 +1,1 @@
+An apparatus for converting power includes at least one impedance matching network which receives an electrical signal. The apparatus includes at least one AC to DC converter in communication with the impedance matching network. Also disclosed is a method for powering a load and an apparatus for converting power and additional embodiments of an apparatus for converting power.

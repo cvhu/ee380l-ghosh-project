@@ -1,0 +1,1 @@
+A connector assembly for a photovoltaic module includes a locator having a support rib configured to hold a buss of the photovoltaic module, and a connector housing holding a contact. The connector housing is configured to be mounted to the photovoltaic module over the locator such that the contact is mated to the buss in a press-fit connection.

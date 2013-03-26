@@ -1,0 +1,1 @@
+A photovoltaic system may include a DC to AC inverter, a voltage sensor configured to measure an input voltage from a photovoltaic array, and a controller configured to calculate a voltage differential.
