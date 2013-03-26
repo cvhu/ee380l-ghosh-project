@@ -8,8 +8,8 @@ def cpc_cat (filein, fileout):
             spamreader = csv.reader(csvfile, delimiter=';')
             spamwriter = csv.writer(csvout, delimiter=',')
             for row in spamreader:
-                row=list(x[:5] for x in row)
+                row=list(x[:5].strip() for x in row)
                 counter=Counter(row)
                 counter=counter.most_common(3)
-                spamwriter.writerow(list(x[0].strip() for x in counter))
+                spamwriter.writerow(list(x[0] for x in counter))
     print "Done!"
