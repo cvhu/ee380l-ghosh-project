@@ -1,0 +1,1 @@
+A power system includes a plurality of power generation units configured to generate power from a renewable energy source and a server that includes a display. The server is configured to establish a communication with the plurality of power generation units and display a status of the plurality of power generation units on the display.

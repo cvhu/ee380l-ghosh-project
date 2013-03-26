@@ -1,0 +1,1 @@
+A photovoltaic device includes at least one photovoltaic cell and a DC/DC converter electrically coupled to the at least one photovoltaic cell. The at least one photovoltaic cell and the DC/DC converter are integrated into a photovoltaic package.

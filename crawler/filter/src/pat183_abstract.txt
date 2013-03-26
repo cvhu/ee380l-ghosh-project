@@ -1,0 +1,1 @@
+A method and apparatus for coupling power to an AC power grid. In one embodiment, the method comprises interleaving a storage period and a burst period, wherein (i) energy is stored during the storage period for a predetermined number of grid voltage cycles, and (ii) stored energy is converted to AC power and coupled to the AC power grid during the burst period.

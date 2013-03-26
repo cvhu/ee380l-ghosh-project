@@ -1,0 +1,1 @@
+A skyline imaging system includes an image sensor and an inclination reference coupled to the image sensor. The inclination reference provides a righting moment for the image sensor and establishes a predetermined orientation for the image sensor relative to the Earth's gravity vector. A heading reference determines an azimuth heading for the image sensor.
