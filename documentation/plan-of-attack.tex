@@ -49,7 +49,7 @@ This has been tested on the abstracts. The scripts and results can be found in \
 To accomplish this, first get the classification names and details corresponding to each of the classification numbers for each patent. Now, the algorithm is very similar to the previous step (as in technology areas). For each patent, identify the most correlated topic and associate it's classification details to that topic. Then refine by topic to identify the list of classifications for each $TopicWordsCluster_{TM}$, and pick the top 3-4 classifications.
 \end{enumerate}
 
-\item From the previous step, we should have now generated a set of $Topics_{TM}$ or topic names for each $TopicWordsCluster_{TM}$ based on technology area and patent classification details. The next step is to do the actual inference with respect to geographies and time.
+\item From the previous step, we should have now generated a set of $Topics_{TM}$ or topic names for each $TopicWordsCluster_{TM}$ based on technology area and patent classification details. The next step is to do the actual inference with respect to geographies and time. \label{geoyearclusters}
 \begin{enumerate}
 \item For geographies (and time), run the topic model again to generate a bunch of $TopicWordsCluster_{Geo}$ (correspondingly $TopicWordsCluster_{Years}$). Map $TopicWordsCluster_{Geo}$ ($TopicWordsCluster_{Years}$) with $TopicWordsCluster_{TM}$ based on the words directly (or re-doing step \ref{topicwords2topics}). The result of this will be $Topics_{Geo}$ (and $Topics_{Years}$).
 \item Now we will have for each geography the set of most frequent $Topics$, and we should be able to test our hypothesis:
@@ -59,6 +59,17 @@ To accomplish this, first get the classification names and details corresponding
 \item Map $Topics_{Geo}$ (and $Topics_{Years}$) to see if $(Topic_i, Geo_j, Year_k)$ has some association with $(Topic_i, Geo_l, Year_{j+1})$ etc.
 \end{itemize}
 \end{enumerate}
+
+\item Another hypothesis we must test is to compare the distributions of geographies and years within each topic cluster. This can be done in parallel with Step \ref{geoyearclusters}.
+\begin{enumerate}
+\item Within each topic cluster, check distribution of geographies. \label{topic-cluster-geo}
+\item Within each topic cluster, check distribution of years. \label{topic-cluster-time}
+\end{enumerate}
+The hypotheses we can check:
+\begin{itemize}
+\item Are geographies monopolizing topics or are they evenly distributed (atleast over some geos)? Can be tested using set \ref{topic-cluster-geo}
+\item Is there some topic that has an increasing/decreasing distribution over the years. (ascedning indicates, the area is growing; desceding $\Rightarrow$ interest in area is declining). Check using step \ref{topic-cluster-time}
+\end{itemize}
 \end{enumerate}
 
 %\subsection{}
