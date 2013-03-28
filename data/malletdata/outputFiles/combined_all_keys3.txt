@@ -1,0 +1,15 @@
+0	0.03965	dc power photovoltaic converter solar circuitry control system claim conversion energy functionality maximum output ac inverter comprising switch capacitor 
+1	0.04483	data claim system device method monitoring comprising information network computer configured communication server plurality time management remote set display 
+2	0.05119	housing connector claim electrical box junction plurality module solar modules cable contact connection end conductor side comprising section assembly 
+3	0.01298	information data user sectors management carrier encryption record encrypted comprising indication bus iaddend iadd indicating communication bit sector stored 
+4	0.08882	power energy unit claim device system electrical solar signal supply battery control source comprising configured storage apparatus sensor controller 
+5	0.09177	power voltage inverter current output dc ac claim system method grid controller source circuit comprising phase configured photovoltaic comprises 
+6	0.03141	fluid thermal heat temperature device energy electric plurality claim conductive pressure system equipment water container structure flow solar collecting 
+7	0.04774	photovoltaic claim layer light cell material surface solar device substrate comprising plurality method element top elements comprises roofing electrode 
+8	0.06421	pv photovoltaic array system current plurality string claim voltage strings control modules power panels comprising method respective output generator 
+9	0.08691	module photovoltaic claim cell cells modules member plurality frame solar includes surface support comprising side including system installation face 
+10	0.04681	member plurality solar structure claim members energy support wall frame adapted system portion unitized unit modules end curtain rigid 
+11	0.05212	solar claim panel panels assembly system motor axis frame array tracker position comprising angle energy collector sun drive recited 
+12	0.04225	method time claim area comprising image determining set roof times point rate irradiance values change output system clearness interval 
+13	0.09845	mounting claim panel support solar rail portion surface system frame upper comprising side structure photovoltaic comprises lower plate roof 
+14	0.06335	terminal voltage converter circuit claim dc connected switch input output terminals coupled inverter current switching series comprising plurality switches 
