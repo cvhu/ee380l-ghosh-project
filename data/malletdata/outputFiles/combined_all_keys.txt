@@ -1,0 +1,15 @@
+0	0.08477	voltage photovoltaic current array claim method inverter string output system plurality power line connected comprising control generator pv strings 
+1	0.08651	photovoltaic module claim portion plate surface member roof side edge support upper frame element lower extending plurality structure end 
+2	0.05944	power system energy claim method output control based data generation comprising plurality change generating device signal controller electric grid 
+3	0.03738	claim data method system information computer comprising device network image monitoring plurality server configured roof set based management determining 
+4	0.05222	power dc photovoltaic converter solar circuitry control system claim conversion output energy maximum inverter functionality ac comprising configured capacitor 
+5	0.02246	time area times irradiance clearness set point method characterized claim comprising cells photovoltaic power index points average arcuate output 
+6	0.04602	solar claim member support axis motor position tracker end angle comprising frame assembly system array drive cell sun linear 
+7	0.08673	dc inverter ac voltage power output claim current converter input circuit source terminal grid connected coupled phase configured plurality 
+8	0.0408	claim cell photovoltaic layer device substrate material cells comprising surface solar method electrically electrode conductive comprises module film membrane 
+9	0.01369	information data user sectors management carrier encryption record encrypted comprising indication bus iaddend iadd indicating communication bit sector stored 
+10	0.03252	fluid thermal heat temperature energy device electric air water equipment conductive pressure collecting flow system container structure roof building 
+11	0.09022	power unit claim device electrical supply system battery signal energy control comprising apparatus source communication configured sensor module wireless 
+12	0.08618	mounting claim panel rail support frame system solar structure portion photovoltaic comprising surface plurality comprises member wall assembly configured 
+13	0.08151	solar claim panel panels energy system light plurality photovoltaic comprising assembly collector recited array surface comprises cells mirror optical 
+14	0.07902	module pv modules claim plurality connector electrical housing junction box system end conductor cable comprising vehicle connection contact includes 
