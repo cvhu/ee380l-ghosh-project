@@ -105,9 +105,9 @@ class Abstracts:
 	ofid.write(line)
 
 def main():
-  compositionFile="../data/malletdata/outputFiles/combined_783_composition-v2.txt";
+  compositionFile="../data/malletdata/outputFiles/combined_783_composition-v3.txt";
   patentFile="../data/783pats_cpc_class.csv";
-  outputFile="../data/pyAnalysisOutput/topicsCPCCount_783pats-v2.txt";
+  outputFile="../data/pyAnalysisOutput/topicsCPCCount_783pats-v3.txt";
   abstracts = Abstracts()
   geoTF=False
   if "geo" in compositionFile:
