@@ -1,3 +1,9 @@
+
+28 March 2012
+
+Matched classification numbers with each topic word cluster. Seems like 3 cpc numbers are sufficiently good, but added 4 just in case.
+We can now have Topic-word-cluster: [tech area, classification numbers/areas] mapping. We will now be able to understand the actual "topic" of each word cluster output by mallet.
+
 27 March 2012
 
 Did topic modelling on entire data.
