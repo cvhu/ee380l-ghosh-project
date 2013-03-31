@@ -1,0 +1,15 @@
+0	0.08519	solar claim cell array apparatus device comprises plurality comprising cells modules coupled connected unit tracker body set coupling defined 
+1	0.08313	power voltage dc inverter current claim grid ac output converter control controller method photovoltaic system source frequency comprises operation 
+2	0.06581	photovoltaic roof element upper lower plate edge elements claim structure top roofing bottom plurality side portion surface extending adjacent 
+3	0.0351	claim means system drive motor modular comprising image vehicle electric control temperature method video position unit installation digital device 
+4	0.05339	solar energy claim heat system light thermal cells surface assembly plurality collector component fluid water photovoltaic layer comprising air 
+5	0.0547	plurality power dc current signal system string inverter electric pv claim voltage output ac phase generator connected comprising strings 
+6	0.10846	mounting claim support frame panel member rail portion surface system assembly module comprising solar photovoltaic comprises end side structure 
+7	0.01229	shingle claim web method zones network access node system parameter based quantity dynamically shingles wait selected educational tab connection 
+8	0.09146	power energy electrical battery claim system control supply device source load storage configured comprising signal output controller module generation 
+9	0.0922	module photovoltaic claim layer junction box comprising cell portion housing surface electrically plurality electrical connector substrate device side conductive 
+10	0.04169	method receiver claim period time signal mode output comprising gps system determining measurement operating satellite mpp determined predetermined measured 
+11	0.05826	panel panels claim pv photovoltaic plurality system wall structure method integrated unitized unit frame building array adapted electrical curtain 
+12	0.06757	data system claim monitoring device method comprising wireless network communication energy sensor based computer interface unit time information user 
+13	0.08211	circuit voltage terminal switch claim output input dc inverter switching converter connected coupled current photovoltaic terminals comprising array configured 
+14	0.02642	photovoltaic power dc converter solar circuitry control conversion energy claim system output point times maximum comprises voltage comprising functionality 
