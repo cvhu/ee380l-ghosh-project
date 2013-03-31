@@ -1,0 +1,15 @@
+0	0.05244	device signal claim data sensor wireless unit comprising system monitoring communication network power range transmission solar method operating signals 
+1	0.06528	photovoltaic module portion member claim plurality structure modules wall support frame comprising surface members cell end including unitized assembly 
+2	0.06392	dc power photovoltaic converter solar voltage claim system inverter circuitry conversion control output energy maximum ac point comprises controller 
+3	0.09406	power current voltage system claim inverter output source plurality method grid photovoltaic electric comprising frequency generation inverters generator direct 
+4	0.10544	mounting solar claim panel support frame system rail surface comprising portion comprises structure panels photovoltaic side member assembly bracket 
+5	0.06814	circuit switch voltage terminal dc input claim output inverter converter connected switching coupled terminals ac array comprising series current 
+6	0.06619	photovoltaic element roof plate upper edge lower elements claim side roofing top bottom adjacent plurality extending surface disposed face 
+7	0.0272	power bus voltage signal grid claim controller converter ac configured mode input output gps apparatus plurality inverter method waveform 
+8	0.02516	solar claim roof image array system drive method comprising position tube sun based tracker torque ground area measurements video 
+9	0.05327	energy solar system claim heat plurality thermal assembly component collector receiver electric water air fluid method comprising electricity transfer 
+10	0.04122	data system energy claim method monitoring computer information comprising user server renewable file network test systems based time respective 
+11	0.06138	claim photovoltaic cell solar layer cells surface material substrate comprising method comprises conductive device module light electrode film electrically 
+12	0.08235	module pv claim plurality modules box junction connector housing electrical inverter comprising system electrically solar cable configured conductor array 
+13	0.07617	power electrical battery claim control energy solar supply system load device means source signal storage unit comprising portable module 
+14	0.03793	control time voltage method current output operation claim photovoltaic unit power times point comprising irradiance clearness set area determined 
