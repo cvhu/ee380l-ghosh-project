@@ -1,0 +1,15 @@
+0	0.07301	power current plurality inverter dc system voltage claim circuit output ac electric switching string source phase comprising connected generator 
+1	0.10806	module photovoltaic modules claim plurality connector junction box housing pv comprising electrical includes side member cable assembly end electrically 
+2	0.04974	power voltage grid dc inverter ac output current converter control claim controller unit frequency input source operation method comprises 
+3	0.05625	claim solar layer photovoltaic heat surface cell substrate thermal cells method comprising device conductive energy comprises film temperature material 
+4	0.08954	power electrical system battery control claim device supply energy source load solar unit controller storage configured comprising output electric 
+5	0.04344	energy claim plurality system wall renewable unit unitized building generating receiver curtain electrical method units conversion adapted structure exterior 
+6	0.03629	data system claim monitoring method computer based comprising information user file server device selected image comprises interface respective electronic 
+7	0.06804	photovoltaic portion element upper claim surface lower roof edge plate side elements top bottom disposed extending plurality roofing adjacent 
+8	0.08863	method signal power claim voltage comprising operating photovoltaic output system time range current device means determining sensor predetermined monitoring 
+9	0.06532	solar array cell system claim cells photovoltaic panels drive assembly modular plurality comprising connected motor concentrator linear panel means 
+10	0.10368	mounting claim support panel solar frame rail system member comprising surface structure comprises portion assembly plurality photovoltaic method bracket 
+11	0.0274	data wireless claim network communication device comprising system sensor monitoring gps method times signal mode time receiver clearness transmission 
+12	0.04719	dc power photovoltaic converter solar circuitry voltage claim system control output conversion maximum energy inverter point comprises switch comprising 
+13	0.03258	claim light roof structure section apparatus material recited comprising method system solar electrode set radiation measurements tube including includes 
+14	0.07016	pv terminal switch voltage claim circuit connected array inverter converter output input dc comprising coupled series terminals configured positive 

@@ -1,0 +1,15 @@
+0	0.08488	power current voltage output claim method inverter grid dc control ac unit source system controller generation operation photovoltaic based 
+1	0.07293	solar cell photovoltaic panels panel claim cells plurality array system comprising receiver energy comprises method claimed generation configured coupled 
+2	0.07839	power signal electrical battery claim system control supply energy source device controller load solar configured comprising mode storage portable 
+3	0.09697	module photovoltaic claim portion connector modules plurality box junction housing side comprising connecting includes electrical end member cable pv 
+4	0.0463	dc power photovoltaic converter solar circuitry system output claim voltage energy control conversion maximum inverter point comprises comprising plurality 
+5	0.07585	pv photovoltaic circuit system claim array power current switching line string inverter plurality voltage comprising configured device output generator 
+6	0.02019	claim area time image system roof irradiance times comprising method set clearness based selected means photovoltaic point files function 
+7	0.06453	voltage dc input inverter converter claim terminal switch output ac connected circuit coupled terminals current plurality comprising power configured 
+8	0.04739	energy heat system claim solar thermal component temperature water plurality transfer electric air fluid collector pipe collecting comprising method 
+9	0.05983	data system device claim monitoring network method comprising sensor wireless communication computer energy user unit interface comprises server time 
+10	0.04189	structure claim plurality modules wall energy unitized building rigid curtain assembly electrical integrated adapted unit units system conversion frame 
+11	0.05326	claim layer photovoltaic solar material light comprising surface cell device method substrate comprises conductive cells assembly electrode film apparatus 
+12	0.03724	claim drive system motor grounding bar connected ground comprising torque tube linear vehicle means beam section axis rotating unit 
+13	0.04354	photovoltaic roof plate element elements bottom top surface edge upper roofing claim lower plurality side shingle membrane adjacent extending 
+14	0.10898	mounting claim support panel solar frame member surface rail system portion comprising photovoltaic structure comprises assembly side end bracket 
