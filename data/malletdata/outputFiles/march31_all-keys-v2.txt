@@ -1,0 +1,15 @@
+0	0.05839	claim photovoltaic layer cell comprising material method device solar substrate structure cells energy plurality surface wall electrical conductive unitized 
+1	0.02013	system claim area time method image roof irradiance times comprising computer clearness data based file set information files selected 
+2	0.06884	photovoltaic pv array system string plurality claim voltage configured ground strings inverter modules generator comprising line cells switch coupled 
+3	0.06844	voltage input dc output inverter circuit claim converter terminal switch connected current switching ac coupled terminals plurality comprising series 
+4	0.03024	claim plurality method wind comprising system inverters receiver regulated number multiple devices step current source comprises user apparatus video 
+5	0.0521	dc power photovoltaic converter solar voltage circuitry claim conversion output system maximum control energy inverter point comprises switch comprising 
+6	0.05248	data device monitoring claim system network communication wireless comprising unit sensor signal method server interface gps control receiver plurality 
+7	0.08723	mounting claim support panel rail frame system surface photovoltaic portion comprising member comprises structure method assembly bracket side configured 
+8	0.05506	energy system claim battery control renewable power means electric source electrical lighting comprising portable motor modular vehicle drive generating 
+9	0.08726	photovoltaic portion module element upper edge claim lower surface plate roof side elements structure end member adjacent extending disposed 
+10	0.09274	module modules claim plurality photovoltaic connector junction box housing electrical comprising includes cable side end electrically assembly inverter conductor 
+11	0.11459	power current control claim inverter grid system output electrical ac voltage controller unit source supply generation dc configured operation 
+12	0.09409	solar panel claim panels frame plurality assembly cell support comprising array member system comprises structure connected position energy surface 
+13	0.08176	signal method claim voltage comprising device operating current output time range apparatus determining reference predetermined comprises based threshold monitoring 
+14	0.03641	solar heat claim energy thermal roof system plurality shingle surface fluid air water material collector top temperature panel bottom 

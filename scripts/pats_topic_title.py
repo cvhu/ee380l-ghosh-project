@@ -156,9 +156,9 @@ class Abstracts:
 	ofid.write(line)
 
 def main():
-  compositionFile="../data/malletdata/outputFiles/march31_all_composition-v1.txt";
+  compositionFile="../data/malletdata/outputFiles/march31_all_composition-v5.txt";
   patentFile="../data/combined_all_march31_output.csv";
-  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_march31_pats-v1.txt";
+  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_march31_pats-v5.txt";
   abstracts = Abstracts()
   geoTF=False
   if "geo" in compositionFile:
@@ -175,14 +175,19 @@ def main():
     outputLine="PatId, Year, OrigTechArea, city, state, country, topicId, ourTechArea, ourCPCnum1, ourCPCnum2, ourCPCnum3 \n"
     opfid.write(outputLine)
     print outputLine
+    taCorrect=0
+    totalPats=0
     for topic in abstracts.topicTriples:
       patFile=topic.patfile
       topicId=topic.topicnums[0]
       if(abstracts.techArea.get(patFile)==None):
 	continue
+      totalPats+=1
       origTA =abstracts.techArea[patFile] 
       orderedTA = sorted(abstracts.topicTAlist[topicId].tascores, key=abstracts.topicTAlist[topicId].tascores.get, reverse=True);
       ourTA=orderedTA[0]
+      if origTA in ourTA:
+	taCorrect+=1
       orderedCPC = sorted(abstracts.topicCPClist[topicId].cpcscores, key=abstracts.topicCPClist[topicId].cpcscores.get, reverse=True);
       outCPC =[]
       for i in range(0,3):
@@ -191,10 +196,12 @@ def main():
 	else:
 	  outCPC.append("NO_CPC")
       outputLine=str(patFile) + ";"+abstracts.year[patFile]+";"+origTA+";"+abstracts.city[patFile]+";"+abstracts.state[patFile]+";"+abstracts.state[patFile]+";"+abstracts.country[patFile]+";"+str(topicId)+";"+ourTA+";"+outCPC[0]+";"+outCPC[1]+";"+outCPC[2]
-      print outputLine
+      #print outputLine
       outputLine=outputLine+"\n"
       opfid.write(outputLine)
       #print all tech areas - too much not needed
+    taAccuracy=taCorrect*1.0/totalPats
+    print "Tech Area accuracy: "+str(taAccuracy)
 
 if __name__=="__main__":
     main()
