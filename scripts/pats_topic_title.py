@@ -39,6 +39,10 @@ class Abstracts:
     self.topicTAlist = {} #dictionary of dictionaries {topic#: {techArea : FreqCount}}
     self.cpcNums = {} #dictionary {patentfile: [cpc #s list]}
     self.topicCPClist = {} #dictionary of dictionaries {topic: {cpc# : FreqCount, ... }}
+    self.year={}
+    self.city={}
+    self.state={}
+    self.country={}
 
   def getTopics(self, compositionFile, geoTF):
     """
@@ -68,8 +72,13 @@ class Abstracts:
 	count+=1
 	continue
       patfile = line[0]
-      self.techArea[patfile] = line[2].strip()
-     #self.classNum.append(??);
+      self.techArea[patfile] = line[3].strip()
+      #self.classNum.append(??);
+      #get year, city, state country
+      self.year[patfile] = line[2].strip()
+      self.city[patfile] = line[5].strip()
+      self.state[patfile] = line[6].strip()
+      self.country[patfile] = line[7].strip()
 
   def getCPCnums(self, patentFile):
     """Get patent classification numbers (cpc) for each patent"""
@@ -82,12 +91,12 @@ class Abstracts:
 	continue
       patfile = line[0]
       cpcNumbers=[]
-      if(line[9]!=''):
-        cpcNumbers.append(line[9])
-        if(line[10]!=''):
-          cpcNumbers.append(line[10])
-          if(line[11]!=''):
-            cpcNumbers.append(line[11])
+      if(line[11]!=''):
+        cpcNumbers.append(line[11])
+        if(line[12]!=''):
+          cpcNumbers.append(line[12])
+          if(line[13]!=''):
+            cpcNumbers.append(line[13])
       self.cpcNums[patfile] = cpcNumbers
      #self.classNum.append(??);
 
@@ -98,20 +107,21 @@ class Abstracts:
     counter=0;
     for topicTriple in self.topicTriples:
       topicNum = topicTriple.topicnums[0]
-      techArea = self.techArea[topicTriple.patfile]
-      topicTAscores = self.topicTAlist.get(topicNum)
-      if topicTAscores is None:
-	topicTAscores = self.TopicTA()
-	topicTAscores.tascores[techArea] = 1
-	#self.topicTAlist[topicNum] = topicTAscores
-      else:
-	if topicTAscores.tascores.get(techArea) is None:
- 	  topicTAscores.tascores[techArea]=1;
-	else:
- 	  topicTAscores.tascores[techArea]+=1;
-      self.topicTAlist[topicNum] = topicTAscores
-      counter+=1
-     #print topic list
+      if(self.techArea.get(topicTriple.patfile)!=None):
+        techArea = self.techArea[topicTriple.patfile]
+        topicTAscores = self.topicTAlist.get(topicNum)
+        if topicTAscores is None:
+          topicTAscores = self.TopicTA()
+          topicTAscores.tascores[techArea] = 1
+          #self.topicTAlist[topicNum] = topicTAscores
+        else:
+          if topicTAscores.tascores.get(techArea) is None:
+            topicTAscores.tascores[techArea]=1;
+          else:
+            topicTAscores.tascores[techArea]+=1;
+        self.topicTAlist[topicNum] = topicTAscores
+        counter+=1
+        #print topic list
 
   def matchTopicCPCnums(self):
     """Match each topic to 3 cpc numbers?
@@ -120,22 +130,23 @@ class Abstracts:
     counter=0;
     for topicTriple in self.topicTriples:
       topicNum = topicTriple.topicnums[0]
-      cpcNums = self.cpcNums[topicTriple.patfile]
-      #CONTINUE TA to CPC transformation from HERE
-      topicCPCscores = self.topicCPClist.get(topicNum)
-      if topicCPCscores is None:
-	topicCPCscores = self.TopicCPC()
-	for cpcNum in cpcNums:
-	  topicCPCscores.cpcscores[cpcNum] = 1
-	#self.topicTAlist[topicNum] = topicTAscores
-      else:
-	for cpcNum in cpcNums:
-	  if topicCPCscores.cpcscores.get(cpcNum) is None:
- 	    topicCPCscores.cpcscores[cpcNum]=1;
-	  else:
- 	    topicCPCscores.cpcscores[cpcNum]+=1;
-      self.topicCPClist[topicNum] = topicCPCscores
-      counter+=1
+      if(self.cpcNums.get(topicTriple.patfile)!=None):
+        cpcNums = self.cpcNums[topicTriple.patfile]
+        #CONTINUE TA to CPC transformation from HERE
+        topicCPCscores = self.topicCPClist.get(topicNum)
+        if topicCPCscores is None:
+          topicCPCscores = self.TopicCPC()
+          for cpcNum in cpcNums:
+            topicCPCscores.cpcscores[cpcNum] = 1
+          #self.topicTAlist[topicNum] = topicTAscores
+        else:
+          for cpcNum in cpcNums:
+            if topicCPCscores.cpcscores.get(cpcNum) is None:
+              topicCPCscores.cpcscores[cpcNum]=1;
+            else:
+              topicCPCscores.cpcscores[cpcNum]+=1;
+        self.topicCPClist[topicNum] = topicCPCscores
+        counter+=1
 
   def printGeoTopicTriples(self, outfile):
     with open(outfile,'w+') as ofid:
@@ -145,9 +156,9 @@ class Abstracts:
 	ofid.write(line)
 
 def main():
-  compositionFile="../data/malletdata/outputFiles/combined_783_composition-v3.txt";
-  patentFile="../data/783pats_cpc_class.csv";
-  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_783pats-v3.txt";
+  compositionFile="../data/malletdata/outputFiles/march31_all_composition-v1.txt";
+  patentFile="../data/combined_all_march31_output.csv";
+  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_march31_pats-v1.txt";
   abstracts = Abstracts()
   geoTF=False
   if "geo" in compositionFile:
@@ -159,14 +170,16 @@ def main():
   abstracts.matchTopicTechArea()
   if geoTF: 
     abstracts.printGeoTopicTriples("../data/pyAnalysisOutput/topics4geo-v2.txt")
-  """Print patentID, OriginalTA, topicId, ourTA, ourCPCnums"""
+  """Print patentID, Year, OriginalTA, city, state, country, topicId, ourTA, ourCPCnums"""
   with open(outputFile,'w+') as opfid:
-    outputLine="PatId, OrigTechArea, topicId, ourTechArea, ourCPCnum1, ourCPCnum2, ourCPCnum3 \n"
+    outputLine="PatId, Year, OrigTechArea, city, state, country, topicId, ourTechArea, ourCPCnum1, ourCPCnum2, ourCPCnum3 \n"
     opfid.write(outputLine)
     print outputLine
     for topic in abstracts.topicTriples:
       patFile=topic.patfile
       topicId=topic.topicnums[0]
+      if(abstracts.techArea.get(patFile)==None):
+	continue
       origTA =abstracts.techArea[patFile] 
       orderedTA = sorted(abstracts.topicTAlist[topicId].tascores, key=abstracts.topicTAlist[topicId].tascores.get, reverse=True);
       ourTA=orderedTA[0]
@@ -177,7 +190,7 @@ def main():
           outCPC.append(orderedCPC[i])
 	else:
 	  outCPC.append("NO_CPC")
-      outputLine=str(patFile) + ","+origTA+","+str(topicId)+","+ourTA+","+outCPC[0]+","+outCPC[1]+","+outCPC[2]
+      outputLine=str(patFile) + ";"+abstracts.year[patFile]+";"+origTA+";"+abstracts.city[patFile]+";"+abstracts.state[patFile]+";"+abstracts.state[patFile]+";"+abstracts.country[patFile]+";"+str(topicId)+";"+ourTA+";"+outCPC[0]+";"+outCPC[1]+";"+outCPC[2]
       print outputLine
       outputLine=outputLine+"\n"
       opfid.write(outputLine)
