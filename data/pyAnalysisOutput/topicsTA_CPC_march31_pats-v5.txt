@@ -1,595 +1,595 @@
-PatId, Year, OrigTechArea, city, state, country, topicId, ourTechArea, ourCPCnum1, ourCPCnum2, ourCPCnum3 
-pat0360;2011;Solar Inverter;Ottawa;;;Canada;2;Solar Inverter;H02J;Y02E;H02M
-pat0221;2012;Solar Inverter;Niestetal;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0538;2011;Solar Monitoring;Schenectady  NY;NY;NY;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0375;2010;Solar Inverter;Narragansett  RI;RI;RI;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0479;2011;Solar Inverter; Solar Monitoring;Bend  OR;OR;OR;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0630;2010;Solar Mounting/Rack;Brick  NJ;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0057;2009;Solar Mounting/Rack;;Sharon Center  OH;OH;OH;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0116;2010;Solar Inverter;Fort Collins  CO;CO;CO;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0512;2008;Solar Monitoring;Denver  CO;CO;CO;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0453;2011;Solar Inverter;Livermore  CA;CA;CA;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0394;2003;Solar Inverter;Eindhoven;;;Netherlands;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0446;2011;Solar Inverter;Dallas  TX;TX;TX;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0381;2009;Solar Inverter;Roanoke  VA;VA;VA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0507;2008;Solar Monitoring;Hempstead  NY;NY;NY;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0042;2008;Solar Inverter;Niskayuna  NY;NY;NY;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0089;2010;Solar Inverter;Fort Collins  CO;CO;CO;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0491;2011;Solar Inverter; Solar Monitoring;Freiberg;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0356;2011;Solar Inverter;Pittsboro  NC;NC;NC;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0613;2009;Solar Mounting/Rack;Morgan Hill  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0606;2009;Solar Mounting/Rack;Alameda  CA;USA;USA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0080;2010;Solar Inverter; Solar Monitoring;Bend  OR;OR;OR;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0484;2010;Solar Inverter; Solar Monitoring;Marchtrenk;;;Austria;12;Solar Inverter;Y02E;H02J;H02M
-pat0343;2008;Solar Inverter;Fort Collins  CO;CO;CO;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0388;2011;Solar Inverter;Sharon  CA;CA;CA;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0369;2007;Solar Inverter;Petaluma  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0465;2011;Solar Inverter;Westford  MA;MA;MA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0228;2012;Solar Inverter; Solar Monitoring;Palatine  IL;IL;IL;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0524;2012;Solar Monitoring;Chargin Falls  OH;OH;OH;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0120;2010;Solar Mounting/Rack;Alameda  CA;CA;CA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0061;2009;Solar Inverter; Solar Monitoring;Santa Clara  CA;CA;CA;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0074;2010;Solar Mounting/Rack;Antioch  CA;CA;CA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0135;2011;Solar Mounting/Rack;Aloha  OR;OR;OR;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0639;2011;Solar Mounting/Rack;Mendham  NJ;NJ;NJ;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0531;2009;Solar Monitoring;Albuquerque  NM;NM;NM;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0470;2010;Solar Inverter;Schenectady  NY;NY;NY;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0697;2008;Solar Mounting/Rack;Schwedt;;;Germany;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0415;2010;Solar Inverter;Stuttgart;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0258;2012;Solar Inverter; Solar Mounting/Rack;Austin  TX;TX;TX;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0554;2012;Solar Monitoring;Osaka;N/A;N/A;Japan;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0541;2010;Solar Monitoring;Scottsdale  AZ;AZ;AZ;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0400;2012;Solar Inverter;Seoul;;;South Korea;2;Solar Inverter;H02J;Y02E;H02M
-pat0004;2005;Solar Inverter;Dearborn  MI;MI;MI;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0708;2011;Solar Mounting/Rack;San Luis Obispo  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0649;2012;Solar Mounting/Rack;Colorado Springs  CO;CO;CO;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0682;2011;Solar Mounting/Rack;Brick  NJ;NJ;NJ;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0722;2008;Solar Mounting/Rack;Los Altos  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0663;2012;Solar Mounting/Rack;Philadelphia  PA;PA;PA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0267;2012;Solar Inverter;Petaluma  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0326;2007;Solar Inverter;Columbia  SC;SC;SC;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0333;2011;Site Assessment;Bolinas  CA;CA;CA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0272;2012;Solar Inverter;Schenectady  NY;NY;NY;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0676;2010;Solar Mounting/Rack;Poway  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0737;2007;Solar Mounting/Rack;Berkeley  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0562;2012;Solar Monitoring;Freising;N/A;N/A;Germany;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0423;2009;Solar Inverter;Niestetal;;;Germany;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0027;2008;Solar Monitoring;Mineola  NY;NY;NY;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0166;2011;Solar Inverter; Solar Monitoring;New Castle  CO;CO;CO;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0173;2011;Solar Monitoring;San Jose  CA;CA;CA;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0032;2008;Solar Monitoring;Taipei Hsien;N/A;N/A;Taiwan;12;Solar Inverter;Y02E;H02J;H02M
-pat0436;2011;Solar Inverter;Austin  TX;TX;TX;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0577;2008;Solar Monitoring; Solar Inverter;Schenectady  NY;NY;NY;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0596;2011;Solar Mounting/Rack;Richmond  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0159;2011;Solar Inverter; Solar Monitoring;Bend  OR;OR;OR;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0655;2012;Solar Mounting/Rack;Suffern  NY;NY;NY;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0018;2007;Solar Inverter;Dearborn  MI;MI;MI;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0714;2010;Solar Mounting/Rack;Santa Clara  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0701;2011;Solar Mounting/Rack;Pontiac  MI;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0187;2011;Solar Inverter; Solar Monitoring;Ravensburg;;;Germany;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0640;2011;Solar Mounting/Rack;Eagan  MN;MN;MN;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0244;2012;Solar Inverter;Fisciano;;;Italy;2;Solar Inverter;H02J;Y02E;H02M
-pat0548;2009;Solar Monitoring;Tokyo;N/A;N/A;Japan;14;Solar Inverter;H02M;Y02E;Y02B
-pat0583;2009;Solar Monitoring; Solar Inverter;Los Gatos  CA;CA;CA;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0409;2012;Solar Inverter;Hayward  CA;CA;CA;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0654;2012;Solar Mounting/Rack;Nederland  CO;CO;CO;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0193;2011;Solar Monitoring;Cambridgeshire  GB;;;GB;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0715;2010;Solar Mounting/Rack;Santa Clara  CA;CA;CA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0019;2007;Solar Mounting/Rack;Albuquerque  NM;NM;NM;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0597;2011;Solar Mounting/Rack;Wallingford  CT;CT;CT;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0549;2010;Solar Monitoring;Alexandria  VA;VA;VA;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0582;2011;Solar Monitoring; Solar Inverter;Beit Aharon;;;Israel;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0408;2008;Solar Inverter;Hayward  CA;CA;CA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0700;2010;Solar Mounting/Rack;Armonk  NY;NY;NY;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0641;2011;Solar Mounting/Rack;Athens  OH;OH;OH;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0186;2011;Solar Inverter;Niestetal;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0026;2008;Solar Monitoring;Warrenville  IL;IL;IL;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0167;2011;Solar Inverter;Petaluma  CA;CA;CA;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0563;2011;Solar Monitoring;Dallas  TX;TX;TX;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0422;2009;Solar Inverter;Niestetal;;;Germany;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0437;2011;Solar Inverter;Austin  TX;TX;TX;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0576;2011;Solar Monitoring; Solar Inverter;Cary  NC;NC;NC;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0172;2011;Solar Inverter; Solar Monitoring;Herzelia;;;Israel;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0033;2008;Solar Inverter;Bend  OR;OR;OR;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0327;2009;Solar Inverter;Washington  DC;DC;DC;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0723;2008;Solar Mounting/Rack;Los Altos  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0662;2011;Solar Mounting/Rack;Boulder  CO;CO;CO;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0677;2009;Solar Mounting/Rack;Jacksonville  FL;FL;FL;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0736;2008;Solar Mounting/Rack;Milan;Italy;Italy;Italy;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0332;2010;Site Assessment;Surrey  CA;CA;CA;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0273;2012;Solar Inverter;Schenectady  NY;NY;NY;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0414;2012;Solar Inverter;Webster  NY;NY;NY;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0318;2009;Solar Inverter;Cleveland  OH;OH;OH;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0555;2010;Solar Monitoring;Palatine  IL;IL;IL;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0259;2012;Solar Mounting/Rack;Kolitzheim;;;Germany;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0696;2007;Solar Mounting/Rack;Schwedt;;;Germany;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0151;2011;Solar Inverter;Sunnyvale  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0010;2006;Solar Inverter;Tokyo;;;Japan;8;Solar Inverter;Y02E;H02J;G01R
-pat0709;2009;Solar Mounting/Rack;Dana Point  CA;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0005;2005;Solar Inverter;Columbia  MD;MD;MD;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0648;2012;Solar Mounting/Rack;San Rafael  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0683;2012;Solar Mounting/Rack;Perrysburg  OH;OH;OH;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0144;2011;Solar Inverter;Bend  OR;OR;OR;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0540;2012;Solar Monitoring;Freemont  CA;CA;CA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0401;2012;Solar Inverter;Seoul;;;South Korea;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0121;2010;Solar Monitoring;Milpitas  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0060;2009;Solar Inverter;Fort Collins  CO;CO;CO;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0464;2011;Solar Inverter;Metzingen;;;Germany;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0525;2012;Solar Monitoring;Austin  TX;TX;TX;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0229;2012;Site Assessment;Napa  CA;CA;CA;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0530;2008;Solar Monitoring;Phoenix  AZ;AZ;AZ;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0471;2006;Solar Inverter;Changwon;;;Taiwan;2;Solar Inverter;H02J;Y02E;H02M
-pat0134;2011;Solar Inverter;Sunnyvale  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0094;2010;Solar Monitoring;Stafford  TX;TX;TX;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0612;2008;Solar Mounting/Rack;Hampton  VA;VA;VA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0357;2011;Solar Inverter;Pontedera;;;Italy;0;Solar Inverter;Y02E;H02J;H02M
-pat0490;2011;Solar Inverter; Solar Monitoring;Hod Hasharon;;;Israel;14;Solar Inverter;H02M;Y02E;Y02B
-pat0342;2012;Solar Inverter;Dresden;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0389;2010;Solar Inverter;Hsinchu;;;Taiwan;12;Solar Inverter;Y02E;H02J;H02M
-pat0485;2010;Solar Inverter; Solar Monitoring;Milpitas  CA;CA;CA;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0203;2012;Solar Mounting/Rack;Mascoutah  IL;IL;IL;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0607;2009;Solar Mounting/Rack;Alameda  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0081;2010;Solar Mounting/Rack;Cold Spring  NY;NY;NY;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0513;2009;Solar Monitoring;Kelkheim  DE;;;DE;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0395;2010;Solar Inverter;Ludenscheid;;;Germany;12;Solar Inverter;Y02E;H02J;H02M
-pat0499;2012;Solar Monitoring;Richmond  CA;CA;CA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0452;2011;Solar Inverter;Livermore  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0102;2010;Solar Monitoring;Niestetal;;;Germany;8;Solar Inverter;Y02E;H02J;G01R
-pat0043;2008;Solar Inverter;Niestetal;;;Germany;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0088;2010;Solar Inverter;Petaluma  CA;CA;CA;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0380;2009;Solar Inverter;Roanoke  VA;VA;VA;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0447;2010;Solar Inverter;Boulder  CO;CO;CO;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0506;2008;Solar Monitoring;New Port Richey  FL;FL;FL;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0361;2005;Solar Inverter;Hamburg;;;Germany;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0220;2012;Solar Monitoring; Solar Inverter;Albuquerque  NM;NM;NM;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0624;2010;Solar Mounting/Rack;Providence  RI;RI;RI;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0128;2011;Solar Mounting/Rack;Osaka-shi;;;Japan;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0069;2010;Solar Inverter;Wagen;;;Germany;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0631;2010;Solar Mounting/Rack;Boston  MA;MA;MA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0539;2011;Solar Monitoring;Los Gatos  CA;CA;CA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0235;2012;Solar Monitoring;Schenectady  NY;NY;NY;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0478;2011;Solar Inverter; Solar Monitoring;Dimbach;;;Germany;2;Solar Inverter;H02J;Y02E;H02M
-pat0374;2012;Solar Inverter;Petaluma  CA;CA;CA;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0100;2010;Solar Monitoring;Richardson  TX;TX;TX;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0504;2007;Solar Monitoring;Puslinch  CA;CA;CA;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0208;2012;Solar Monitoring;Ben Lomond  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0445;2011;Solar Inverter;San Jose  CA;CA;CA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0382;2010;Solar Inverter;Schenectady  NY;NY;NY;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0349;2011;Solar Inverter;Fort Collins  CO;CO;CO;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0450;2007;Solar Inverter;Livermore  CA;CA;CA;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0397;2008;Solar Inverter;Colorado Springs  CO;CO;CO;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0511;2008;Solar Monitoring;Hroznetin  CZ; Austin  TX;TX;TX;USA; CZ;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0619;2010;Solar Mounting/Rack;Town And Country  MO;USA;USA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0633;2011;Solar Mounting/Rack;Westport  CT;CT;CT;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0376;2010;Solar Inverter;Narragansett  RI;RI;RI;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0222;2012;Solar Mounting/Rack; Solar Monitoring;Durham  NC;NC;NC;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0363;2011;Solar Inverter;TAOYUAN HSIEN;;;Taiwan;12;Solar Inverter;Y02E;H02J;H02M
-pat0626;2010;Solar Mounting/Rack;Stamford  CT;CT;CT;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0473;2011;Solar Inverter;Austin  TX;TX;TX;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0532;2012;Solar Monitoring;Cambridge  GB;N/A;N/A;Great Britain;8;Solar Inverter;Y02E;H02J;G01R
-pat0136;2011;Solar Mounting/Rack;Richmond  CA;WA;WA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0077;2010;Solar Inverter;Fort Collins  CO;CO;CO;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0062;2009;Solar Inverter; Solar Mounting/Rack;Fort Collins  CO;CO;CO;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0123;2010;Solar Inverter;Petaluma  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0527;2011;Solar Monitoring;Belo Horizonte;N/A;N/A;Brazil;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0466;2011;Solar Inverter;Cambridge;;;United Kingdom;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0201;2012;Solar Inverter;Niestetal;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0487;2012;Solar Inverter; Solar Monitoring;Seoul;;;South Korea;13;Solar Inverter;H01L;F05B;Y02E
-pat0340;2010;Solar Inverter;Zurich;;;Switzerland;14;Solar Inverter;H02M;Y02E;Y02B
-pat0083;2010;Solar Mounting/Rack;Albuquerque  NM;NM;NM;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0048;2009;Solar Monitoring;Ocala  FL;FL;FL;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0605;2009;Solar Mounting/Rack;Alameda  CA;USA;USA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0109;2010;Solar Mounting/Rack;Pasadena  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0610;2007;Solar Mounting/Rack;London;;;Great Britain;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0459;2006;Solar Inverter;Bend  OR;OR;OR;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0492;2011;Solar Inverter; Solar Monitoring;San Jose  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0355;2009;Solar Inverter;Austin  TX;TX;TX;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0518;2012;Solar Monitoring;Los Gatos  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0214;2012;Solar Inverter;;Rancocas  NJ;NJ;NJ;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0734;2009;Solar Mounting/Rack;Dulles  VA;USA;USA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0038;2008;Solar Inverter;Bend  OR;OR;OR;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0675;2008;Solar Mounting/Rack;Albuquerque  NM;NM;NM;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0179;2011;Solar Inverter;Westford  MA;MA;MA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0330;2008;Site Assessment;Bolinas  CA;CA;CA;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0429;2012;Solar Inverter;Niestetal;;;Germany;2;Solar Inverter;H02J;Y02E;H02M
-pat0325;2007;Solar Inverter;Raanana  IL;IL;IL;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0568;2009;Solar Monitoring;Zhangzhou  CN;;;CN;8;Solar Inverter;Y02E;H02J;G01R
-pat0264;2012;Solar Inverter;Niestetal;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0660;2012;Solar Mounting/Rack;Valley Forge  PA;PA;PA;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0721;2006;Solar Mounting/Rack;Palo Alto  Ca;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0146;2011;Solar Monitoring;Schenectady  NY;NY;NY;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0681;2010;Solar Mounting/Rack;Stamford  CT;CT;CT;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0007;2005;Solar Mounting/Rack;Perrysburg  OH;OH;OH;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0403;2010;Solar Inverter;Menomonee Falls  WI;WI;WI;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0589;2008;Solar Mounting/Rack;;;;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0542;2009;Solar Monitoring;Minneapolis  MN;MN;MN;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0557;2012;Solar Monitoring;Niestetal;;;Germany;8;Solar Inverter;Y02E;H02J;G01R
-pat0012;2007;Solar Mounting/Rack;Pasadena  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0153;2011;Solar Inverter;Sunnyvale  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0694;2011;Solar Mounting/Rack;Freemont  CA;CA;CA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0580;2011;Solar Monitoring; Solar Inverter;Niestetal;;;Germany;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0184;2011;Solar Inverter;;Petaluma  CA;CA;CA;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0688;2010;Solar Mounting/Rack;Publicly Traded;Solar electronics and power management; inverter manufacturer;Solar electronics and power management; inverter manufacturer;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0643;2011;Solar Mounting/Rack;Tossicia  IT;;;Italy;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0702;2011;Solar Mounting/Rack;Pontiac  MI;MI;MI;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0717;2010;Solar Mounting/Rack;Santa Clara  CA;CA;CA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0656;2009;Solar Mounting/Rack;Warrenville  IL;IL;IL;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0252;2012;Solar Monitoring;Moorpark  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0595;2010;Solar Mounting/Rack;Tarnow;;;Poland;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0313;2012;Site Assessment;Napa  CA;CA;CA;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0574;2010;Solar Monitoring;  Solar Inverter;Milwaukee  WI;WI;WI;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0278;2012;Solar Inverter;Perrysburg  OH;OH;OH;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0435;2011;Solar Inverter;Austin  TX;TX;TX;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0339;2012;Solar Inverter;Zurich;;;Switzerland;8;Solar Inverter;Y02E;H02J;G01R
-pat0031;2008;Solar Inverter;Chicago  IL;IL;IL;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0170;2011;Solar Monitoring;Cupertino  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0669;2010;Solar Mounting/Rack;Midland  MI;USA;USA;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0165;2011;Solar Mounting/Rack;Armonk  NY;NY;NY;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0728;2009;Solar Mounting/Rack;Sunnyvale  CA;CA;CA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0024;2007;Solar Monitoring;Henderson  NV;NV;NV;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0420;2011;Solar Inverter;ALTDORF;;;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0561;2011;Solar Monitoring;San Jose  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0171;2011;Solar Inverter; Solar Monitoring;Fort Collins  CO;CO;CO;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0575;2009;Solar Monitoring;  Solar Inverter;Half Moon Bay  CA;CA;CA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0338;2011;Solar Inverter;Zurich;;;Switzerland;12;Solar Inverter;Y02E;H02J;H02M
-pat0434;2011;Solar Inverter;Austin  TX;TX;TX;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0421;2009;Solar Inverter;Niestetal;;;Germany;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0560;2010;Solar Monitoring;San Diego  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0164;2011;Solar Mounting/Rack;Santa Rose  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0668;2011;Solar Mounting/Rack;Dongguan;;;China;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0729;2011;Solar Mounting/Rack;Menlo Park  CA;CA;CA;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0689;2009;Solar Mounting/Rack;Schenectady  NY;NY;NY;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0642;2011;Solar Mounting/Rack;Mendham  NJ;NJ;NJ;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0185;2011;Solar Inverter;Niestetal;;;Germany;8;Solar Inverter;Y02E;H02J;G01R
-pat0307;2012;Solar Inverter; Solar Monitoring;Osaka-shi;;;Japan;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0581;2010;Solar Monitoring; Solar Inverter;Beit Aharon  IL;;;Israel;0;Solar Inverter;Y02E;H02J;H02M
-pat0594;2007;Solar Mounting/Rack;Los Gatos  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0253;2012;Solar Mounting/Rack;Boston  MA;MA;MA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0298;2012;Solar Monitoring;Troy  OH;OH;OH;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0716;2010;Solar Mounting/Rack;Santa Clara  CA;CA;CA;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0657;2010;Solar Mounting/Rack;Upper Montclair  NJ;NJ;NJ;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0190;2011;Solar Inverter;Santa Clara  CA;CA;CA;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0402;2012;Solar Inverter;Seoul;;;South Korea;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0588;2011;Solar Mounting/Rack;Aholmnig;;;Germany;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0543;2010;Solar Monitoring;Armonk  NY;NY;NY;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0680;2010;Solar Mounting/Rack;Stamford  CT;CT;CT;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0147;2011;Solar Inverter;Fort Collins  CO;CO;CO;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0013;2007;Solar Inverter;Dearborn  MI;MI;MI;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0695;2010;Solar Mounting/Rack;Singapore;;;Singapore;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0152;2011;Solar Inverter;Niskayuna  NY;NY;NY;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0199;2012;Solar Inverter;Fort Collins  CO;CO;CO;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0556;2011;Solar Monitoring;Osaka;N/A;N/A;Japan;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0417;2007;Solar Inverter;Osaka;;;Japan;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0270;2012;Solar Inverter; Solar Mounting/Rack;Austin  TX;TX;TX;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0331;2010;Site Assessment;New York  NY;NY;NY;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0735;2008;Solar Mounting/Rack;Detmold;Germany;Germany;Germany;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0178;2011;Solar Monitoring;Cupertino  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0674;2008;Solar Mounting/Rack;Albuquerque  NM;NM;NM;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0661;2010;Solar Mounting/Rack;Boulder  CA;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0720;2005;Solar Mounting/Rack;Palo Alto  CA;CA;CA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0324;2007;Solar Monitoring;San Mateo  CA;CA;CA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0428;2012;Solar Inverter;Niestetal;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0569;2008;Solar Monitoring;London;N/A;N/A;United Kingdom;0;Solar Inverter;Y02E;H02J;H02M
-pat0082;2010;Solar Mounting/Rack;Warrenville  IL;IL;IL;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0604;2009;Solar Mounting/Rack;Alameda  CA;USA;USA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0341;2010;Solar Inverter;Dresden;;;Germany;0;Solar Inverter;Y02E;H02J;H02M
-pat0354;2009;Solar Inverter;Maple Glen  PA;PA;PA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0458;2006;Solar Inverter;Schenectady  NY;NY;NY;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0493;2007;Solar Inverter; Solar Monitoring;Cupertino  CA;CA;CA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0215;2012;Solar Inverter;Fort Collins  CO;CO;CO;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0519;2012;Solar Monitoring;Gallatin  TN;TN;TN;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0611;2006;Solar Mounting/Rack;Muchamiel;;;Spain;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0097;2010;Solar Mounting/Rack;Hopewell  NJ;NJ;NJ;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0076;2010;Solar Monitoring;Cold Spring  NY;NY;NY;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0472;2010;Solar Inverter;Niestetal;;;Germany;8;Solar Inverter;Y02E;H02J;G01R
-pat0533;2008;Solar Monitoring;Petaluma  CA;CA;CA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0526;2010;Solar Monitoring;Warrenville  IL;IL;IL;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0467;2011;Solar Inverter;Bend  OR;OR;OR;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0377;2010;Solar Inverter;Pettenbach;;;Austria;8;Solar Inverter;Y02E;H02J;G01R
-pat0236;2012;Solar Mounting/Rack;Marango  OH;OH;OH;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0632;2009;Solar Mounting/Rack;Essex  GB;Great Britain;Great Britain;Great Britain;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0627;2010;Solar Mounting/Rack;Brick  NJ;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0223;2012;Site Assessment;Redmond  WA;WA;WA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0362;2010;Solar Inverter;Newtown  Powys;;;Great Britain;14;Solar Inverter;H02M;Y02E;Y02B
-pat0505;2007;Solar Monitoring;Raanana  IL;IL;IL;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0383;2010;Solar Inverter;Schenectady  NY;NY;NY;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0348;2009;Solar Inverter;Devens  MA;MA;MA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0444;2009;Solar Inverter;Mountain View  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0101;2010;Solar Mounting/Rack;Littleton  CO;CO;CO;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0114;2010;Solar Monitoring;Waterford  MI;MI;MI;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0055;2009;Solar Inverter;Niestetal;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0396;2008;Solar Inverter;Colorado Springs  CO;CO;CO;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0451;2010;Solar Inverter;Livermore  CA;CA;CA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0510;2008;Solar Monitoring;Hollsboro  OR;OR;OR;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0537;2010;Solar Monitoring;Schenectady  NY;NY;NY;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0476;2010;Solar Inverter;;Devens  MA;MA;MA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0133;2011;Solar Inverter; Solar Monitoring;Los Gatos  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0463;2007;Solar Inverter;Sarriguren;;;Spain;0;Solar Inverter;Y02E;H02J;H02M
-pat0522;2010;Solar Monitoring;San Jose  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0345;2011;Solar Inverter;Redmond  OR;OR;OR;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0482;2007;Solar Inverter; Solar Monitoring;Menlo Park  CA;CA;CA;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0449;2011;Solar Inverter;Castro Valley  CA;CA;CA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0508;2008;Solar Monitoring;Santa Clara  CA;CA;CA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0600;2010;Solar Mounting/Rack;Saline  MI;MI;MI;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0086;2010;Solar Mounting/Rack;Albuquerque  NM;NM;NM;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0058;2009;Solar Mounting/Rack;San Rafael  CA;CA;CA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0093;2010;Solar Monitoring;El Segundo;CA;CA;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0119;2010;Solar Mounting/Rack;Alameda  CA;CA;CA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0350;2012;Solar Inverter;Fort Collins  CO;CO;CO;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0497;2011;Solar Inverter; Solar Mounting/Rack;Fremont  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0105;2010;Solar Inverter;Wagen;;;Germany;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0609;2007;Solar Mounting/Rack;London;;;Great Britain;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0044;2009;Solar Mounting/Rack;Hoffman Estates  IL;IL;IL;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0387;2011;Solar Inverter;Fremont  CA;CA;CA;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0440;2012;Solar Inverter;Hod Hasharon;;;Israel;12;Solar Inverter;Y02E;H02J;H02M
-pat0501;2007;Solar Monitoring;Den Haag  NL;;;NL;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0218;2012;Solar Mounting/Rack;Mainz;;;Germany;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0514;2009;Solar Monitoring;Haslach;N/A;N/A;Germany;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0359;2011;Solar Inverter;Kwun Tong;;;China;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0392;2011;Solar Inverter;Milpitas  CA;CA;CA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0455;2006;Solar Inverter;Bend  OR;OR;OR;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0051;2009;Site Assessment;Linden  TN;TN;TN;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0110;2010;Solar Mounting/Rack;;Berwyn  PA;PA;PA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0636;2011;Solar Mounting/Rack;Pomona  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0232;2012;Solar Inverter; Solar Monitoring;Wagen;;;Germany;0;Solar Inverter;Y02E;H02J;H02M
-pat0373;2012;Solar Inverter;Petaluma  CA;CA;CA;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0366;2010;Solar Inverter;Hong Kong;;;China;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0623;2010;Solar Mounting/Rack;Colorado Springs  CO;CO;CO;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0585;2012;Solar Monitoring; Solar Inverter;;Osaka;;;Japan;2;Solar Inverter;H02J;Y02E;H02M
-pat0707;2012;Solar Mounting/Rack;Rochester  MI;MI;MI;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0646;2011;Solar Mounting/Rack;Mascoutah  IL;IL;IL;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0181;2011;Solar Inverter;Niskayuna  NY;NY;NY;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0653;2012;Solar Mounting/Rack;;;;;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0698;2011;Solar Mounting/Rack;Schaan;;;Liechtenstein;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0194;2011;Solar Inverter;;Peoria  IL;IL;IL;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0712;2009;Solar Mounting/Rack;Santa Clara  CA;CA;CA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0590;2009;Solar Mounting/Rack;Michigan Center  MI;MI;MI;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0257;2012;Solar Inverter;North Andover MA;MA;MA;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0430;2012;Solar Inverter;Niestetal;;;Germany;0;Solar Inverter;Y02E;H02J;H02M
-pat0571;2011;Solar Monitoring;Maple Glen  PA;PA;PA;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0175;2011;Solar Monitoring;Novato  CA;CA;CA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0679;2009;Solar Mounting/Rack;Robbinsville  NJ;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0034;2008;Solar Mounting/Rack;Saratoga  CA;USA;USA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0738;2008;Solar Mounting/Rack;Tomago;;;Australia;2;Solar Inverter;H02J;Y02E;H02M
-pat0564;2009;Solar Monitoring;Los Gatos  CA;CA;CA;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0425;2011;Solar Inverter;Niestetal;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0670;2011;Solar Mounting/Rack;Hong Kong;;;China;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0731;2011;Solar Mounting/Rack;West Hartford  CT;CT;CT;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0335;2008;Site Assessment;Englewood  CO;CO;CO;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0439;2012;Solar Inverter;Hod Hasharon;;;Israel;2;Solar Inverter;H02J;Y02E;H02M
-pat0578;2009;Solar Monitoring; Solar Inverter;Schenectady  NY;NY;NY;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0261;2012;Solar Inverter;Niestetal;;;Germany;12;Solar Inverter;Y02E;H02J;H02M
-pat0320;2012;Solar Inverter;Perrysburg  OH;OH;OH;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0028;2008;Solar Inverter;Niestetal;;;Germany;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0724;2009;Solar Mounting/Rack;San Jose  CA;USA;USA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0169;2011;Solar Inverter; Solar Monitoring;Schenectady  NY;NY;NY;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0665;2011;Solar Mounting/Rack;Lafayette  CO;CO;CO;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0002;2005;Solar Mounting/Rack;Tucson  AZ;AZ;AZ;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0684;2009;Solar Mounting/Rack;Perrysburg  OH;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0188;2011;Solar Inverter;;Niestetal;;;Germany;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0547;2009;Solar Monitoring;Santa Clara  CA;CA;CA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0406;2010;Solar Inverter;Silver Spring  MD;MD;MD;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0413;2011;Solar Inverter;Kingston  CA;;;Canada;13;Solar Inverter;H01L;F05B;Y02E
-pat0552;2012;Solar Monitoring;Obernburg;N/A;N/A;Germany;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0691;2011;Solar Mounting/Rack;Mountain View  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0017;2007;Solar Monitoring;Oberhaching;;;Germany;8;Solar Inverter;Y02E;H02J;G01R
-pat0546;2011;Solar Monitoring;Santa Clara  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0407;2011;Solar Inverter;New Taipei City;;;Taiwan;14;Solar Inverter;H02M;Y02E;Y02B
-pat0003;2005;Solar Mounting/Rack;Tokyo;;;Japan;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0142;2011;Solar Inverter; Solar Monitoring;Herzelia;;;Israel;14;Solar Inverter;H02M;Y02E;Y02B
-pat0685;2011;Solar Mounting/Rack;Sylvania  OH; Pittstown  NJ;OH;OH;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0157;2011;Solar Inverter; Solar Monitoring;Arezzo;;;Italy;2;Solar Inverter;H02J;Y02E;H02M
-pat0690;2009;Solar Mounting/Rack;Tucson  AZ;AZ;AZ;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0016;2007;Solar Inverter;Hauppauge  NY;NY;NY;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0412;2010;Solar Inverter;Berkeley  CA;CA;CA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0553;2009;Solar Monitoring;Snoqualmie  WA;WA;WA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0598;2011;Solar Mounting/Rack;Saratoga  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0438;2011;Solar Inverter;Austin  TX;TX;TX;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0334;2012;Site Assessment;Salt Lake City  UT;UT;UT;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0579;2010;Solar Monitoring; Solar inverter;Clifton Park  NY;NY;NY;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0671;2011;Solar Mounting/Rack;Buffalo  NY;NY;NY;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0730;2012;Solar Mounting/Rack;San Jose  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0725;2008;Solar Mounting/Rack;Sunnyvale  CA;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0029;2008;Solar Inverter;Niestetal;;;Germany;0;Solar Inverter;Y02E;H02J;H02M
-pat0664;2009;Solar Mounting/Rack;Montebello  VA;VA;VA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0168;2011;Solar Mounting/Rack;Saratoga  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0260;2012;Solar Inverter;Plymouth Meeting  PA;PA;PA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0321;2012;System Monitoring;Agrate Brianza;;;Italy;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0678;2007;Solar Mounting/Rack;LaJolla  CA;CA;CA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0174;2011;Solar Inverter;Herzelia;;;Israel;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0035;2008;Solar Inverter;Niestetal;;;Germany;13;Solar Inverter;H01L;F05B;Y02E
-pat0431;2012;Solar Inverter;Austin  TX;TX;TX;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0570;2011;Solar Monitoring;Linden  CA;CA;CA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0565;2011;Solar Monitoring;Los Gatos  CA;CA;CA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0269;2012;Solar Inverter; Solar Monitoring;Blaine  WA;WA;WA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0424;2011;Solar Inverter;Niestetal;;;Germany;0;Solar Inverter;Y02E;H02J;H02M
-pat0328;2006;Solar Monitoring;Novato  CA;CA;CA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0706;2005;Solar Mounting/Rack;;;;Japan;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0180;2011;Solar Inverter;Niestetal;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0647;2012;Solar Mounting/Rack;Rockaway  NJ;NJ;NJ;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0317;2012;Solar Inverter; Solar Monitoring;Madrid;;;Spain;0;Solar Inverter;Y02E;H02J;H02M
-pat0256;2012;Solar Mounting/Rack;Rochester Hills  MI;MI;MI;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0591;2008;Solar Mounting/Rack;Fort Collins  CO;CO;CO;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0195;2011;Solar Inverter;Lisle  IL;IL;IL;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0652;2012;Solar Mounting/Rack;;;;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0699;2011;Solar Mounting/Rack;Golden  CO;CO;CO;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0713;2010;Solar Mounting/Rack;Santa Clara  CA;CA;CA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0233;2012;Solar Mounting/Rack;Alameda  CA;CA;CA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0372;2011;Solar Inverter;Petaluma  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0637;2011;Solar Mounting/Rack;Ballston Lake  NY;NY;NY;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0622;2010;Solar Mounting/Rack;Colorado Springs  CO;CO;CO;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0367;2012;Solar Inverter;Altdorf;;;Germany;13;Solar Inverter;H01L;F05B;Y02E
-pat0441;2012;Solar Inverter;Hod Hasharon;;;Israel;12;Solar Inverter;Y02E;H02J;H02M
-pat0386;2011;Solar Inverter;Fremont  CA;CA;CA;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0500;2012;Solar Monitoring;Boulder  CO;CO;CO;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0608;2009;Solar Mounting/Rack;Alameda  CA;CA;CA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0104;2010;Solar Mounting/Rack;Los Angeles  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0045;2009;Solar Inverter;Taoyuan;;;Taiwan;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0050;2009;Solar Inverter;Bend  OR;OR;OR;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0515;2009;Solar Monitoring;La Canada  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0219;2012;Solar Inverter;Dresden;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0454;2003;Solar Inverter;Schenectady  NY;NY;NY;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0358;2012;Solar Inverter;Perrysburg  OH;OH;OH;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0393;2009;Solar Inverter;Huntington Beach  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0601;2009;Solar Mounting/Rack;Santa Clara  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0087;2010;Solar Inverter;Bend  OR;OR;OR;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0483;2007;Solar Inverter; Solar Monitoring;San Jose  CA;CA;CA;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0448;2009;Solar Inverter;Los Gatos  CA;CA;CA;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0344;2011;Solar Inverter;Brookings  SD;SD;SD;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0509;2008;Solar Monitoring;Marrickville  AU;;;AU;13;Solar Inverter;H01L;F05B;Y02E
-pat0210;2012;Solar Mounting/Rack;Toms River  NJ;NJ;NJ;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0496;2009;Solar Inverter; Solar Mounting/Rack;Munich;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0351;2011;Solar Inverter;Scottsdale  AZ;AZ;AZ;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0092;2010;Solar Monitoring;San Jose  CA;CA;CA;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0614;2010;Solar Mounting/Rack;Sarasota  FL;FL;FL;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0118;2010;Solar Monitoring;Wilmington  DE;DE;DE;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0536;2008;Solar Monitoring;Schenectady  NY;NY;NY;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0477;2011;Solar Inverter;  Solar Mounting/Rack;Niestetal;;;Germany;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0462;2010;Solar Inverter;Cleveland  OH;OH;OH;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0523;2011;Solar Monitoring;Barntrup;N/A;N/A;Germany;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0127;2011;Solar Mounting/Rack;Saratoga  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0353;2008;Solar Inverter;Taipei City  TW;;;Taiwan;12;Solar Inverter;Y02E;H02J;H02M
-pat0494;2009;Solar Inverter; Solar Mounting/Rack;Westford  MA;MA;MA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0616;2010;Solar Mounting/Rack;Hamilton;;;New Zealand;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0085;2010;Solar Inverter; Solar Monitoring;Champagne IL;IL;IL;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0603;2008;Solar Mounting/Rack;Saint Denis;France;France;France;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0207;2012;Solar Inverter;Taipei  Taiwan;;;Taiwan;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0346;2010;Solar Inverter;Bend  OR;OR;OR;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0481;2009;Solar Inverter; Solar Monitoring;Fort Collins  CO;CO;CO;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0521;2010;Solar Monitoring;San Jose  CA;CA;CA;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0460;2007;Solar Inverter;San Jose  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0064;2009;Solar Monitoring;San Jose  CA;CA;CA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0629;2010;Solar Mounting/Rack;Brick  NJ;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0125;2010;Solar Mounting/Rack;Kensington  MD;MD;MD;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0071;2010;Solar Mounting/Rack;Dallas  TX;TX;TX;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0475;2009;Solar Inverter;;Austin  TX;TX;TX;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0379;2009;Solar Inverter;Schenectady  NY;NY;NY;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0534;2012;Solar Monitoring;Bergen;N/A;N/A;Norway;8;Solar Inverter;Y02E;H02J;G01R
-pat0620;2010;Solar Mounting/Rack;Los Alamitos  CA;USA;USA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0528;2008;Solar Monitoring;Alice Springs  AU;;;AU;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0224;2012;Solar Monitoring;Waterford  MI;MI;MI;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0469;2010;Solar Inverter;Schenectady  NY;NY;NY;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0365;2012;Solar Inverter;Wagen;;;Germany;2;Solar Inverter;H02J;Y02E;H02M
-pat0370;2008;Solar Inverter;Petaluma  CA;CA;CA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0231;2012;Solar Inverter;Niestetal;;;Germany;12;Solar Inverter;Y02E;H02J;H02M
-pat0635;2011;Solar Mounting/Rack;Santa Rosa  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0139;2011;Solar Mounting/Rack;Vaughn;;;Canada;13;Solar Inverter;H01L;F05B;Y02E
-pat0078;2010;Solar Monitoring;Armonk  NY;NY;NY;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0113;2010;Site Assessment;Boulder  CO;CO;CO;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0052;2009;Solar Monitoring;Bergen;N/A;N/A;Norway;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0391;2009;Solar Inverter;Roanoke  VA;VA;VA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0456;2006;Solar Inverter;Bend  OR;OR;OR;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0517;2010;Solar Monitoring;Orinda  CA;CA;CA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0502;2007;Solar Monitoring;Cold Spring  NY;NY;NY;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0384;2010;Solar Inverter;Niskayuna  NY;NY;NY;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0443;2010;Solar Inverter;San Jose  CA;USA;USA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0488;2011;Solar Inverter; Solar Monitoring;Palatine  IL;IL;IL;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0426;2012;Solar Inverter;Niestetal;;;Germany;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0567;2010;Solar Monitoring;Richardson  TX;TX;TX;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0163;2011;Solar Inverter;Sunnyvale  CA;CA;CA;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0176;2011;Solar Inverter;Niskayuna  NY;NY;NY;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0572;2010;Solar Monitoring;Sunnyvale  CA;CA;CA;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0433;2009;Solar Inverter;Austin  TX;TX;TX;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0593;2009;Solar Mounting/Rack;Fort Collins  CO;CO;CO;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0558;2009;Solar Monitoring;Los Gatos  CA;CA;CA;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0254;2012;Solar Inverter;Fort Collins  CO;CO;CO;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0419;2011;Solar Inverter;Nurnberg;;;Germany;8;Solar Inverter;Y02E;H02J;G01R
-pat0711;2007;Solar Mounting/Rack;Santa Clara  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0650;2012;Solar Mounting/Rack;Grass Valley  CA;CA;CA;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0197;2011;Solar Mounting/Rack; Solar Monitoring;Berwyn  PA;PA;PA;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0645;2011;Solar Mounting/Rack;;;;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0149;2011;Solar Inverter;Niestetal;;;Germany;8;Solar Inverter;Y02E;H02J;G01R
-pat0182;2011;Solar Monitoring;San Diego  CA;CA;CA;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0704;2011;Solar Mounting/Rack;Osaka-sh;;;Japan;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0008;2005;Solar Inverter;Tokyo;;;Japan;12;Solar Inverter;Y02E;H02J;H02M
-pat0586;2011;Solar Mounting/ Rack;Schenectady  NY;NY;NY;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0718;2011;Solar Mounting/Rack;Rangsdorf;;;Germany;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0014;2007;Solar Inverter; Solar Monitoring;Tokyo;;;Japan;8;Solar Inverter;Y02E;H02J;G01R
-pat0692;2009;Solar Mounting/Rack;Westford  MA;MA;MA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0659;2011;Solar Mounting/Rack;Hamburg;;;Germany;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0551;2009;Solar Monitoring;Newark  CA;CA;CA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0410;2010;Solar Inverter;Kingston;;;Canada;2;Solar Inverter;H02J;Y02E;H02M
-pat0405;2009;Solar Inverter;Santa Clara  CA;CA;CA;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0544;2012;Solar Monitoring;Dhahran;N/A;N/A;Saudi Arabia;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0248;2012;Solar Inverter; Solar Monitoring;Niskayuna  NY;NY;NY;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0687;2009;Solar Mounting/Rack;Schenectady  NY;NY;NY;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0666;2011;Solar Mounting/Rack;Huntersville  NC;NC;NC;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0727;2008;Solar Mounting/Rack;Los Altos  CA;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0323;2006;Solar Inverter;Victoria  CA;;;CA;8;Solar Inverter;Y02E;H02J;G01R
-pat0262;2012;Solar Inverter;Niestetal;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0277;2012;Solar Monitoring;Holtsville  NY;NY;NY;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0336;2012;Site Assessment;Leganes;N/A;N/A;Spain;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0732;2012;Solar Mounting/Rack;Milpitas  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0673;2011;Solar Mounting/Rack;FUKUOKA;;;Japan;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0322;2012;Solar Inverter;Nurnberg  DE;N/A;N/A;Germany;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0263;2012;Solar Inverter;Plymouth Meeting  PA;PA;PA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0667;2011;Solar Mounting/Rack;Huntersville  NC;NC;NC;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0726;2009;Solar Mounting/Rack;Los Alto Hills  CA;USA;USA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0733;2009;Solar Mounting/Rack;Frankfurt;;;Germany;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0672;2010;Solar Mounting/Rack;Wilmington  DE;DE;DE;USA;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0276;2012;Solar Inverter;Fort Collins  CO;CO;CO;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0337;2010;Solar  Monitoring; Solar Inverter;Moriguchi City;;;Japan;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0550;2009;Solar Monitoring;Hayward  CA;CA;CA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0411;2010;Solar Inverter;Arezzo;;;Italy;13;Solar Inverter;H01L;F05B;Y02E
-pat0015;2007;Solar Monitoring;Tokyo;N/A;N/A;Japan;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0719;2008;Solar Mounting/Rack;Santa Clara;CA;CA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0693;2011;Solar Mounting/Rack;Freemont  CA;CA;CA;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0658;2010;Solar Mounting/Rack;Hamburg;;;Germany;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0686;2009;Solar Mounting/Rack;Leutkirch;;;Germany;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0000;2005;Solar Inverter;Calgary;;;Canada;7;Solar Mounting/Rack;Y02B;H01L;Y02E
-pat0404;2011;Solar Inverter;Cambridge  MA;MA;MA;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0249;2012;Solar Inverter;Niestetal;;;Germany;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0545;2011;Solar Monitoring;Gyeonggi-do;N/A;N/A;South Korea;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0651;2012;Solar Mounting/Rack;Jacksonville  FL;FL;FL;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0255;2012;Solar Monitoring;Pittsford  NY;NY;NY;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0592;2008;Solar Mounting/Rack;Fort Collins  CO;CO;CO;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0559;2012;Solar Monitoring;Pittsford  NY;NY;NY;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0314;2012;Site Assessment;Napa  CA;CA;CA;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0418;2012;Solar Inverter;Boston  MA;MA;MA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0587;2010;Solar Mounting/Rack;Wilimington  DE;DE;DE;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0644;2011;Solar Mounting/Rack;;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0009;2006;Solar Monitoring; Solar Inverter;Jhongli;;;Taiwan;2;Solar Inverter;H02J;Y02E;H02M
-pat0705;2009;Solar Mounting/Rack;Nunawading;Australia;Australia;Australia;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0162;2011;Solar Inverter; Solar Mounting/Rack;Fort Collins  CO;CO;CO;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0427;2012;Solar Inverter;Niestetal;;;Germany;14;Solar Inverter;H02M;Y02E;Y02B
-pat0566;2009;Solar Monitoring;Los Gatos  CA;CA;CA;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0573;2009;Solar Monitoring;Merced  CA;CA;CA;USA;2;Solar Inverter;H02J;Y02E;H02M
-pat0432;2010;Solar Inverter;Austin  TX;TX;TX;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0036;2008;Solar Inverter;Ludenscheid;;;Germany;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0390;2006;Solar Inverter;Sarriguren;;;Spain;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0516;2009;Solar Monitoring;Portland  OR;OR;OR;USA;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0112;2010;Solar Mounting/Rack;Los Gatos  CA;CA;CA;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0098;2010;Solar Mounting/Rack;Richmond  CA;CA;CA;USA;9;Solar Mounting/Rack;Y02E;H01L;F24J
-pat0053;2009;Solar Mounting/Rack;;Albuquerque  NM;NM;NM;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0046;2009;Solar Mounting/Rack;New York  NY;NY;NY;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0107;2010;Solar Monitoring;Taipei Hsien;N/A;N/A;Taiwan;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0503;2007;Solar Monitoring;Carlsbad  CA;CA;CA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0442;2012;Solar Inverter;Bonn;;;Germany;8;Solar Inverter;Y02E;H02J;G01R
-pat0489;2011;Solar Inverter; Solar Monitoring;Niestetal;;;Germany;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0385;2011;Solar Inverter;Fremont  CA;CA;CA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0225;2012;Solar Monitoring; Solar Inverter;Campodarsego;;;Italy;0;Solar Inverter;Y02E;H02J;H02M
-pat0529;2012;Solar Monitoring;Austin  TX;TX;TX;USA;6;Solar Monitoring;G01R;Y04S;Y02B
-pat0364;2011;Solar Inverter;Wangen;;;Germany;2;Solar Inverter;H02J;Y02E;H02M
-pat0468;2011;Solar Inverter;New Castle  CO;CO;CO;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0621;2010;Solar Mounting/Rack;Colorado Springs  CO;CO;CO;USA;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0138;2011;Solar Inverter;;Glen Mills  PA;PA;PA;USA;0;Solar Inverter;Y02E;H02J;H02M
-pat0634;2011;Solar Mounting/Rack;Goodyear  AZ;AZ;AZ;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0371;2010;Solar Inverter;Petaluma  CA;CA;CA;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0230;2012;Site Assessment;Napa  CA;CA;CA;USA;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0628;2010;Solar Mounting/Rack;Brick  NJ;USA;USA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0520;2010;Solar Monitoring;Yokohama;N/A;N/A;Japan;5;Solar Mounting/Rack;Y02E;H01L;Y02B
-pat0461;2010;Solar Inverter;Perrysburg  OH;OH;OH;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0378;2008;Solar Inverter;Schenectady  NY;NY;NY;USA;12;Solar Inverter;Y02E;H02J;H02M
-pat0474;2009;Solar Inverter;;Roanoke  VA;VA;VA;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0535;2008;Solar Monitoring;Schenectady  NY;NY;NY;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0070;2010;Solar Inverter;Niestetal;;;Germany;11;Solar Monitoring;H04Q;Y04S;G01D
-pat0617;2010;Solar Mounting/Rack;Coppell  TX;TX;TX;USA;13;Solar Inverter;H01L;F05B;Y02E
-pat0091;2010;Solar Mounting/Rack;Palo Alto  CA;CA;CA;USA;10;Solar Mounting/Rack;F24J;Y02E;H01L
-pat0495;2010;Solar Inverter; Solar Mounting/Rack;Ludenscheid;;;Germany;12;Solar Inverter;Y02E;H02J;H02M
-pat0399;2012;Solar Inverter;Seoul;;;South Korea;1;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0352;2011;Solar Inverter;New Taipei City;;;Taiwan;3;Solar Mounting/Rack;H01L;Y02E;F24J
-pat0206;2012;Solar Inverter;Boston  MA;MA;MA;USA;14;Solar Inverter;H02M;Y02E;Y02B
-pat0480;2011;Solar Inverter; Solar Monitoring;Redmond  OR;OR;OR;USA;8;Solar Inverter;Y02E;H02J;G01R
-pat0347;2011;Solar Inverter;Baden;;;Switzerland;2;Solar Inverter;H02J;Y02E;H02M
-pat0084;2010;Solar Monitoring;Stafford  TX;TX;TX;USA;4;Solar Monitoring;H02J;Y02B;Y02E
-pat0602;2007;Solar Mounting/Rack;San Diego  CA;CA;CA;USA;3;Solar Mounting/Rack;H01L;Y02E;F24J
+PatId	Year	OrigTechArea	city	state	state	country	topicId	ourTechArea	ourCPCnum1	ourCPCnum2	ourCPCnum3
+pat0360	2011	Solar Inverter	Ottawa			Canada	2	Solar Inverter	H02J	Y02E	H02M
+pat0221	2012	Solar Inverter	Niestetal			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0538	2011	Solar Monitoring	Schenectady  NY	NY	NY	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0375	2010	Solar Inverter	Narragansett  RI	RI	RI	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0479	2011	Solar Inverter- Solar Monitoring	Bend  OR	OR	OR	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0630	2010	Solar Mounting/Rack	Brick  NJ	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0057	2009	Solar Mounting/Rack-	Sharon Center  OH	OH	OH	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0116	2010	Solar Inverter	Fort Collins  CO	CO	CO	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0512	2008	Solar Monitoring	Denver  CO	CO	CO	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0453	2011	Solar Inverter	Livermore  CA	CA	CA	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0394	2003	Solar Inverter	Eindhoven			Netherlands	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0446	2011	Solar Inverter	Dallas  TX	TX	TX	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0381	2009	Solar Inverter	Roanoke  VA	VA	VA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0507	2008	Solar Monitoring	Hempstead  NY	NY	NY	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0042	2008	Solar Inverter	Niskayuna  NY	NY	NY	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0089	2010	Solar Inverter	Fort Collins  CO	CO	CO	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0491	2011	Solar Inverter- Solar Monitoring	Freiberg			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0356	2011	Solar Inverter	Pittsboro  NC	NC	NC	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0613	2009	Solar Mounting/Rack	Morgan Hill  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0606	2009	Solar Mounting/Rack	Alameda  CA	USA	USA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0080	2010	Solar Inverter- Solar Monitoring	Bend  OR	OR	OR	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0484	2010	Solar Inverter- Solar Monitoring	Marchtrenk			Austria	12	Solar Inverter	Y02E	H02J	H02M
+pat0343	2008	Solar Inverter	Fort Collins  CO	CO	CO	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0388	2011	Solar Inverter	Sharon  CA	CA	CA	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0369	2007	Solar Inverter	Petaluma  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0465	2011	Solar Inverter	Westford  MA	MA	MA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0228	2012	Solar Inverter- Solar Monitoring	Palatine  IL	IL	IL	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0524	2012	Solar Monitoring	Chargin Falls  OH	OH	OH	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0120	2010	Solar Mounting/Rack	Alameda  CA	CA	CA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0061	2009	Solar Inverter- Solar Monitoring	Santa Clara  CA	CA	CA	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0074	2010	Solar Mounting/Rack	Antioch  CA	CA	CA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0135	2011	Solar Mounting/Rack	Aloha  OR	OR	OR	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0639	2011	Solar Mounting/Rack	Mendham  NJ	NJ	NJ	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0531	2009	Solar Monitoring	Albuquerque  NM	NM	NM	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0470	2010	Solar Inverter	Schenectady  NY	NY	NY	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0697	2008	Solar Mounting/Rack	Schwedt			Germany	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0415	2010	Solar Inverter	Stuttgart			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0258	2012	Solar Inverter- Solar Mounting/Rack	Austin  TX	TX	TX	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0554	2012	Solar Monitoring	Osaka	N/A	N/A	Japan	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0541	2010	Solar Monitoring	Scottsdale  AZ	AZ	AZ	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0400	2012	Solar Inverter	Seoul			South Korea	2	Solar Inverter	H02J	Y02E	H02M
+pat0004	2005	Solar Inverter	Dearborn  MI	MI	MI	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0708	2011	Solar Mounting/Rack	San Luis Obispo  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0649	2012	Solar Mounting/Rack	Colorado Springs  CO	CO	CO	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0682	2011	Solar Mounting/Rack	Brick  NJ	NJ	NJ	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0722	2008	Solar Mounting/Rack	Los Altos  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0663	2012	Solar Mounting/Rack	Philadelphia  PA	PA	PA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0267	2012	Solar Inverter	Petaluma  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0326	2007	Solar Inverter	Columbia  SC	SC	SC	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0333	2011	Site Assessment	Bolinas  CA	CA	CA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0272	2012	Solar Inverter	Schenectady  NY	NY	NY	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0676	2010	Solar Mounting/Rack	Poway  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0737	2007	Solar Mounting/Rack	Berkeley  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0562	2012	Solar Monitoring	Freising	N/A	N/A	Germany	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0423	2009	Solar Inverter	Niestetal			Germany	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0027	2008	Solar Monitoring	Mineola  NY	NY	NY	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0166	2011	Solar Inverter- Solar Monitoring	New Castle  CO	CO	CO	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0173	2011	Solar Monitoring	San Jose  CA	CA	CA	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0032	2008	Solar Monitoring	Taipei Hsien	N/A	N/A	Taiwan	12	Solar Inverter	Y02E	H02J	H02M
+pat0436	2011	Solar Inverter	Austin  TX	TX	TX	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0577	2008	Solar Monitoring- Solar Inverter	Schenectady  NY	NY	NY	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0596	2011	Solar Mounting/Rack	Richmond  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0159	2011	Solar Inverter- Solar Monitoring	Bend  OR	OR	OR	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0655	2012	Solar Mounting/Rack	Suffern  NY	NY	NY	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0018	2007	Solar Inverter	Dearborn  MI	MI	MI	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0714	2010	Solar Mounting/Rack	Santa Clara  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0701	2011	Solar Mounting/Rack	Pontiac  MI	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0187	2011	Solar Inverter- Solar Monitoring	Ravensburg			Germany	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0640	2011	Solar Mounting/Rack	Eagan  MN	MN	MN	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0244	2012	Solar Inverter	Fisciano			Italy	2	Solar Inverter	H02J	Y02E	H02M
+pat0548	2009	Solar Monitoring	Tokyo	N/A	N/A	Japan	14	Solar Inverter	H02M	Y02E	Y02B
+pat0583	2009	Solar Monitoring- Solar Inverter	Los Gatos  CA	CA	CA	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0409	2012	Solar Inverter	Hayward  CA	CA	CA	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0654	2012	Solar Mounting/Rack	Nederland  CO	CO	CO	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0193	2011	Solar Monitoring	Cambridgeshire  GB			GB	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0715	2010	Solar Mounting/Rack	Santa Clara  CA	CA	CA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0019	2007	Solar Mounting/Rack	Albuquerque  NM	NM	NM	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0597	2011	Solar Mounting/Rack	Wallingford  CT	CT	CT	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0549	2010	Solar Monitoring	Alexandria  VA	VA	VA	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0582	2011	Solar Monitoring- Solar Inverter	Beit Aharon			Israel	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0408	2008	Solar Inverter	Hayward  CA	CA	CA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0700	2010	Solar Mounting/Rack	Armonk  NY	NY	NY	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0641	2011	Solar Mounting/Rack	Athens  OH	OH	OH	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0186	2011	Solar Inverter	Niestetal			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0026	2008	Solar Monitoring	Warrenville  IL	IL	IL	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0167	2011	Solar Inverter	Petaluma  CA	CA	CA	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0563	2011	Solar Monitoring	Dallas  TX	TX	TX	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0422	2009	Solar Inverter	Niestetal			Germany	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0437	2011	Solar Inverter	Austin  TX	TX	TX	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0576	2011	Solar Monitoring- Solar Inverter	Cary  NC	NC	NC	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0172	2011	Solar Inverter- Solar Monitoring	Herzelia			Israel	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0033	2008	Solar Inverter	Bend  OR	OR	OR	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0327	2009	Solar Inverter	Washington  DC	DC	DC	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0723	2008	Solar Mounting/Rack	Los Altos  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0662	2011	Solar Mounting/Rack	Boulder  CO	CO	CO	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0677	2009	Solar Mounting/Rack	Jacksonville  FL	FL	FL	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0736	2008	Solar Mounting/Rack	Milan	Italy	Italy	Italy	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0332	2010	Site Assessment	Surrey  CA	CA	CA	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0273	2012	Solar Inverter	Schenectady  NY	NY	NY	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0414	2012	Solar Inverter	Webster  NY	NY	NY	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0318	2009	Solar Inverter	Cleveland  OH	OH	OH	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0555	2010	Solar Monitoring	Palatine  IL	IL	IL	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0259	2012	Solar Mounting/Rack	Kolitzheim			Germany	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0696	2007	Solar Mounting/Rack	Schwedt			Germany	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0151	2011	Solar Inverter	Sunnyvale  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0010	2006	Solar Inverter	Tokyo			Japan	8	Solar Inverter	Y02E	H02J	G01R
+pat0709	2009	Solar Mounting/Rack	Dana Point  CA	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0005	2005	Solar Inverter	Columbia  MD	MD	MD	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0648	2012	Solar Mounting/Rack	San Rafael  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0683	2012	Solar Mounting/Rack	Perrysburg  OH	OH	OH	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0144	2011	Solar Inverter	Bend  OR	OR	OR	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0540	2012	Solar Monitoring	Freemont  CA	CA	CA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0401	2012	Solar Inverter	Seoul			South Korea	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0121	2010	Solar Monitoring	Milpitas  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0060	2009	Solar Inverter	Fort Collins  CO	CO	CO	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0464	2011	Solar Inverter	Metzingen			Germany	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0525	2012	Solar Monitoring	Austin  TX	TX	TX	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0229	2012	Site Assessment	Napa  CA	CA	CA	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0530	2008	Solar Monitoring	Phoenix  AZ	AZ	AZ	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0471	2006	Solar Inverter	Changwon			Taiwan	2	Solar Inverter	H02J	Y02E	H02M
+pat0134	2011	Solar Inverter	Sunnyvale  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0094	2010	Solar Monitoring	Stafford  TX	TX	TX	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0612	2008	Solar Mounting/Rack	Hampton  VA	VA	VA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0357	2011	Solar Inverter	Pontedera			Italy	0	Solar Inverter	Y02E	H02J	H02M
+pat0490	2011	Solar Inverter- Solar Monitoring	Hod Hasharon			Israel	14	Solar Inverter	H02M	Y02E	Y02B
+pat0342	2012	Solar Inverter	Dresden			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0389	2010	Solar Inverter	Hsinchu			Taiwan	12	Solar Inverter	Y02E	H02J	H02M
+pat0485	2010	Solar Inverter- Solar Monitoring	Milpitas  CA	CA	CA	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0203	2012	Solar Mounting/Rack	Mascoutah  IL	IL	IL	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0607	2009	Solar Mounting/Rack	Alameda  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0081	2010	Solar Mounting/Rack	Cold Spring  NY	NY	NY	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0513	2009	Solar Monitoring	Kelkheim  DE			DE	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0395	2010	Solar Inverter	Ludenscheid			Germany	12	Solar Inverter	Y02E	H02J	H02M
+pat0499	2012	Solar Monitoring	Richmond  CA	CA	CA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0452	2011	Solar Inverter	Livermore  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0102	2010	Solar Monitoring	Niestetal			Germany	8	Solar Inverter	Y02E	H02J	G01R
+pat0043	2008	Solar Inverter	Niestetal			Germany	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0088	2010	Solar Inverter	Petaluma  CA	CA	CA	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0380	2009	Solar Inverter	Roanoke  VA	VA	VA	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0447	2010	Solar Inverter	Boulder  CO	CO	CO	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0506	2008	Solar Monitoring	New Port Richey  FL	FL	FL	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0361	2005	Solar Inverter	Hamburg			Germany	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0220	2012	Solar Monitoring- Solar Inverter	Albuquerque  NM	NM	NM	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0624	2010	Solar Mounting/Rack	Providence  RI	RI	RI	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0128	2011	Solar Mounting/Rack	Osaka-shi			Japan	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0069	2010	Solar Inverter	Wagen			Germany	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0631	2010	Solar Mounting/Rack	Boston  MA	MA	MA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0539	2011	Solar Monitoring	Los Gatos  CA	CA	CA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0235	2012	Solar Monitoring	Schenectady  NY	NY	NY	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0478	2011	Solar Inverter- Solar Monitoring	Dimbach			Germany	2	Solar Inverter	H02J	Y02E	H02M
+pat0374	2012	Solar Inverter	Petaluma  CA	CA	CA	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0100	2010	Solar Monitoring	Richardson  TX	TX	TX	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0504	2007	Solar Monitoring	Puslinch  CA	CA	CA	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0208	2012	Solar Monitoring	Ben Lomond  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0445	2011	Solar Inverter	San Jose  CA	CA	CA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0382	2010	Solar Inverter	Schenectady  NY	NY	NY	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0349	2011	Solar Inverter	Fort Collins  CO	CO	CO	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0450	2007	Solar Inverter	Livermore  CA	CA	CA	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0397	2008	Solar Inverter	Colorado Springs  CO	CO	CO	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0511	2008	Solar Monitoring	Hroznetin  CZ; Austin  TX	TX	TX	USA; CZ	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0619	2010	Solar Mounting/Rack	Town And Country  MO	USA	USA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0633	2011	Solar Mounting/Rack	Westport  CT	CT	CT	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0376	2010	Solar Inverter	Narragansett  RI	RI	RI	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0222	2012	Solar Mounting/Rack- Solar Monitoring	Durham  NC	NC	NC	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0363	2011	Solar Inverter	TAOYUAN HSIEN			Taiwan	12	Solar Inverter	Y02E	H02J	H02M
+pat0626	2010	Solar Mounting/Rack	Stamford  CT	CT	CT	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0473	2011	Solar Inverter	Austin  TX	TX	TX	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0532	2012	Solar Monitoring	Cambridge  GB	N/A	N/A	Great Britain	8	Solar Inverter	Y02E	H02J	G01R
+pat0136	2011	Solar Mounting/Rack	Richmond  CA	WA	WA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0077	2010	Solar Inverter	Fort Collins  CO	CO	CO	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0062	2009	Solar Inverter- Solar Mounting/Rack	Fort Collins  CO	CO	CO	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0123	2010	Solar Inverter	Petaluma  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0527	2011	Solar Monitoring	Belo Horizonte	N/A	N/A	Brazil	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0466	2011	Solar Inverter	Cambridge			United Kingdom	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0201	2012	Solar Inverter	Niestetal			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0487	2012	Solar Inverter- Solar Monitoring	Seoul			South Korea	13	Solar Inverter	H01L	F05B	Y02E
+pat0340	2010	Solar Inverter	Zurich			Switzerland	14	Solar Inverter	H02M	Y02E	Y02B
+pat0083	2010	Solar Mounting/Rack	Albuquerque  NM	NM	NM	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0048	2009	Solar Monitoring	Ocala  FL	FL	FL	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0605	2009	Solar Mounting/Rack	Alameda  CA	USA	USA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0109	2010	Solar Mounting/Rack	Pasadena  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0610	2007	Solar Mounting/Rack	London			Great Britain	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0459	2006	Solar Inverter	Bend  OR	OR	OR	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0492	2011	Solar Inverter- Solar Monitoring	San Jose  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0355	2009	Solar Inverter	Austin  TX	TX	TX	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0518	2012	Solar Monitoring	Los Gatos  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0214	2012	Solar Inverter-	Rancocas  NJ	NJ	NJ	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0734	2009	Solar Mounting/Rack	Dulles  VA	USA	USA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0038	2008	Solar Inverter	Bend  OR	OR	OR	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0675	2008	Solar Mounting/Rack	Albuquerque  NM	NM	NM	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0179	2011	Solar Inverter	Westford  MA	MA	MA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0330	2008	Site Assessment	Bolinas  CA	CA	CA	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0429	2012	Solar Inverter	Niestetal			Germany	2	Solar Inverter	H02J	Y02E	H02M
+pat0325	2007	Solar Inverter	Raanana  IL	IL	IL	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0568	2009	Solar Monitoring	Zhangzhou  CN			CN	8	Solar Inverter	Y02E	H02J	G01R
+pat0264	2012	Solar Inverter	Niestetal			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0660	2012	Solar Mounting/Rack	Valley Forge  PA	PA	PA	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0721	2006	Solar Mounting/Rack	Palo Alto  Ca	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0146	2011	Solar Monitoring	Schenectady  NY	NY	NY	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0681	2010	Solar Mounting/Rack	Stamford  CT	CT	CT	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0007	2005	Solar Mounting/Rack	Perrysburg  OH	OH	OH	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0403	2010	Solar Inverter	Menomonee Falls  WI	WI	WI	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0589	2008	Solar Mounting/Rack				USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0542	2009	Solar Monitoring	Minneapolis  MN	MN	MN	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0557	2012	Solar Monitoring	Niestetal			Germany	8	Solar Inverter	Y02E	H02J	G01R
+pat0012	2007	Solar Mounting/Rack	Pasadena  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0153	2011	Solar Inverter	Sunnyvale  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0694	2011	Solar Mounting/Rack	Freemont  CA	CA	CA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0580	2011	Solar Monitoring- Solar Inverter	Niestetal			Germany	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0184	2011	Solar Inverter-	Petaluma  CA	CA	CA	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0688	2010	Solar Mounting/Rack	Publicly Traded	Solar electronics and power management; inverter manufacturer	Solar electronics and power management; inverter manufacturer	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0643	2011	Solar Mounting/Rack	Tossicia  IT			Italy	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0702	2011	Solar Mounting/Rack	Pontiac  MI	MI	MI	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0717	2010	Solar Mounting/Rack	Santa Clara  CA	CA	CA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0656	2009	Solar Mounting/Rack	Warrenville  IL	IL	IL	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0252	2012	Solar Monitoring	Moorpark  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0595	2010	Solar Mounting/Rack	Tarnow			Poland	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0313	2012	Site Assessment	Napa  CA	CA	CA	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0574	2010	Solar Monitoring-  Solar Inverter	Milwaukee  WI	WI	WI	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0278	2012	Solar Inverter	Perrysburg  OH	OH	OH	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0435	2011	Solar Inverter	Austin  TX	TX	TX	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0339	2012	Solar Inverter	Zurich			Switzerland	8	Solar Inverter	Y02E	H02J	G01R
+pat0031	2008	Solar Inverter	Chicago  IL	IL	IL	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0170	2011	Solar Monitoring	Cupertino  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0669	2010	Solar Mounting/Rack	Midland  MI	USA	USA	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0165	2011	Solar Mounting/Rack	Armonk  NY	NY	NY	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0728	2009	Solar Mounting/Rack	Sunnyvale  CA	CA	CA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0024	2007	Solar Monitoring	Henderson  NV	NV	NV	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0420	2011	Solar Inverter	ALTDORF			USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0561	2011	Solar Monitoring	San Jose  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0171	2011	Solar Inverter- Solar Monitoring	Fort Collins  CO	CO	CO	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0575	2009	Solar Monitoring-  Solar Inverter	Half Moon Bay  CA	CA	CA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0338	2011	Solar Inverter	Zurich			Switzerland	12	Solar Inverter	Y02E	H02J	H02M
+pat0434	2011	Solar Inverter	Austin  TX	TX	TX	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0421	2009	Solar Inverter	Niestetal			Germany	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0560	2010	Solar Monitoring	San Diego  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0164	2011	Solar Mounting/Rack	Santa Rose  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0668	2011	Solar Mounting/Rack	Dongguan			China	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0729	2011	Solar Mounting/Rack	Menlo Park  CA	CA	CA	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0689	2009	Solar Mounting/Rack	Schenectady  NY	NY	NY	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0642	2011	Solar Mounting/Rack	Mendham  NJ	NJ	NJ	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0185	2011	Solar Inverter	Niestetal			Germany	8	Solar Inverter	Y02E	H02J	G01R
+pat0307	2012	Solar Inverter- Solar Monitoring	Osaka-shi			Japan	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0581	2010	Solar Monitoring- Solar Inverter	Beit Aharon  IL			Israel	0	Solar Inverter	Y02E	H02J	H02M
+pat0594	2007	Solar Mounting/Rack	Los Gatos  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0253	2012	Solar Mounting/Rack	Boston  MA	MA	MA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0298	2012	Solar Monitoring	Troy  OH	OH	OH	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0716	2010	Solar Mounting/Rack	Santa Clara  CA	CA	CA	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0657	2010	Solar Mounting/Rack	Upper Montclair  NJ	NJ	NJ	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0190	2011	Solar Inverter	Santa Clara  CA	CA	CA	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0402	2012	Solar Inverter	Seoul			South Korea	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0588	2011	Solar Mounting/Rack	Aholmnig			Germany	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0543	2010	Solar Monitoring	Armonk  NY	NY	NY	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0680	2010	Solar Mounting/Rack	Stamford  CT	CT	CT	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0147	2011	Solar Inverter	Fort Collins  CO	CO	CO	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0013	2007	Solar Inverter	Dearborn  MI	MI	MI	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0695	2010	Solar Mounting/Rack	Singapore			Singapore	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0152	2011	Solar Inverter	Niskayuna  NY	NY	NY	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0199	2012	Solar Inverter	Fort Collins  CO	CO	CO	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0556	2011	Solar Monitoring	Osaka	N/A	N/A	Japan	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0417	2007	Solar Inverter	Osaka			Japan	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0270	2012	Solar Inverter- Solar Mounting/Rack	Austin  TX	TX	TX	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0331	2010	Site Assessment	New York  NY	NY	NY	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0735	2008	Solar Mounting/Rack	Detmold	Germany	Germany	Germany	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0178	2011	Solar Monitoring	Cupertino  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0674	2008	Solar Mounting/Rack	Albuquerque  NM	NM	NM	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0661	2010	Solar Mounting/Rack	Boulder  CA	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0720	2005	Solar Mounting/Rack	Palo Alto  CA	CA	CA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0324	2007	Solar Monitoring	San Mateo  CA	CA	CA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0428	2012	Solar Inverter	Niestetal			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0569	2008	Solar Monitoring	London	N/A	N/A	United Kingdom	0	Solar Inverter	Y02E	H02J	H02M
+pat0082	2010	Solar Mounting/Rack	Warrenville  IL	IL	IL	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0604	2009	Solar Mounting/Rack	Alameda  CA	USA	USA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0341	2010	Solar Inverter	Dresden			Germany	0	Solar Inverter	Y02E	H02J	H02M
+pat0354	2009	Solar Inverter	Maple Glen  PA	PA	PA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0458	2006	Solar Inverter	Schenectady  NY	NY	NY	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0493	2007	Solar Inverter- Solar Monitoring	Cupertino  CA	CA	CA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0215	2012	Solar Inverter	Fort Collins  CO	CO	CO	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0519	2012	Solar Monitoring	Gallatin  TN	TN	TN	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0611	2006	Solar Mounting/Rack	Muchamiel			Spain	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0097	2010	Solar Mounting/Rack	Hopewell  NJ	NJ	NJ	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0076	2010	Solar Monitoring	Cold Spring  NY	NY	NY	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0472	2010	Solar Inverter	Niestetal			Germany	8	Solar Inverter	Y02E	H02J	G01R
+pat0533	2008	Solar Monitoring	Petaluma  CA	CA	CA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0526	2010	Solar Monitoring	Warrenville  IL	IL	IL	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0467	2011	Solar Inverter	Bend  OR	OR	OR	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0377	2010	Solar Inverter	Pettenbach			Austria	8	Solar Inverter	Y02E	H02J	G01R
+pat0236	2012	Solar Mounting/Rack	Marango  OH	OH	OH	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0632	2009	Solar Mounting/Rack	Essex  GB	Great Britain	Great Britain	Great Britain	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0627	2010	Solar Mounting/Rack	Brick  NJ	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0223	2012	Site Assessment	Redmond  WA	WA	WA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0362	2010	Solar Inverter	Newtown  Powys			Great Britain	14	Solar Inverter	H02M	Y02E	Y02B
+pat0505	2007	Solar Monitoring	Raanana  IL	IL	IL	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0383	2010	Solar Inverter	Schenectady  NY	NY	NY	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0348	2009	Solar Inverter	Devens  MA	MA	MA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0444	2009	Solar Inverter	Mountain View  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0101	2010	Solar Mounting/Rack	Littleton  CO	CO	CO	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0114	2010	Solar Monitoring	Waterford  MI	MI	MI	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0055	2009	Solar Inverter	Niestetal			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0396	2008	Solar Inverter	Colorado Springs  CO	CO	CO	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0451	2010	Solar Inverter	Livermore  CA	CA	CA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0510	2008	Solar Monitoring	Hollsboro  OR	OR	OR	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0537	2010	Solar Monitoring	Schenectady  NY	NY	NY	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0476	2010	Solar Inverter-	Devens  MA	MA	MA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0133	2011	Solar Inverter- Solar Monitoring	Los Gatos  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0463	2007	Solar Inverter	Sarriguren			Spain	0	Solar Inverter	Y02E	H02J	H02M
+pat0522	2010	Solar Monitoring	San Jose  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0345	2011	Solar Inverter	Redmond  OR	OR	OR	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0482	2007	Solar Inverter- Solar Monitoring	Menlo Park  CA	CA	CA	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0449	2011	Solar Inverter	Castro Valley  CA	CA	CA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0508	2008	Solar Monitoring	Santa Clara  CA	CA	CA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0600	2010	Solar Mounting/Rack	Saline  MI	MI	MI	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0086	2010	Solar Mounting/Rack	Albuquerque  NM	NM	NM	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0058	2009	Solar Mounting/Rack	San Rafael  CA	CA	CA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0093	2010	Solar Monitoring	El Segundo	CA	CA	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0119	2010	Solar Mounting/Rack	Alameda  CA	CA	CA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0350	2012	Solar Inverter	Fort Collins  CO	CO	CO	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0497	2011	Solar Inverter- Solar Mounting/Rack	Fremont  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0105	2010	Solar Inverter	Wagen			Germany	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0609	2007	Solar Mounting/Rack	London			Great Britain	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0044	2009	Solar Mounting/Rack	Hoffman Estates  IL	IL	IL	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0387	2011	Solar Inverter	Fremont  CA	CA	CA	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0440	2012	Solar Inverter	Hod Hasharon			Israel	12	Solar Inverter	Y02E	H02J	H02M
+pat0501	2007	Solar Monitoring	Den Haag  NL			NL	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0218	2012	Solar Mounting/Rack	Mainz			Germany	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0514	2009	Solar Monitoring	Haslach	N/A	N/A	Germany	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0359	2011	Solar Inverter	Kwun Tong			China	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0392	2011	Solar Inverter	Milpitas  CA	CA	CA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0455	2006	Solar Inverter	Bend  OR	OR	OR	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0051	2009	Site Assessment	Linden  TN	TN	TN	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0110	2010	Solar Mounting/Rack-	Berwyn  PA	PA	PA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0636	2011	Solar Mounting/Rack	Pomona  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0232	2012	Solar Inverter- Solar Monitoring	Wagen			Germany	0	Solar Inverter	Y02E	H02J	H02M
+pat0373	2012	Solar Inverter	Petaluma  CA	CA	CA	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0366	2010	Solar Inverter	Hong Kong			China	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0623	2010	Solar Mounting/Rack	Colorado Springs  CO	CO	CO	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0585	2012	Solar Monitoring- Solar Inverter-	Osaka			Japan	2	Solar Inverter	H02J	Y02E	H02M
+pat0707	2012	Solar Mounting/Rack	Rochester  MI	MI	MI	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0646	2011	Solar Mounting/Rack	Mascoutah  IL	IL	IL	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0181	2011	Solar Inverter	Niskayuna  NY	NY	NY	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0653	2012	Solar Mounting/Rack					1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0698	2011	Solar Mounting/Rack	Schaan			Liechtenstein	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0194	2011	Solar Inverter-	Peoria  IL	IL	IL	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0712	2009	Solar Mounting/Rack	Santa Clara  CA	CA	CA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0590	2009	Solar Mounting/Rack	Michigan Center  MI	MI	MI	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0257	2012	Solar Inverter	North Andover MA	MA	MA	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0430	2012	Solar Inverter	Niestetal			Germany	0	Solar Inverter	Y02E	H02J	H02M
+pat0571	2011	Solar Monitoring	Maple Glen  PA	PA	PA	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0175	2011	Solar Monitoring	Novato  CA	CA	CA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0679	2009	Solar Mounting/Rack	Robbinsville  NJ	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0034	2008	Solar Mounting/Rack	Saratoga  CA	USA	USA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0738	2008	Solar Mounting/Rack	Tomago			Australia	2	Solar Inverter	H02J	Y02E	H02M
+pat0564	2009	Solar Monitoring	Los Gatos  CA	CA	CA	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0425	2011	Solar Inverter	Niestetal			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0670	2011	Solar Mounting/Rack	Hong Kong			China	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0731	2011	Solar Mounting/Rack	West Hartford  CT	CT	CT	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0335	2008	Site Assessment	Englewood  CO	CO	CO	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0439	2012	Solar Inverter	Hod Hasharon			Israel	2	Solar Inverter	H02J	Y02E	H02M
+pat0578	2009	Solar Monitoring- Solar Inverter	Schenectady  NY	NY	NY	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0261	2012	Solar Inverter	Niestetal			Germany	12	Solar Inverter	Y02E	H02J	H02M
+pat0320	2012	Solar Inverter	Perrysburg  OH	OH	OH	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0028	2008	Solar Inverter	Niestetal			Germany	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0724	2009	Solar Mounting/Rack	San Jose  CA	USA	USA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0169	2011	Solar Inverter- Solar Monitoring	Schenectady  NY	NY	NY	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0665	2011	Solar Mounting/Rack	Lafayette  CO	CO	CO	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0002	2005	Solar Mounting/Rack	Tucson  AZ	AZ	AZ	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0684	2009	Solar Mounting/Rack	Perrysburg  OH	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0188	2011	Solar Inverter-	Niestetal			Germany	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0547	2009	Solar Monitoring	Santa Clara  CA	CA	CA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0406	2010	Solar Inverter	Silver Spring  MD	MD	MD	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0413	2011	Solar Inverter	Kingston  CA			Canada	13	Solar Inverter	H01L	F05B	Y02E
+pat0552	2012	Solar Monitoring	Obernburg	N/A	N/A	Germany	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0691	2011	Solar Mounting/Rack	Mountain View  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0017	2007	Solar Monitoring	Oberhaching			Germany	8	Solar Inverter	Y02E	H02J	G01R
+pat0546	2011	Solar Monitoring	Santa Clara  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0407	2011	Solar Inverter	New Taipei City			Taiwan	14	Solar Inverter	H02M	Y02E	Y02B
+pat0003	2005	Solar Mounting/Rack	Tokyo			Japan	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0142	2011	Solar Inverter- Solar Monitoring	Herzelia			Israel	14	Solar Inverter	H02M	Y02E	Y02B
+pat0685	2011	Solar Mounting/Rack	Sylvania  OH; Pittstown  NJ	OH	OH	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0157	2011	Solar Inverter- Solar Monitoring	Arezzo			Italy	2	Solar Inverter	H02J	Y02E	H02M
+pat0690	2009	Solar Mounting/Rack	Tucson  AZ	AZ	AZ	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0016	2007	Solar Inverter	Hauppauge  NY	NY	NY	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0412	2010	Solar Inverter	Berkeley  CA	CA	CA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0553	2009	Solar Monitoring	Snoqualmie  WA	WA	WA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0598	2011	Solar Mounting/Rack	Saratoga  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0438	2011	Solar Inverter	Austin  TX	TX	TX	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0334	2012	Site Assessment	Salt Lake City  UT	UT	UT	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0579	2010	Solar Monitoring- Solar inverter	Clifton Park  NY	NY	NY	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0671	2011	Solar Mounting/Rack	Buffalo  NY	NY	NY	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0730	2012	Solar Mounting/Rack	San Jose  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0725	2008	Solar Mounting/Rack	Sunnyvale  CA	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0029	2008	Solar Inverter	Niestetal			Germany	0	Solar Inverter	Y02E	H02J	H02M
+pat0664	2009	Solar Mounting/Rack	Montebello  VA	VA	VA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0168	2011	Solar Mounting/Rack	Saratoga  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0260	2012	Solar Inverter	Plymouth Meeting  PA	PA	PA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0321	2012	System Monitoring	Agrate Brianza			Italy	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0678	2007	Solar Mounting/Rack	LaJolla  CA	CA	CA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0174	2011	Solar Inverter	Herzelia			Israel	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0035	2008	Solar Inverter	Niestetal			Germany	13	Solar Inverter	H01L	F05B	Y02E
+pat0431	2012	Solar Inverter	Austin  TX	TX	TX	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0570	2011	Solar Monitoring	Linden  CA	CA	CA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0565	2011	Solar Monitoring	Los Gatos  CA	CA	CA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0269	2012	Solar Inverter- Solar Monitoring	Blaine  WA	WA	WA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0424	2011	Solar Inverter	Niestetal			Germany	0	Solar Inverter	Y02E	H02J	H02M
+pat0328	2006	Solar Monitoring	Novato  CA	CA	CA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0706	2005	Solar Mounting/Rack				Japan	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0180	2011	Solar Inverter	Niestetal			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0647	2012	Solar Mounting/Rack	Rockaway  NJ	NJ	NJ	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0317	2012	Solar Inverter- Solar Monitoring	Madrid			Spain	0	Solar Inverter	Y02E	H02J	H02M
+pat0256	2012	Solar Mounting/Rack	Rochester Hills  MI	MI	MI	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0591	2008	Solar Mounting/Rack	Fort Collins  CO	CO	CO	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0195	2011	Solar Inverter	Lisle  IL	IL	IL	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0652	2012	Solar Mounting/Rack				USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0699	2011	Solar Mounting/Rack	Golden  CO	CO	CO	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0713	2010	Solar Mounting/Rack	Santa Clara  CA	CA	CA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0233	2012	Solar Mounting/Rack	Alameda  CA	CA	CA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0372	2011	Solar Inverter	Petaluma  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0637	2011	Solar Mounting/Rack	Ballston Lake  NY	NY	NY	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0622	2010	Solar Mounting/Rack	Colorado Springs  CO	CO	CO	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0367	2012	Solar Inverter	Altdorf			Germany	13	Solar Inverter	H01L	F05B	Y02E
+pat0441	2012	Solar Inverter	Hod Hasharon			Israel	12	Solar Inverter	Y02E	H02J	H02M
+pat0386	2011	Solar Inverter	Fremont  CA	CA	CA	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0500	2012	Solar Monitoring	Boulder  CO	CO	CO	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0608	2009	Solar Mounting/Rack	Alameda  CA	CA	CA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0104	2010	Solar Mounting/Rack	Los Angeles  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0045	2009	Solar Inverter	Taoyuan			Taiwan	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0050	2009	Solar Inverter	Bend  OR	OR	OR	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0515	2009	Solar Monitoring	La Canada  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0219	2012	Solar Inverter	Dresden			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0454	2003	Solar Inverter	Schenectady  NY	NY	NY	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0358	2012	Solar Inverter	Perrysburg  OH	OH	OH	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0393	2009	Solar Inverter	Huntington Beach  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0601	2009	Solar Mounting/Rack	Santa Clara  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0087	2010	Solar Inverter	Bend  OR	OR	OR	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0483	2007	Solar Inverter- Solar Monitoring	San Jose  CA	CA	CA	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0448	2009	Solar Inverter	Los Gatos  CA	CA	CA	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0344	2011	Solar Inverter	Brookings  SD	SD	SD	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0509	2008	Solar Monitoring	Marrickville  AU			AU	13	Solar Inverter	H01L	F05B	Y02E
+pat0210	2012	Solar Mounting/Rack	Toms River  NJ	NJ	NJ	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0496	2009	Solar Inverter- Solar Mounting/Rack	Munich			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0351	2011	Solar Inverter	Scottsdale  AZ	AZ	AZ	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0092	2010	Solar Monitoring	San Jose  CA	CA	CA	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0614	2010	Solar Mounting/Rack	Sarasota  FL	FL	FL	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0118	2010	Solar Monitoring	Wilmington  DE	DE	DE	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0536	2008	Solar Monitoring	Schenectady  NY	NY	NY	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0477	2011	Solar Inverter-  Solar Mounting/Rack	Niestetal			Germany	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0462	2010	Solar Inverter	Cleveland  OH	OH	OH	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0523	2011	Solar Monitoring	Barntrup	N/A	N/A	Germany	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0127	2011	Solar Mounting/Rack	Saratoga  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0353	2008	Solar Inverter	Taipei City  TW			Taiwan	12	Solar Inverter	Y02E	H02J	H02M
+pat0494	2009	Solar Inverter- Solar Mounting/Rack	Westford  MA	MA	MA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0616	2010	Solar Mounting/Rack	Hamilton			New Zealand	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0085	2010	Solar Inverter- Solar Monitoring	Champagne IL	IL	IL	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0603	2008	Solar Mounting/Rack	Saint Denis	France	France	France	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0207	2012	Solar Inverter	Taipei  Taiwan			Taiwan	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0346	2010	Solar Inverter	Bend  OR	OR	OR	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0481	2009	Solar Inverter- Solar Monitoring	Fort Collins  CO	CO	CO	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0521	2010	Solar Monitoring	San Jose  CA	CA	CA	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0460	2007	Solar Inverter	San Jose  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0064	2009	Solar Monitoring	San Jose  CA	CA	CA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0629	2010	Solar Mounting/Rack	Brick  NJ	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0125	2010	Solar Mounting/Rack	Kensington  MD	MD	MD	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0071	2010	Solar Mounting/Rack	Dallas  TX	TX	TX	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0475	2009	Solar Inverter-	Austin  TX	TX	TX	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0379	2009	Solar Inverter	Schenectady  NY	NY	NY	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0534	2012	Solar Monitoring	Bergen	N/A	N/A	Norway	8	Solar Inverter	Y02E	H02J	G01R
+pat0620	2010	Solar Mounting/Rack	Los Alamitos  CA	USA	USA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0528	2008	Solar Monitoring	Alice Springs  AU			AU	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0224	2012	Solar Monitoring	Waterford  MI	MI	MI	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0469	2010	Solar Inverter	Schenectady  NY	NY	NY	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0365	2012	Solar Inverter	Wagen			Germany	2	Solar Inverter	H02J	Y02E	H02M
+pat0370	2008	Solar Inverter	Petaluma  CA	CA	CA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0231	2012	Solar Inverter	Niestetal			Germany	12	Solar Inverter	Y02E	H02J	H02M
+pat0635	2011	Solar Mounting/Rack	Santa Rosa  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0139	2011	Solar Mounting/Rack	Vaughn			Canada	13	Solar Inverter	H01L	F05B	Y02E
+pat0078	2010	Solar Monitoring	Armonk  NY	NY	NY	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0113	2010	Site Assessment	Boulder  CO	CO	CO	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0052	2009	Solar Monitoring	Bergen	N/A	N/A	Norway	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0391	2009	Solar Inverter	Roanoke  VA	VA	VA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0456	2006	Solar Inverter	Bend  OR	OR	OR	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0517	2010	Solar Monitoring	Orinda  CA	CA	CA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0502	2007	Solar Monitoring	Cold Spring  NY	NY	NY	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0384	2010	Solar Inverter	Niskayuna  NY	NY	NY	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0443	2010	Solar Inverter	San Jose  CA	USA	USA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0488	2011	Solar Inverter- Solar Monitoring	Palatine  IL	IL	IL	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0426	2012	Solar Inverter	Niestetal			Germany	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0567	2010	Solar Monitoring	Richardson  TX	TX	TX	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0163	2011	Solar Inverter	Sunnyvale  CA	CA	CA	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0176	2011	Solar Inverter	Niskayuna  NY	NY	NY	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0572	2010	Solar Monitoring	Sunnyvale  CA	CA	CA	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0433	2009	Solar Inverter	Austin  TX	TX	TX	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0593	2009	Solar Mounting/Rack	Fort Collins  CO	CO	CO	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0558	2009	Solar Monitoring	Los Gatos  CA	CA	CA	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0254	2012	Solar Inverter	Fort Collins  CO	CO	CO	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0419	2011	Solar Inverter	Nurnberg			Germany	8	Solar Inverter	Y02E	H02J	G01R
+pat0711	2007	Solar Mounting/Rack	Santa Clara  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0650	2012	Solar Mounting/Rack	Grass Valley  CA	CA	CA	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0197	2011	Solar Mounting/Rack- Solar Monitoring	Berwyn  PA	PA	PA	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0645	2011	Solar Mounting/Rack				USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0149	2011	Solar Inverter	Niestetal			Germany	8	Solar Inverter	Y02E	H02J	G01R
+pat0182	2011	Solar Monitoring	San Diego  CA	CA	CA	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0704	2011	Solar Mounting/Rack	Osaka-sh			Japan	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0008	2005	Solar Inverter	Tokyo			Japan	12	Solar Inverter	Y02E	H02J	H02M
+pat0586	2011	Solar Mounting/ Rack	Schenectady  NY	NY	NY	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0718	2011	Solar Mounting/Rack	Rangsdorf			Germany	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0014	2007	Solar Inverter- Solar Monitoring	Tokyo			Japan	8	Solar Inverter	Y02E	H02J	G01R
+pat0692	2009	Solar Mounting/Rack	Westford  MA	MA	MA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0659	2011	Solar Mounting/Rack	Hamburg			Germany	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0551	2009	Solar Monitoring	Newark  CA	CA	CA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0410	2010	Solar Inverter	Kingston			Canada	2	Solar Inverter	H02J	Y02E	H02M
+pat0405	2009	Solar Inverter	Santa Clara  CA	CA	CA	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0544	2012	Solar Monitoring	Dhahran	N/A	N/A	Saudi Arabia	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0248	2012	Solar Inverter- Solar Monitoring	Niskayuna  NY	NY	NY	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0687	2009	Solar Mounting/Rack	Schenectady  NY	NY	NY	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0666	2011	Solar Mounting/Rack	Huntersville  NC	NC	NC	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0727	2008	Solar Mounting/Rack	Los Altos  CA	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0323	2006	Solar Inverter	Victoria  CA			CA	8	Solar Inverter	Y02E	H02J	G01R
+pat0262	2012	Solar Inverter	Niestetal			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0277	2012	Solar Monitoring	Holtsville  NY	NY	NY	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0336	2012	Site Assessment	Leganes	N/A	N/A	Spain	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0732	2012	Solar Mounting/Rack	Milpitas  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0673	2011	Solar Mounting/Rack	FUKUOKA			Japan	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0322	2012	Solar Inverter	Nurnberg  DE	N/A	N/A	Germany	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0263	2012	Solar Inverter	Plymouth Meeting  PA	PA	PA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0667	2011	Solar Mounting/Rack	Huntersville  NC	NC	NC	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0726	2009	Solar Mounting/Rack	Los Alto Hills  CA	USA	USA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0733	2009	Solar Mounting/Rack	Frankfurt			Germany	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0672	2010	Solar Mounting/Rack	Wilmington  DE	DE	DE	USA	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0276	2012	Solar Inverter	Fort Collins  CO	CO	CO	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0337	2010	Solar  Monitoring- Solar Inverter	Moriguchi City			Japan	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0550	2009	Solar Monitoring	Hayward  CA	CA	CA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0411	2010	Solar Inverter	Arezzo			Italy	13	Solar Inverter	H01L	F05B	Y02E
+pat0015	2007	Solar Monitoring	Tokyo	N/A	N/A	Japan	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0719	2008	Solar Mounting/Rack	Santa Clara	CA	CA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0693	2011	Solar Mounting/Rack	Freemont  CA	CA	CA	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0658	2010	Solar Mounting/Rack	Hamburg			Germany	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0686	2009	Solar Mounting/Rack	Leutkirch			Germany	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0000	2005	Solar Inverter	Calgary			Canada	7	Solar Mounting/Rack	Y02B	H01L	Y02E
+pat0404	2011	Solar Inverter	Cambridge  MA	MA	MA	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0249	2012	Solar Inverter	Niestetal			Germany	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0545	2011	Solar Monitoring	Gyeonggi-do	N/A	N/A	South Korea	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0651	2012	Solar Mounting/Rack	Jacksonville  FL	FL	FL	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0255	2012	Solar Monitoring	Pittsford  NY	NY	NY	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0592	2008	Solar Mounting/Rack	Fort Collins  CO	CO	CO	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0559	2012	Solar Monitoring	Pittsford  NY	NY	NY	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0314	2012	Site Assessment	Napa  CA	CA	CA	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0418	2012	Solar Inverter	Boston  MA	MA	MA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0587	2010	Solar Mounting/Rack	Wilimington  DE	DE	DE	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0644	2011	Solar Mounting/Rack		USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0009	2006	Solar Monitoring- Solar Inverter	Jhongli			Taiwan	2	Solar Inverter	H02J	Y02E	H02M
+pat0705	2009	Solar Mounting/Rack	Nunawading	Australia	Australia	Australia	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0162	2011	Solar Inverter- Solar Mounting/Rack	Fort Collins  CO	CO	CO	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0427	2012	Solar Inverter	Niestetal			Germany	14	Solar Inverter	H02M	Y02E	Y02B
+pat0566	2009	Solar Monitoring	Los Gatos  CA	CA	CA	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0573	2009	Solar Monitoring	Merced  CA	CA	CA	USA	2	Solar Inverter	H02J	Y02E	H02M
+pat0432	2010	Solar Inverter	Austin  TX	TX	TX	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0036	2008	Solar Inverter	Ludenscheid			Germany	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0390	2006	Solar Inverter	Sarriguren			Spain	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0516	2009	Solar Monitoring	Portland  OR	OR	OR	USA	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0112	2010	Solar Mounting/Rack	Los Gatos  CA	CA	CA	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0098	2010	Solar Mounting/Rack	Richmond  CA	CA	CA	USA	9	Solar Mounting/Rack	Y02E	H01L	F24J
+pat0053	2009	Solar Mounting/Rack-	Albuquerque  NM	NM	NM	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0046	2009	Solar Mounting/Rack	New York  NY	NY	NY	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0107	2010	Solar Monitoring	Taipei Hsien	N/A	N/A	Taiwan	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0503	2007	Solar Monitoring	Carlsbad  CA	CA	CA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0442	2012	Solar Inverter	Bonn			Germany	8	Solar Inverter	Y02E	H02J	G01R
+pat0489	2011	Solar Inverter- Solar Monitoring	Niestetal			Germany	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0385	2011	Solar Inverter	Fremont  CA	CA	CA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0225	2012	Solar Monitoring- Solar Inverter	Campodarsego			Italy	0	Solar Inverter	Y02E	H02J	H02M
+pat0529	2012	Solar Monitoring	Austin  TX	TX	TX	USA	6	Solar Monitoring	G01R	Y04S	Y02B
+pat0364	2011	Solar Inverter	Wangen			Germany	2	Solar Inverter	H02J	Y02E	H02M
+pat0468	2011	Solar Inverter	New Castle  CO	CO	CO	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0621	2010	Solar Mounting/Rack	Colorado Springs  CO	CO	CO	USA	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0138	2011	Solar Inverter-	Glen Mills  PA	PA	PA	USA	0	Solar Inverter	Y02E	H02J	H02M
+pat0634	2011	Solar Mounting/Rack	Goodyear  AZ	AZ	AZ	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0371	2010	Solar Inverter	Petaluma  CA	CA	CA	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0230	2012	Site Assessment	Napa  CA	CA	CA	USA	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0628	2010	Solar Mounting/Rack	Brick  NJ	USA	USA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0520	2010	Solar Monitoring	Yokohama	N/A	N/A	Japan	5	Solar Mounting/Rack	Y02E	H01L	Y02B
+pat0461	2010	Solar Inverter	Perrysburg  OH	OH	OH	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0378	2008	Solar Inverter	Schenectady  NY	NY	NY	USA	12	Solar Inverter	Y02E	H02J	H02M
+pat0474	2009	Solar Inverter-	Roanoke  VA	VA	VA	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0535	2008	Solar Monitoring	Schenectady  NY	NY	NY	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0070	2010	Solar Inverter	Niestetal			Germany	11	Solar Monitoring	H04Q	Y04S	G01D
+pat0617	2010	Solar Mounting/Rack	Coppell  TX	TX	TX	USA	13	Solar Inverter	H01L	F05B	Y02E
+pat0091	2010	Solar Mounting/Rack	Palo Alto  CA	CA	CA	USA	10	Solar Mounting/Rack	F24J	Y02E	H01L
+pat0495	2010	Solar Inverter- Solar Mounting/Rack	Ludenscheid			Germany	12	Solar Inverter	Y02E	H02J	H02M
+pat0399	2012	Solar Inverter	Seoul			South Korea	1	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0352	2011	Solar Inverter	New Taipei City			Taiwan	3	Solar Mounting/Rack	H01L	Y02E	F24J
+pat0206	2012	Solar Inverter	Boston  MA	MA	MA	USA	14	Solar Inverter	H02M	Y02E	Y02B
+pat0480	2011	Solar Inverter- Solar Monitoring	Redmond  OR	OR	OR	USA	8	Solar Inverter	Y02E	H02J	G01R
+pat0347	2011	Solar Inverter	Baden			Switzerland	2	Solar Inverter	H02J	Y02E	H02M
+pat0084	2010	Solar Monitoring	Stafford  TX	TX	TX	USA	4	Solar Monitoring	H02J	Y02B	Y02E
+pat0602	2007	Solar Mounting/Rack	San Diego  CA	CA	CA	USA	3	Solar Mounting/Rack	H01L	Y02E	F24J
