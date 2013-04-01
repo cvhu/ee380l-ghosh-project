@@ -156,9 +156,9 @@ class Abstracts:
 	ofid.write(line)
 
 def main():
-  compositionFile="../data/malletdata/outputFiles/march31_all_composition-v5.txt";
+  compositionFile="../data/malletdata/outputFiles/march31_all_composition-v2.txt";
   patentFile="../data/combined_all_march31_output.csv";
-  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_march31_pats-v5.txt";
+  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_march31_pats-v2.txt";
   abstracts = Abstracts()
   geoTF=False
   if "geo" in compositionFile:
@@ -172,8 +172,9 @@ def main():
     abstracts.printGeoTopicTriples("../data/pyAnalysisOutput/topics4geo-v2.txt")
   """Print patentID, Year, OriginalTA, city, state, country, topicId, ourTA, ourCPCnums"""
   with open(outputFile,'w+') as opfid:
-    outputLine="PatId, Year, OrigTechArea, city, state, country, topicId, ourTechArea, ourCPCnum1, ourCPCnum2, ourCPCnum3 \n"
+    outputLine="PatId\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea\tourCPCnum1\tourCPCnum2\tourCPCnum3"
     opfid.write(outputLine)
+    opfid.write("\n")
     print outputLine
     taCorrect=0
     totalPats=0
@@ -195,7 +196,7 @@ def main():
           outCPC.append(orderedCPC[i])
 	else:
 	  outCPC.append("NO_CPC")
-      outputLine=str(patFile) + ";"+abstracts.year[patFile]+";"+origTA+";"+abstracts.city[patFile]+";"+abstracts.state[patFile]+";"+abstracts.state[patFile]+";"+abstracts.country[patFile]+";"+str(topicId)+";"+ourTA+";"+outCPC[0]+";"+outCPC[1]+";"+outCPC[2]
+      outputLine=str(patFile) + "\t"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip()+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
       #print outputLine
       outputLine=outputLine+"\n"
       opfid.write(outputLine)
