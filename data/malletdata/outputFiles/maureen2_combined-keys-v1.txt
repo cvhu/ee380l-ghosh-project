@@ -1,0 +1,15 @@
+0	0.08379	inverter circuit voltage current switching switch connected claim terminal output converter dc input switches bridge comprising series terminals capacitor 
+1	0.02455	area times irradiance method time roof data set claim solar clearness comprising based selected point image sky measurements component 
+2	0.09152	member frame support assembly surface claim portion mounting end base members extending side structure comprising plurality body comprises disposed 
+3	0.07717	energy unit system power storage claim data control device battery monitoring electrical management comprising renewable local units method modules 
+4	0.04258	photovoltaic roof wall plate plurality upper claim lower structure edge building elements adapted unitized element adjacent shingle electrical curtain 
+5	0.04933	system data claim monitoring method sensor device comprising information communication performance image generation interface software display includes means solar 
+6	0.1329	power output ac claim source inverter signal current dc system grid input controller configured voltage control converter electrical supply 
+7	0.06326	pv current array plurality ground fault claim line terminal system apparatus connected switch portion modules comprising positive circuit negative 
+8	0.15882	photovoltaic module claim device modules system comprising configured array plurality comprises coupled portion method devices includes including cell port 
+9	0.04617	housing box connector junction electrical means connection conductor contact cable meter plug power inverter wire system connected claim heat 
+10	0.0568	dc photovoltaic power converter output input solar step energy claim conversion control converted circuitry maximum controlling inverter comprises method 
+11	0.10135	voltage power claim method output string photovoltaic operating point maximum current inverter control element device parameter strings time system 
+12	0.12689	solar panel system claim panels plurality array comprising cell connected comprises modules position drive coupled apparatus mechanism sun frame 
+13	0.055	claim solar cell surface layer structure material photovoltaic light tile plurality energy electrically substrate comprising heat cells thermal side 
+14	0.08691	mounting claim rail support panel surface system structure side comprising clamp bracket photovoltaic rails method comprises module edge supporting 
