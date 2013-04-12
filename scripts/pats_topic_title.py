@@ -161,7 +161,8 @@ class Abstracts:
 def main():
   compositionFile="../data/malletdata/outputFiles/maureen2_combined-composition-v1.txt";
   patentFile="../data/maureen2_combined_output.csv";
-  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_maureen2_combined-v1.txt";
+  #outputFile="../data/pyAnalysisOutput/topicsTA_CPC_maureen2_combined-v1.txt";
+  outputFile="../data/pyAnalysisOutput/topicsTA_patnum_maureen2_combined-v1.txt";
   abstracts = Abstracts()
   geoTF=False
   if "geo" in compositionFile:
@@ -201,7 +202,7 @@ def main():
       #  else:
       #    outCPC.append("NO_CPC")
       #outputLine=str(patFile) + "\t"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip()+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
-      outputLine=str(patFile) + "\t" + abstracts.patnum[patFile].strip()+"\t"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip() #+"\t" +outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
+      outputLine=str(patFile) + "\tnum-" + abstracts.patnum[patFile].strip()+"\tyr-"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\ttopic-"+str(topicId)+"\t"+ourTA.replace(";","").strip() #+"\t" +outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
       #print outputLine
       outputLine=outputLine+"\n"
       opfid.write(outputLine)
