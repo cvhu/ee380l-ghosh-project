@@ -22,6 +22,7 @@ class Abstracts:
       self.topicnums = []
       self.geo = ''
       self.patfile=''
+      self.patnum=''
 
   class TopicTA:
     """Represents the tech area counts for the topic"""
@@ -43,6 +44,7 @@ class Abstracts:
     self.city={}
     self.state={}
     self.country={}
+    self.patnum={}
 
   def getTopics(self, compositionFile, geoTF):
     """
@@ -75,6 +77,7 @@ class Abstracts:
       self.techArea[patfile] = line[3].strip()
       #self.classNum.append(??);
       #get year, city, state country
+      self.patnum[patfile] = line[1].strip()
       self.year[patfile] = line[2].strip()
       self.city[patfile] = line[5].strip()
       self.state[patfile] = line[6].strip()
@@ -156,23 +159,24 @@ class Abstracts:
 	ofid.write(line)
 
 def main():
-  compositionFile="../data/malletdata/outputFiles/march31_all_composition-v2.txt";
-  patentFile="../data/combined_all_march31_output.csv";
-  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_march31_pats-v2.txt";
+  compositionFile="../data/malletdata/outputFiles/maureen2_combined-composition-v1.txt";
+  patentFile="../data/maureen2_combined_output.csv";
+  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_maureen2_combined-v1.txt";
   abstracts = Abstracts()
   geoTF=False
   if "geo" in compositionFile:
     geoTF = True
   abstracts.getTopics(compositionFile, geoTF)
-  abstracts.getCPCnums(patentFile)
-  abstracts.matchTopicCPCnums()
+  #abstracts.getCPCnums(patentFile)
+  #abstracts.matchTopicCPCnums()
   abstracts.getTechAreas(patentFile)
   abstracts.matchTopicTechArea()
   if geoTF: 
     abstracts.printGeoTopicTriples("../data/pyAnalysisOutput/topics4geo-v2.txt")
   """Print patentID, Year, OriginalTA, city, state, country, topicId, ourTA, ourCPCnums"""
   with open(outputFile,'w+') as opfid:
-    outputLine="PatId\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea\tourCPCnum1\tourCPCnum2\tourCPCnum3"
+    #outputLine="PatId\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea\tourCPCnum1\tourCPCnum2\tourCPCnum3"
+    outputLine="PatId\tPatnum\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea" #\tourCPCnum1\tourCPCnum2\tourCPCnum3"
     opfid.write(outputLine)
     opfid.write("\n")
     print outputLine
@@ -189,14 +193,15 @@ def main():
       ourTA=orderedTA[0]
       if origTA in ourTA:
 	taCorrect+=1
-      orderedCPC = sorted(abstracts.topicCPClist[topicId].cpcscores, key=abstracts.topicCPClist[topicId].cpcscores.get, reverse=True);
-      outCPC =[]
-      for i in range(0,3):
-        if(len(orderedCPC)!=0 and i<=len(orderedCPC)):
-          outCPC.append(orderedCPC[i])
-	else:
-	  outCPC.append("NO_CPC")
-      outputLine=str(patFile) + "\t"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip()+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
+      #orderedCPC = sorted(abstracts.topicCPClist[topicId].cpcscores, key=abstracts.topicCPClist[topicId].cpcscores.get, reverse=True);
+      #outCPC =[]
+      #for i in range(0,3):
+      #  if(len(orderedCPC)!=0 and i<=len(orderedCPC)):
+      #    outCPC.append(orderedCPC[i])
+      #  else:
+      #    outCPC.append("NO_CPC")
+      #outputLine=str(patFile) + "\t"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip()+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
+      outputLine=str(patFile) + "\t" + abstracts.patnum[patFile].strip()+"\t"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip() #+"\t" +outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
       #print outputLine
       outputLine=outputLine+"\n"
       opfid.write(outputLine)
