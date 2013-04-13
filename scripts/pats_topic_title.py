@@ -45,6 +45,7 @@ class Abstracts:
     self.state={}
     self.country={}
     self.patnum={}
+    self.geocode={}
 
   def getTopics(self, compositionFile, geoTF):
     """
@@ -82,6 +83,7 @@ class Abstracts:
       self.city[patfile] = line[5].strip()
       self.state[patfile] = line[6].strip()
       self.country[patfile] = line[7].strip()
+      self.geocode[patfile] = line[14].strip()
 
   def getCPCnums(self, patentFile):
     """Get patent classification numbers (cpc) for each patent"""
@@ -160,16 +162,16 @@ class Abstracts:
 
 def main():
   compositionFile="../data/malletdata/outputFiles/maureen2_combined-composition-v1.txt";
-  patentFile="../data/maureen2_combined_output.csv";
+  patentFile="../data/maureen2_combined_output-geo.csv";
   #outputFile="../data/pyAnalysisOutput/topicsTA_CPC_maureen2_combined-v1.txt";
-  outputFile="../data/pyAnalysisOutput/topicsTA_patnum_maureen2_combined-v1.txt";
+  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_geo_maureen2-v2.txt";
   abstracts = Abstracts()
   geoTF=False
   if "geo" in compositionFile:
     geoTF = True
   abstracts.getTopics(compositionFile, geoTF)
-  #abstracts.getCPCnums(patentFile)
-  #abstracts.matchTopicCPCnums()
+  abstracts.getCPCnums(patentFile)
+  abstracts.matchTopicCPCnums()
   abstracts.getTechAreas(patentFile)
   abstracts.matchTopicTechArea()
   if geoTF: 
@@ -177,7 +179,8 @@ def main():
   """Print patentID, Year, OriginalTA, city, state, country, topicId, ourTA, ourCPCnums"""
   with open(outputFile,'w+') as opfid:
     #outputLine="PatId\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea\tourCPCnum1\tourCPCnum2\tourCPCnum3"
-    outputLine="PatId\tPatnum\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea" #\tourCPCnum1\tourCPCnum2\tourCPCnum3"
+    #outputLine="PatId\tPatnum\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea" #\tourCPCnum1\tourCPCnum2\tourCPCnum3"
+    outputLine="PatId\tPatnum\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea\tourCPCnum1\tourCPCnum2\tourCPCnum3\tGeoCode"
     opfid.write(outputLine)
     opfid.write("\n")
     print outputLine
@@ -194,15 +197,16 @@ def main():
       ourTA=orderedTA[0]
       if origTA in ourTA:
 	taCorrect+=1
-      #orderedCPC = sorted(abstracts.topicCPClist[topicId].cpcscores, key=abstracts.topicCPClist[topicId].cpcscores.get, reverse=True);
-      #outCPC =[]
-      #for i in range(0,3):
-      #  if(len(orderedCPC)!=0 and i<=len(orderedCPC)):
-      #    outCPC.append(orderedCPC[i])
-      #  else:
-      #    outCPC.append("NO_CPC")
+      orderedCPC = sorted(abstracts.topicCPClist[topicId].cpcscores, key=abstracts.topicCPClist[topicId].cpcscores.get, reverse=True);
+      outCPC =[]
+      for i in range(0,3):
+        if(len(orderedCPC)!=0 and i<=len(orderedCPC)):
+          outCPC.append(orderedCPC[i])
+        else:
+          outCPC.append("NO_CPC")
       #outputLine=str(patFile) + "\t"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip()+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
-      outputLine=str(patFile) + "\tnum-" + abstracts.patnum[patFile].strip()+"\tyr-"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\ttopic-"+str(topicId)+"\t"+ourTA.replace(";","").strip() #+"\t" +outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
+      #outputLine=str(patFile) + "\tnum-" + abstracts.patnum[patFile].strip()+"\tyr-"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\ttopic-"+str(topicId)+"\t"+ourTA.replace(";","").strip() #+"\t" +outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
+      outputLine=str(patFile) + "\tnum-" + abstracts.patnum[patFile].strip()+ "\tyr"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip()+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()+"\t"+abstracts.geocode[patFile].strip()
       #print outputLine
       outputLine=outputLine+"\n"
       opfid.write(outputLine)
