@@ -164,7 +164,7 @@ def main():
   compositionFile="../data/malletdata/outputFiles/maureen2_combined-composition-v1.txt";
   patentFile="../data/maureen2_combined_output-geo.csv";
   #outputFile="../data/pyAnalysisOutput/topicsTA_CPC_maureen2_combined-v1.txt";
-  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_geo_maureen2-v2.txt";
+  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_geo_maureen2-v3.txt";
   abstracts = Abstracts()
   geoTF=False
   if "geo" in compositionFile:
@@ -180,11 +180,13 @@ def main():
   with open(outputFile,'w+') as opfid:
     #outputLine="PatId\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea\tourCPCnum1\tourCPCnum2\tourCPCnum3"
     #outputLine="PatId\tPatnum\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea" #\tourCPCnum1\tourCPCnum2\tourCPCnum3"
-    outputLine="PatId\tPatnum\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea\tourCPCnum1\tourCPCnum2\tourCPCnum3\tGeoCode"
+    #outputLine="PatId\tPatnum\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea\tourCPCnum1\tourCPCnum2\tourCPCnum3\tGeoCode"
+    outputLine="PatId\tPatnum\tYear\tOrigTechArea\tcity\tstate\tstate\tcountry\ttopicId\tourTechArea\torigCPC1\torigCPC2\torigCPC3\tourCPCnum1\tourCPCnum2\tourCPCnum3\tGeoCode"
     opfid.write(outputLine)
     opfid.write("\n")
     print outputLine
     taCorrect=0
+    cpcCorrect=0
     totalPats=0
     for topic in abstracts.topicTriples:
       patFile=topic.patfile
@@ -206,13 +208,28 @@ def main():
           outCPC.append("NO_CPC")
       #outputLine=str(patFile) + "\t"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip()+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
       #outputLine=str(patFile) + "\tnum-" + abstracts.patnum[patFile].strip()+"\tyr-"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\ttopic-"+str(topicId)+"\t"+ourTA.replace(";","").strip() #+"\t" +outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()
-      outputLine=str(patFile) + "\tnum-" + abstracts.patnum[patFile].strip()+ "\tyr"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip()+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()+"\t"+abstracts.geocode[patFile].strip()
+      #outputLine=str(patFile) + "\tnum-" + abstracts.patnum[patFile].strip()+ "\tyr"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip()+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()+"\t"+abstracts.geocode[patFile].strip()
+      outputLine=str(patFile) + "\tnum-" + abstracts.patnum[patFile].strip()+ "\tyr"+abstracts.year[patFile].strip()+"\t"+origTA.replace(";"," ").strip()+"\t"+abstracts.city[patFile].replace(",","-").strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.state[patFile].strip()+"\t"+abstracts.country[patFile].strip()+"\t"+str(topicId)+"\t"+ourTA.replace(";","").strip()
+      for cpcCount in range(0,3):
+	if cpcCount < len(abstracts.cpcNums[patFile]):
+	  outputLine=outputLine+"\t"+abstracts.cpcNums[patFile][cpcCount]
+	else:
+	  outputLine=outputLine+"\t"+""
+      outputLine=outputLine+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()+"\t"+abstracts.geocode[patFile].strip()
+      cpcIntersection=list(set(outCPC) & set(abstracts.cpcNums[patFile]))
+      if len(cpcIntersection)>0:
+        cpcCorrect+=1
+      #No need because we dont save empty strings
+      #if (len(cpcIntersection)==1) and ('' not in cpcIntersection): #don't count empty cpc in intersection
+      #  cpcCorrect+=1
       #print outputLine
       outputLine=outputLine+"\n"
       opfid.write(outputLine)
       #print all tech areas - too much not needed
     taAccuracy=taCorrect*1.0/totalPats
+    cpcAccuracy=cpcCorrect*1.0/totalPats
     print "Tech Area accuracy: "+str(taAccuracy)
+    print "CPC accuracy: "+str(cpcAccuracy)
 
 if __name__=="__main__":
     main()
