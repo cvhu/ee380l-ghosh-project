@@ -58,7 +58,11 @@ class Abstracts:
       for line in cfid:
 	line=line.split()
 	topic = self.Topic()
-	topic.patfile=re.findall(filenamePattern, line[1])[0]
+	patfiles=re.findall(filenamePattern, line[1])
+	if(len(patfiles)<1):
+	  print line
+          continue
+	topic.patfile=patfiles[0]
 	topic.topicnums.append(int(line[2]))
 	topic.topicnums.append(int(line[4]))
 	topic.topicnums.append(int(line[6]))
@@ -162,9 +166,10 @@ class Abstracts:
 
 def main():
   compositionFile="../data/malletdata/outputFiles/maureen2_combined-composition-v1.txt";
+  #compositionFile="../data/malletdata/outputFiles/maureen2_combined-composition-v4-half400.txt";
   patentFile="../data/maureen2_combined_output-geo.csv";
   #outputFile="../data/pyAnalysisOutput/topicsTA_CPC_maureen2_combined-v1.txt";
-  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_geo_maureen2-v3.txt";
+  outputFile="../data/pyAnalysisOutput/topicsTA_CPC_geo_maureen2-v5.txt";
   abstracts = Abstracts()
   geoTF=False
   if "geo" in compositionFile:
@@ -192,6 +197,7 @@ def main():
       patFile=topic.patfile
       topicId=topic.topicnums[0]
       if(abstracts.techArea.get(patFile)==None):
+        print "Unread patFile: "+patFile
 	continue
       totalPats+=1
       origTA =abstracts.techArea[patFile] 
