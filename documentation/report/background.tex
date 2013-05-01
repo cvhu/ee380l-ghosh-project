@@ -75,8 +75,15 @@ Given a collection of text-based patent documents, one intuitive idea to find ou
 \subsection{Probabilistic Topic Models}
 Originally designed to facilitate text data visualization and browsing, 
 
+The main objective of topic modeling is to automatically discover the unobserved hidden structure--the topics, per-document topic distributions, and the per-document per-word topic assignments, with a collection of text documents as the only observable. 
+
 \subsection{Latent Dirichlet Allocation}
-Latent Dirichlet allocation, or LDA, is the simplest topic model \cite{lda2003} that assigns each word in the documents a distribution over a fixed number of topics. Instead of having a hard boundary between topic collections, LDA provides a distribution of topics per document, giving the likelihood of a mixed proportion of topic assignments. One intuition behind
+Latent Dirichlet allocation, or LDA, is the simplest topic model \cite{lda2003} that assigns each word in the documents a distribution over a fixed number of topics. Instead of having a hard boundary between topic collections, LDA provides a distribution of topics per document, giving the likelihood of a mixed proportion of topic assignments. Namely, all patent documents share the same set of topic collection but with different proportions to each topic. 
+
+\begin{equation*}
+	p(\beta_{1:K}, \theta_{1:D}, z_{1:D}, w_{1:D})\\
+	= \prod_{i=1}^K p(\beta_i)\prod_{d=1}^D p(\theta_d) \left( \prod_{n=1}^N p(z_{d,n} | \theta_d) p(w_{d,n} | \beta_{1:K}, z_{d,n})\right)
+\end{equation*}
 
 \subsection{Variations \& Potential Improvements}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  1 MAY 2013 15:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  1 MAY 2013 18:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -381,15 +381,19 @@ Missing character: There is no Ó in font ptmr7t!
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
 Missing character: There is no Ð in font ptmr7t!
  [3]
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
+ [4]
 Missing character: There is no Õ in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
- [4]
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
@@ -407,13 +411,13 @@ Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Ð in font ptmr7t!
  [5] [6]
-Underfull \hbox (badness 1430) in paragraph at lines 129--130
+Underfull \hbox (badness 1430) in paragraph at lines 136--137
 []\OT1/ptm/m/n/12 Yuen-Hsien Tseng, Chi-Jen Lin, Yu-I Lin. Text min-ing tech-ni
 ques for patent anal-y-
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 129--130
+Underfull \hbox (badness 1502) in paragraph at lines 136--137
 \OT1/ptm/m/n/12 sis. In-for-ma-tion Pro-cess-ing and Man-age-ment, Vol-ume 43, 
 Is-sue 5, Septem-ber 2007.
  []
@@ -430,22 +434,28 @@ LaTeX Font Warning: Size substitutions with differences
 ### semi simple group (level 1) entered at line 40 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3384 strings out of 493488
- 46731 string characters out of 3141326
+ 3428 strings out of 493488
+ 47205 string characters out of 3141326
  100198 words of memory out of 3000000
- 6595 multiletter control sequences out of 15000+200000
- 46705 words of font info for 112 fonts, out of 3000000 for 9000
+ 6622 multiletter control sequences out of 15000+200000
+ 63214 words of font info for 153 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,14n,28p,1273b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/lo
-cal/texlive/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on background.pdf (7 pages, 67574 bytes).
+}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on background.pdf (7 pages, 102761 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
