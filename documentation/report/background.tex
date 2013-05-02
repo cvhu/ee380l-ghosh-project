@@ -67,7 +67,7 @@ The expected outcome of the project is to identify a language model (or a combin
 \subsection{Preprocessing}
 
 \subsection{Chanllenges}
-
+\newpage
 \section{Background}
 
 Given a collection of text-based patent documents, one intuitive idea to find out knowledge spillovers is to look at some underlying thematic structures hidden in the text. Based on the word usages and terminology distributions, we need to know what are the intrinsic topics implied in the relevant context, and one common way to do exactly that is called Probabilistic Topic Models formalized by  Blei et al. \cite{blei2011}
@@ -77,18 +77,60 @@ Originally designed to facilitate text data visualization and browsing,
 
 The main objective of topic modeling is to automatically discover the unobserved hidden structure--the topics, per-document topic distributions, and the per-document per-word topic assignments, with a collection of text documents as the only observable. 
 
+
+\begin{figure}[h]
+	\center
+	\includegraphics[width=\textwidth]{fig/pat007.png}
+	\caption{LDA graphical model}
+\end{figure}
+
+
+
+\begin{figure}[h]
+	\center
+	\includegraphics[width=0.55\textwidth]{fig/pat8_topics.png}
+	\caption{LDA graphical model}
+\end{figure}
+
+
+\begin{figure}[h]
+	\center
+	\includegraphics[width=0.5\textwidth]{fig/topics.png}
+	\caption{LDA graphical model}
+\end{figure}
+
+
 \subsection{Latent Dirichlet Allocation}
 Latent Dirichlet allocation, or LDA, is the simplest topic model \cite{lda2003} that assigns each word in the documents a distribution over a fixed number of topics. Instead of having a hard boundary between topic collections, LDA provides a distribution of topics per document, giving the likelihood of a mixed proportion of topic assignments. Namely, all patent documents share the same set of topic collection but with different proportions to each topic. 
+
+To build the generative probabilistic model, we compute the joint distribution and use it to estimate the posterior probability. Before jumping into the actual calculation, let's formalize our notations:
+
+\begin{description}
+	\item [$\beta_k,\; k = 1 \cdots K$]: the K topics, represented by a distribution over words
+	\item [$\theta_d,\; d = 1 \cdots D$]: topic proportions for document d, where $\theta_{d,k}$ is the topic proportion of topic k for document d
+	\item [$z_d,\; d = 1 \cdots D$]: topic assignments for document d, where $z_{d,n}$ is the topic assignment for the n-th word in document d
+	\item [$w_d,\; d = 1 \cdots D$]: observed words for document d, where $w_{d,n}$ is the n-th word in document d
+\end{description}
+
+With the above notation, the LDA generative process can be formalized as the following joint probability of both hidden and observed random variables:
 
 \begin{equation*}
 	p(\beta_{1:K}, \theta_{1:D}, z_{1:D}, w_{1:D})\\
 	= \prod_{i=1}^K p(\beta_i)\prod_{d=1}^D p(\theta_d) \left( \prod_{n=1}^N p(z_{d,n} | \theta_d) p(w_{d,n} | \beta_{1:K}, z_{d,n})\right)
 \end{equation*}
 
+which can alternatively be expressed as a graphical model:
+\begin{figure}[h]
+	\center
+	\includegraphics[width=0.75\textwidth]{fig/gm.png}
+	\caption{LDA graphical model}
+\end{figure}
+
 \subsection{Variations \& Potential Improvements}
 
 \subsection{MALLET}
 
+\newpage
 \section{Methodology}
 The methodology we decided to use involved few carefully planned stages that put together will eventually produce reasonable results in terms of patent classification and knowledge spillover patterns in the field of solar energy. As mentioned previously we have focused on applying primarily methods of clustering to our solutions. The main tool that we used during the course of this project is MALLET (Machine Learning for Language Toolkit) discussed in previous sections. The main features supplied by MALLET that we used are Topic Modelling and Clustering. MALLET toolkit is an open source project developed by the University of Massachusetts Ð Amherst.
 
