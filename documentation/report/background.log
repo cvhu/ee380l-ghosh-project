@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  1 MAY 2013 21:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 MAY 2013 14:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -384,40 +384,45 @@ Missing character: There is no Ó in font ptmr7t!
 File: fig/pat007.png Graphic file (type png)
 
 <use fig/pat007.png>
-Package pdftex.def Info: fig/pat007.png used on input line 83.
+Package pdftex.def Info: fig/pat007.png used on input line 82.
 (pdftex.def)             Requested size: 469.75502pt x 77.89894pt.
- <fig/pat8_topics.png, id=17, 561.09625pt x 420.57124pt>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+ [4 <./fig/pat007.png>]
+<fig/pat8_topics.png, id=20, 561.09625pt x 420.57124pt>
 File: fig/pat8_topics.png Graphic file (type png)
 
 <use fig/pat8_topics.png>
-Package pdftex.def Info: fig/pat8_topics.png used on input line 91.
+Package pdftex.def Info: fig/pat8_topics.png used on input line 99.
 (pdftex.def)             Requested size: 258.36668pt x 193.65764pt.
- <fig/topics.png, id=18, 565.11125pt x 638.385pt>
-File: fig/topics.png Graphic file (type png)
+ [5 <./fig/pat8_topics.png (PNG copy)>]
+<fig/gm.png, id=28, 791.95876pt x 218.8175pt>
+File: fig/gm.png Graphic file (type png)
+ <use fig/gm.png>
+Package pdftex.def Info: fig/gm.png used on input line 124.
+(pdftex.def)             Requested size: 352.31625pt x 97.3451pt.
 
-<use fig/topics.png>
-Package pdftex.def Info: fig/topics.png used on input line 98.
+<fig/topics.png, id=29, 565.11125pt x 638.385pt>
+File: fig/topics.png Graphic file (type png)
+ <use fig/topics.png>
+Package pdftex.def Info: fig/topics.png used on input line 150.
 (pdftex.def)             Requested size: 234.8775pt x 265.3242pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./fig/pat007.png> <./fig/pat8_topics.png (PNG copy)>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
- [5 <./fig/topics.png>] <fig/gm.png, id=29, 791.95876pt x 218.8175pt>
-File: fig/gm.png Graphic file (type png)
- <use fig/gm.png>
-Package pdftex.def Info: fig/gm.png used on input line 125.
-(pdftex.def)             Requested size: 352.31625pt x 97.3451pt.
- [6 <./fig/gm.png>]
+[6 <./fig/gm.png>]
+Overfull \vbox (2.96709pt too high) has occurred while \output is active []
+
+
+[7 <./fig/topics.png>] [8]
 Missing character: There is no Ð in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
- [7]
+ [9]
 Missing character: There is no Õ in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
@@ -437,20 +442,20 @@ Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Ð in font ptmr7t!
- [8] [9]
-Underfull \hbox (badness 1430) in paragraph at lines 178--179
+ [10] [11]
+Underfull \hbox (badness 1430) in paragraph at lines 218--219
 []\OT1/ptm/m/n/12 Yuen-Hsien Tseng, Chi-Jen Lin, Yu-I Lin. Text min-ing tech-ni
 ques for patent anal-y-
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 178--179
+Underfull \hbox (badness 1502) in paragraph at lines 218--219
 \OT1/ptm/m/n/12 sis. In-for-ma-tion Pro-cess-ing and Man-age-ment, Vol-ume 43, 
 Is-sue 5, Septem-ber 2007.
  []
 
 Missing character: There is no ¿ in font ptmr7t!
-[10] (./background.aux)
+[12] [13] (./background.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.55997pt have occurred.
@@ -461,10 +466,10 @@ LaTeX Font Warning: Size substitutions with differences
 ### semi simple group (level 1) entered at line 40 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3451 strings out of 493488
- 47564 string characters out of 3141326
- 100198 words of memory out of 3000000
- 6639 multiletter control sequences out of 15000+200000
+ 3497 strings out of 493488
+ 48352 string characters out of 3141326
+ 100453 words of memory out of 3000000
+ 6685 multiletter control sequences out of 15000+200000
  63214 words of font info for 153 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,14n,28p,1273b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -479,10 +484,10 @@ texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/201
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on background.pdf (10 pages, 247967 bytes).
+Output written on background.pdf (13 pages, 256490 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
