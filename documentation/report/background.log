@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 MAY 2013 14:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 MAY 2013 15:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -418,7 +418,6 @@ Overfull \vbox (2.96709pt too high) has occurred while \output is active []
 
 
 [7 <./fig/topics.png>] [8]
-Missing character: There is no Ð in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
@@ -441,21 +440,94 @@ Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Ò in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
+
+<fig/sample_topics.png, id=45, 886.31125pt x 270.00874pt>
+File: fig/sample_topics.png Graphic file (type png)
+
+<use fig/sample_topics.png>
+Package pdftex.def Info: fig/sample_topics.png used on input line 194.
+(pdftex.def)             Requested size: 469.75502pt x 143.10806pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Missing character: There is no Ð in font ptmr7t!
- [10] [11]
-Underfull \hbox (badness 1430) in paragraph at lines 218--219
+<fig/geo_histogram.png, id=46, 811.03pt x 405.515pt>
+File: fig/geo_histogram.png Graphic file (type png)
+
+<use fig/geo_histogram.png>
+Package pdftex.def Info: fig/geo_histogram.png used on input line 203.
+(pdftex.def)             Requested size: 469.75502pt x 234.88329pt.
+ [10] [11 <./fig/sample_topics.png> <./fig/geo_histogram.png>] <fig/year_histog
+ram.png, id=53, 741.77126pt x 384.43625pt>
+File: fig/year_histogram.png Graphic file (type png)
+
+<use fig/year_histogram.png>
+Package pdftex.def Info: fig/year_histogram.png used on input line 217.
+(pdftex.def)             Requested size: 469.75502pt x 243.46317pt.
+ [12 <./fig/year_histogram.png>]
+<fig/ta_results_matrix.png, id=57, 730.73pt x 404.51125pt>
+File: fig/ta_results_matrix.png Graphic file (type png)
+
+<use fig/ta_results_matrix.png>
+Package pdftex.def Info: fig/ta_results_matrix.png used on input line 250.
+(pdftex.def)             Requested size: 352.31625pt x 195.0335pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13] <fig/original_ta_geo.png, id=62, 973.6375pt x 491.8375pt>
+File: fig/original_ta_geo.png Graphic file (type png)
+
+<use fig/original_ta_geo.png>
+Package pdftex.def Info: fig/original_ta_geo.png used on input line 262.
+(pdftex.def)             Requested size: 234.8775pt x 118.64378pt.
+
+<fig/our_ta_geo.png, id=63, 962.59625pt x 507.8975pt>
+File: fig/our_ta_geo.png Graphic file (type png)
+ <use fig/our_ta_geo.png>
+Package pdftex.def Info: fig/our_ta_geo.png used on input line 269.
+(pdftex.def)             Requested size: 234.8775pt x 123.92836pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \vbox (0.81807pt too high) has occurred while \output is active []
+
+
+[14 <./fig/ta_results_matrix.png> <./fig/original_ta_geo.png>]
+<fig/topics_geo.png, id=67, 969.6225pt x 482.80376pt>
+File: fig/topics_geo.png Graphic file (type png)
+ <use fig/topics_geo.png>
+Package pdftex.def Info: fig/topics_geo.png used on input line 281.
+(pdftex.def)             Requested size: 234.8775pt x 116.95084pt.
+
+Overfull \vbox (0.51999pt too high) has occurred while \output is active []
+
+
+[15 <./fig/our_ta_geo.png> <./fig/topics_geo.png>]
+<fig/topics_year.png, id=71, 1148.29pt x 579.16376pt>
+File: fig/topics_year.png Graphic file (type png)
+
+<use fig/topics_year.png>
+Package pdftex.def Info: fig/topics_year.png used on input line 294.
+(pdftex.def)             Requested size: 352.31625pt x 177.69191pt.
+Missing character: There is no Õ in font ptmr7t!
+ [16 <./fig/topics_year.png>] [17] [18]
+Underfull \hbox (badness 1430) in paragraph at lines 337--338
 []\OT1/ptm/m/n/12 Yuen-Hsien Tseng, Chi-Jen Lin, Yu-I Lin. Text min-ing tech-ni
 ques for patent anal-y-
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 218--219
+Underfull \hbox (badness 1502) in paragraph at lines 337--338
 \OT1/ptm/m/n/12 sis. In-for-ma-tion Pro-cess-ing and Man-age-ment, Vol-ume 43, 
 Is-sue 5, Septem-ber 2007.
  []
 
 Missing character: There is no ¿ in font ptmr7t!
-[12] [13] (./background.aux)
+[19] [20] (./background.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.55997pt have occurred.
@@ -466,10 +538,10 @@ LaTeX Font Warning: Size substitutions with differences
 ### semi simple group (level 1) entered at line 40 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3497 strings out of 493488
- 48352 string characters out of 3141326
- 100453 words of memory out of 3000000
- 6685 multiletter control sequences out of 15000+200000
+ 3547 strings out of 493488
+ 49447 string characters out of 3141326
+ 100537 words of memory out of 3000000
+ 6727 multiletter control sequences out of 15000+200000
  63214 words of font info for 153 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,14n,28p,1273b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -484,10 +556,10 @@ texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/201
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on background.pdf (13 pages, 256490 bytes).
+Output written on background.pdf (20 pages, 605107 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

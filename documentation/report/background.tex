@@ -172,7 +172,7 @@ The Java-based package we used for topic model training is called MAchine Learni
 
 \newpage
 \section{Methodology}
-The methodology we decided to use involved few carefully planned stages that put together will eventually produce reasonable results in terms of patent classification and knowledge spillover patterns in the field of solar energy. As mentioned previously we have focused on applying primarily methods of clustering to our solutions. The main tool that we used during the course of this project is MALLET (Machine Learning for Language Toolkit) discussed in previous sections. The main features supplied by MALLET that we used are Topic Modelling and Clustering. MALLET toolkit is an open source project developed by the University of Massachusetts – Amherst.
+The methodology we decided to use involved few carefully planned stages that put together eventually produced reasonable results in terms of patent classification and knowledge spillover patterns in the field of solar energy. As mentioned previously we have focused on applying primarily methods of clustering to our solutions. The main tool that we used during the course of this project is MALLET (Machine Learning for Language Toolkit) discussed in previous sections. The main features supplied by MALLET that we took advantage of are Topic modeling and Clustering. MALLET toolkit is an open source project developed by the University of Massachusetts Amherst.
 
 As we began working on the project, it became clear that the best way of tackling the problem is clustering, the nature of knowledge spillover is such that at the beginning there is no much data given on how the knowledge is being transferred from one field to another. This ruled out classification or regression methods at least in the initial stage. Furthermore, we decided to choose MALLET as the package that we will be working with. It provides very good tools for language and textual analysis and is easy in use and access, being written in Java and open source. Having many features, MALLET will allow us to try different approaches to tackling the problem and to limit the need to use other outside tools.
 
@@ -181,30 +181,130 @@ The data we used was supplied to us by a research group for the knowledge spillo
 The above paragraphs show the biggest concerns and the main decisions we had to make in regards to the methodology that we used throughout this project. After deciding these key factors we could concentrate on actual use of these resources in order to come up with a method to find out patterns in the knowledge spillover.
 
 First, issue that we encountered and that we had to spend considerable amount of time on is cleaning up the data and deciding which parts of patent texts are the most suitable to use for the task at our hands. We concluded that the best sections of patent documents to base spillover patent prediction are abstracts and claims. Abstracts show the shortest and most concise understanding of what the patent is about and therefore seem to be perfect for our needs. However, abstracts are usually not long, in terms of text size, enough to present on their own a considerable value in data mining applications and therefore they need to be supplemented. The best choice for the supplementary field turned out to be “claims” as they are the heart of the patent that in contrary to description or citations fields does not talk about previous or other patents and topics. Patent’s citations often contain redundant entries that are presented only to cover the patent to the fullest from the legal perspective. Similarly, description often involves the whole historical and technical background of the patent that is not something that we are interested in. Therefore, we decided to use the two patent document fields in our project, namely, abstract and claims.
+To obtain these fields, a web crawling script was written in Java that crawled USPTO’s website in order to get the required data. The script used patent number in case of patents and application number in case of application to access the right entry. At this point abstract and claims fields were extracted from the entry to form the final entry that will be used from now on. The main difficulties with this step were different formats of application and patent numbers that did not work well with our script. Similarly, some patents had this number not provided, instead they had “publication number”, in these cases we had to get the right number first before crawling. Also, the navigation of USPTO website search engines is fairly complicated so getting accustomed to that took us awhile too.
+After obtaining the data, the next step was to run topic modeling on the texts that we had obtained earlier. The details of what is topic modeling is have been provided in earlier paragraphs, so I will just briefly state how we applied topic modeling to our datasets. The data for each patent, i.e. abstract and claims, has been put into a separate file. Later all these files were supplied to MALLET together with standard “stop words” list in English language list to perform the topic modeling on the data. When running topic modeling we tried to come up with different values of “n” – the number of topics created. After few runs and analysis of the outputs created, we decided that “n” equal to 15 is the most reasonable option. Furthermore, since topic modeling in MALLET is not deterministic, we ran the modeling with n=15 few times to make sure that this is the right choice and to arrive with the best range of topics.
+Following the topic modeling we assigned each topic a very general class that it represented by looking at the topic models themselves. The classes we used for this purpose were “Solar Inverter”, “Solar Mounting/Rack”, “Solar Monitoring” and “Site Assessment”. An example of a topic model can be seen on Fig.~\ref{sample_topics}1 It is the least of word in order of frequency as they appear in each topic. This topic model was ran for n=15. To assign a class to a topic we looked at the bag of words and arbitrarily decided which technology area each topic fits to the most.
 
-To obtain these fields, a web crawling script was written in Java that crawled USPTO’s website in order to get the required data. The script used patent number in case of patents and application number in case of application to access the right entry. At this point abstract and claims fields were extracted from the entry to form the final entry that will be used from now on. The main difficulties with this step were different formats of application and patent numbers that did not work well with our script. Similarly, some patents had this number not provided, instead they had “publication number”, in these cases we had to get the right number first before crawling. Also, the navigation of USPTO website search engines is fairly complicated so getting accustomed to that took us awhile too.
 
-After obtaining the data, the next step was to run topic modelling on the texts that we had obtained earlier. The details of what is topic modelling is have been provided in earlier paragraphs, so I will just briefly state how we applied topic modelling to our datasets. The data for each patent, i.e. abstract and claims, has been put into a separate file. Later all these files were supplied to MALLET together with standard “stop words” list in English language list to perform the topic modelling on the data. When running topic modelling we tried to come up with different values of “n” – the number of topics created. After few runs and analysis of the outputs created, we decided that “n” equal to 10 is the most reasonable option. Furthermore, since topic modelling in MALLET is not deterministic, we ran the modelling with n=10 few times to make sure that this is the right choice and to arrive with the best range of topics.
+\begin{figure}[h]
+	\center
+	\includegraphics[width=\textwidth]{fig/sample_topics.png}
+	\caption{An example of a topic model}
+	\label{sample_topics}
+\end{figure}
 
-Following the topic modelling we assigned each topic a very general class that it represented by looking at the topic models themselves. The classes we used for this purpose were “SolarInventer”, “Solar Mounting/Rack”, “Solar Monitoring” and “Site Assesment”. An example of a topic model can be seen on Fig. 1. It is the least of word in order of frequency as theyappear in each topic. This topic model was ran for n=15. To assign a class to a topic we looked at the list of words and arbitrarily decided which class given topic fits the most.
 
-Next step was evaluating our results in attempt to see whether the topic models we arrived with are reasonable and reflect the actual patents distribution well. To approach this task we had to come up with a method that would compare our classes to some other method of classification. Since patent applications that arrive to USPTO are given classes by patent officers as they are filed we decide to use one of these as our method of evaluation. The patent classification scheme we decided to use is CPC – Cooperative Patent Classification. Each patent is assigned one or more CPC classes as its application is filed to USPTO and we used these classes to see whether our topic models constitute a valid solution.
+Next step was evaluating our results in attempt to see whether the topic models we arrived with are reasonable and reflect the actual patents distribution well. To approach this task we had to come up with a method that would compare our classes to some other method of classification. Since patent applications that arrive to USPTO are given classes by patent officers as they are filed we decide to use one of these as our method of evaluation. The patent classification scheme we decided to use is CPC – Cooperative Patent Classification.
+\begin{figure}[h]
+	\center
+	\includegraphics[width=\textwidth]{fig/geo_histogram.png}
+	\caption{A distribution of patents by countries}
+	\label{geo_histogram}
+\end{figure}
+Each patent is assigned one or more CPC classes as its application is filed to USPTO and we used these classes to see whether our topic models constitute a valid solution.
 
-After ensuring that the topic models make sense we went on and grouped the data by geographies. Outside of the US it was done by continents. This is due to the fact that overwhelming number of patents unsurprisingly came from inside the US, the distribution of patents by countries can be seen on Fig. 2. Inside the US the clustering was done based on regions and states. We divided California into two regions, Bay Area and Southern California due to a great number of patents originating in that state. Following that we classified patents using our topic models obtained earlier into these topics. This gave us an opportunity to see which topics are popular in which areas and to form conclusions on whether certain topics are more popular in given geographies implying knowledge sharing and spillover.
+After ensuring that the topic models make sense we went on and grouped the data by geographies. Outside of the US it was done by continents. This is due to the fact that overwhelming number of patents unsurprisingly came from inside the US, the distribution of patents by countries can be seen on Fig.~\ref{geo_histogram} Inside the US the clustering was done based on regions and states. We divided California into two regions, Bay Area and Southern California due to a great number of patents originating in that state. Following that we classified patents using our topic models obtained earlier into these topics. This gave us an opportunity to see which topics are popular in which areas and to form conclusions on whether certain topics are more popular in given geographies implying knowledge sharing and spillover.
+Similarly, we divided patents by years and subsequently classified them into topics to see in which they were filed to see whether there are patterns of topics being more popular during certain time periods. This task was more difficult due to the fact that solar technology innovation field is very new and there is not many patents from the beginnings of the time period (2006-2012) we are working on. On Fig.~\ref{year_histogram} we can see all patents grouped by year and technology area, before running topic modeling on them.
 
-Similarly, we divided patents by years and subsequently classified them into topics to see in which they were filed to see whether there are patterns of topics being more popular during certain time periods. This task was more difficult due to the fact that solar technology innovation field is very new and there is not many patents from the beginnings of the time period (2006-2012) we are working on. On Fig. 3 we can see all patents grouped by year and technology area, before running topic modelling on them.
-
+\begin{figure}[h]
+	\center
+	\includegraphics[width=\textwidth]{fig/year_histogram.png}
+	\caption{A distribution of patents by years and technology areas}
+	\label{year_histogram}
+\end{figure}
 Following the two procedures above we checked whether topics divisions inside the groups are relevant by seeing how much they overlap with CPC classes of the patents. This step was performed to ensure that our topic models, even when patents are divided into groups by geographies or years, still make sense and represent the actual topics that patents relate to.
-
-Finally, the last step was to visualize the data to notice any patterns in knowledge spillover in the field of solar energy. It is much easier to see these patterns visually than in numerical and textual form. This allowed us to find any trends in the distribution of the topics and possibly to find out whether we can use data mining techniques to see whether and to what extent there is knowledge spillover in solar energy technology field. Next part of this paper will attempt analyse the results that we have arrived with.
-%\section{}
+Finally, the last step was to visualize the data to notice any patterns in knowledge spillover in the field of solar energy. It is much easier to see these patterns visually than in numerical and textual form. This allowed us to find any trends in the distribution of the topics and possibly to find out whether we can use data mining techniques to see whether and to what extent there is knowledge spillover in solar energy technology field. Next part of this paper will attempt to analyze the results that we have arrived with and evaluate them.
 
 \section{Results}
 
+We have run the MALLET topic modeling on the patent data (claims and abstracts) carefully handpicked and crawled from the USPTO website. The objective was to determine whether data mining techniques could be used to predict and see knowledge spillover patterns in the field of solar power technology. The method we used consisted of running topic modeling on the patents then evaluating topic models by seeing whether they overlap with CPC classes that each patent is assigned by the USPTO at the point of filing the patent application. Grouping the patents by geographies and years allowed us to see whether there appear to be any patterns in the development of patents that would imply knowledge spillover. This section of the paper is presenting the results that we have obtained.
+The first question that is crucial to any further consideration of the results is whether we can use topic modeling to classify patents in the first place. This could be evaluated by computing whether patent topics obtained through topic modeling overlap with either technology area or/and CPC classes. There are 4 broad technology areas that patents cover: Solar Monitoring, Solar Mounting/Rack, Solar Inverter and Site Assessments. There are 23 CPC classes that patents composing our data represent. The results of overlapping between the true class and modeled class obtained for topic modeling are presented in Table~\ref{results_table}. Fig.~\ref{ta_results_matrix} is a graphic representation of the confusion matrix of patents classification using topic modeling and technology areas.
+
+\-\\
+\begin{table}
+\centering
+\begin{tabular}{|l|l|}
+\hline
+Coarse-grained (technology area) & Fine-grained (CPC Class)\\
+\hline
+79.49\% & 81.01\% \\
+Exact match & Match 1-out-of-3 predicted to top 3\\
+\hline
+\end{tabular}
+\caption{Results}
+\label{results_table}
+\end{table}
+
+
+
+\begin{figure}[h]
+	\center
+	\includegraphics[width=0.75\textwidth]{fig/ta_results_matrix.png}
+	\caption{The confusion matrix of our predicted technology area results.}
+	\label{ta_results_matrix}
+\end{figure}
+
+The above data suggests that the classification of patents based on topic modeling is good and we can say with a significant degree of confidence that topic modeling can be used for the purpose of patent classification.
+Next step is evaluating whether patents are associated with specific geographies and can topic modeling predict these associations. To answer these questions patents are divided into geographies and then classification based on topic models is performed on them. In Fig.~\ref{original_ta_geo} and Fig.~\ref{our_ta_geo} we can see the most popular actual technology area and the most popular predicted technology area using topic modeling. Both seem to overlap almost completely and therefore, we can confidently give a positive answer to this problem.
+
+
+\begin{figure}[h]
+	\center
+	\includegraphics[width=0.5\textwidth]{fig/original_ta_geo}
+	\caption{The original technology area distributed over geolocation}
+	\label{original_ta_geo}
+\end{figure}
+
+\begin{figure}[h]
+	\center
+	\includegraphics[width=0.5\textwidth]{fig/our_ta_geo}
+	\caption{Our predicted technology area distributed over geolocation}
+	\label{our_ta_geo}
+\end{figure}
+
+
+As we observed above there are patents associated with specific geographies and topic modeling can identify that quite accurately. This results assures us that topic modeling is a valid method of classifying patents.
+However, the real question that we are interested in for the purpose of this paper is whether we can detect knowledge spillovers in the field of solar energy using data mining techniques. For this part we have focused mostly on the data pertaining to the United States, since there is simply not enough data in other places and if there is then there is not enough granularity in the data. To answer the question of detecting the knowledge spillovers it will be very helpful to visualize the results in the form of the US map that is color-coded by different topics that are the most popular in each state. This graph can be seen in the Fig.~\ref{topics_geo}
+
+\begin{figure}[h]
+	\center
+	\includegraphics[width=0.5\textwidth]{fig/topics_geo.png}
+	\caption{The most popular topics in each state of the U.S.}
+	\label{topics_geo}
+\end{figure}
+
+
+Each color in Fig.~\ref{topics_geo} represents the topic that is the most popular in each state. We can see that on the graph above topics themselves are not directly meaningful when it comes to geographical distribution of the patents. The colors in general are distributed all over the place. However, we can see that purple-pink color is more popular in the South and East while blue is more popular in the West and green in the North. These assumptions are, however very weak and based on subjective heuristic perceptions. In overall, although we can see some patterns forming to some degree, we cannot see a clear pattern of knowledge spillover that would clearly support any thesis on knowledge spillover in solar energy field. Therefore, we concluded that although it looks like it would be possible to use topic modeling to mine for knowledge spillovers, we are not yet there and some further iterations and more complex models would need to be applied in order to obtain an acceptably meaningful and refined solution.
+Another question that we are trying to find an answer to is whether we can mine for knowledge spillover across different years. This is whether there are any topics that become especially popular after given years or in given time periods. We can see the distribution of topics among years on graph on Fig.~\ref{topics_year}
+
+
+\begin{figure}[h]
+	\center
+	\includegraphics[width=0.75\textwidth]{fig/topics_year.png}
+	\caption{The topics population over years}
+	\label{topics_year}
+\end{figure}
+
+On the graph it can be clearly seen that the distribution of the topics does not change much from year to year. It basically stays the same throughout the whole period under consideration in this paper. It should be noted that the overall number of patents in solar energy field is growing from year to year and this is most likely caused by more incentives to move towards renewable energy sources coupled with rising prices of conventional energy sources. However, there seems to be no possibility of measuring knowledge spillover across the years using topic modeling methods, apart from the fact that there is similar distribution of topics from year to year and establishing what this distribution is.
+
 \section{Conclusion}
 
-\section{Future Works}
+The project’s objective was to analyze around 800 patents from solar energy field and come up with data mining techniques that could help with knowledge spillover analysis and prediction in this field. We have crawled the data from USPTO website, using for the purpose of this project fields of abstract and claims in the text of patents. After this step, we clustered patents based on topics that they correspond to. We evaluated the topics by checking whether based on information about topics the original classification of patents can be obtained. Finally, we visualized and interpreted the results with respect to patent CPC classes (classes assigned by patent officers at USPTO), geographical distribution and time i.e. when patent has been invented. The analysis of the results allowed us to come up with answers to the vital questions pertaining the issue at hand.
 
+The analysis of the results gives an idea of whether the knowledge spillover can be measured using topic modeling methods. We have used MALLET (Machine Learning for Language Toolkit) to perform topic modeling and classification based on topic models tasks. The data that we used this is claims and abstracts of patents and applications for patents from solar energy fields from years 2006-2012 show that Topic Modeling is a viable method of patents classification. Using Topic Modeling gives rate of success on the data we had crawled from USPTO website of up to 81\%. This is a good rate of success suggesting that most of the patents are classified correctly.
+As for geographical distribution, we can see that there are interesting patterns in the geographical distribution of patents that can be noted. These patterns can be detected using topic modeling at least to some extent. We showed that it is possible to show which technology is the most popular in each area based on topic modeling and that this data overlaps with the actual technology areas popular in these regions. Furthermore, we can see that some very weak patterns are being formed even at the level of single topic models (not assembled into technology area groups). These features of topic models can be of significant use when analyzing temporal changes in the field of solar energy. Similarly, they can be of use when trying to figure out local interests in research in the field. And so we know that Texas for example is more interested in research into Solar Inverters and California is more focused on Solar Mounting and Racks.
+As for the temporal analysis of patents there has not been much data that would support the thesis that topic modeling could be used to predict and notice patterns in knowledge spillover. The distribution of topics across different years has not been changing much. The only reasonable conclusion that we can draw from the data under consideration is the fact that number of patents in the solar energy fields is growing but this is not a surprising fact as alternative energy sources are becoming more and more popular in recent years. Also, there is no great range on the time scale in the field of solar energy as this is a very new field. 
+
+Therefore, the temporal analysis could be performed only on the period of 6 years and this could affect the outcome of our results. Analyzing more established field could lead to more meaningful conclusion in terms of how knowledge spillovers can be measured using topic modeling of patents. Furthermore, the data was mostly handpicked, which means that there is a possibility that some entries were discarded or added to the data set based on subjective opinions or simply because of human error. This could also impact our results.
+The hardest tasks that we had to deal with throughout the course of this project were: data pre-processing, inferences and visualizing the data to confirm the hypotheses. Data pre-processing including crawling the data from the USPTO website and sorting out the right Application and Patent numbers took us significant time and effort. Also visualizing the data to show the results in the nice fashion using clear and understandable graphics was not a very easy task. The color-coded maps where a real challenge to master and develop.
+
+
+\section{Future Works}
+Due to the time constraints we were unable to address all possible solutions and to approach the problem from every possible angle. There is still plenty of room left for improvements and further extensions to the procedures we performed. Similarly, there are few other approaches that we could have tried in order to receive even more satisfying solutions.One obvious approach that we could use and adapt to our solution in order to refine our topic modeling is the use of Natural Language Processing (NLP) and phrases analysis. This would mean mining for the topics based on phrases and pairs of words rather than single words alone. Such a development would hopefully lead to more accurate topic models and in turn better classification method.
+Furthermore, a good idea to research would be attempting and testing the method with patents from different areas. This would allow us to see whether the algorithm is applicable to different technology areas and check its universality of the algorithm. Extending the project for possibly patents from any area would be a great research opportunity that would take a significant amount of time but could produce very interesting results.
+Defining a more adequate stop words definition is an aspect of our method that we could further work on. This would hopefully improve our topic modeling classification method since words that are specific to all patents would be omitted while constructing the topic models. We were initially going to attempt this s improvement, however, it turned out that regular stop words list for English language delivered satisfying results so we left this as an option towards the end of our time schedule and we simply did not have time at the end. Nevertheless, it would be an interesting opportunity to work on a development of patent specific stop words list.
+Another factor that could contribute to spillovers and possibly mining in it could give us some insight on knowledge transfer is size and type of the owner of a patent assignee i.e. the entity that owns the patent. Therefore, researching the distribution of patents based on the type and size of their assignees was suggested to us as another factor that we could consider in our project. Definitely work on it could lead to some meaningful insights on knowledge spillover.
+Lastly, we could use a data set that represented patents more uniformly distributed in time and over wider domain (more than 6 years). This could be achieved at least in theory by the use of stratified sampling. Having wider domain and more uniformly distributed patents could lead to a better conclusions regarding the knowledge spillover in time. However, we have to keep in mind that this may not be possible at all in the first place as the solar energy field is very new field and there is not many patents available that were granted or filed before 2005. Attempting a different, more established, field and a wider time domain could be a good substitute for this further development.
 
 
 \begin{thebibliography}{1}
