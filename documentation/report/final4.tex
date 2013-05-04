@@ -10,6 +10,7 @@
 \usepackage{setspace}
 \usepackage{caption}
 \usepackage{subcaption}
+%\usepackage{syntonly}
 
 
 
@@ -36,6 +37,8 @@ University of Texas at Austin\\
 
 \begin{document}
 \sloppy
+
+%\syntaxonly
 
 \maketitle
 %\doublespace
@@ -253,7 +256,7 @@ Finally, we visualize the data to discover patterns of knowledge spillovers in t
 \section{Results}
 We have run MALLET topic modeling on the solar energy patents data (restricted to claims and abstracts), carefully handpicked and crawled from the USPTO website. The objective was to determine whether data mining techniques could be used to predict and see knowledge spillover patterns in the field of solar power technology. The method we used consisted of running topic modeling on the patents and analyzing whether they overlap with CPC classes to which each patent is assigned by the USPTO. Grouping the patents by geographical locations and years allowed us to see whether there appear to be patterns in the development of patents that would imply knowledge spillover.
 
-To see whether we can use topic modeling to classify patents in the first place, we evaluate our results from topic model by computing how the topics agree with either technology area or/and the CPC classes. There are 4 broad technology areas our patents covered: Solar Monitoring, Solar Mounting/Rack, Solar Inverter and Site Assessments. There are 23 CPC classes that our patent data represented. The overlap between the true class and modeled class obtained from topic modeling is presented in Table~\ref{results_table}. Fig.~\ref{ta_results_matrix} is a graphic representation of the confusion matrix of patents’ classification using topic modeling and technology areas, which confirms our assumption that topic modeling is capable of a simple classification task that aligned with our meta-data.
+To see whether we can use topic modeling to classify patents in the first place, we evaluate our results from topic model by computing how the topics agree with either technology area or/and the CPC classes. There are 4 broad technology areas our patents covered: Solar Monitoring, Solar Mounting/Rack, Solar Inverter and Site Assessments. There are 23 CPC classes that our patent data represented. The overlap between the true class and modeled class obtained from topic modeling is presented in Table~\ref{results_table}. Fig.~\ref{ta_results_matrix} is a graphic representation of the confusion matrix of patents' classification using topic modeling and technology areas, which confirms our assumption that topic modeling is capable of a simple classification task that aligned with our meta-data.
 
 \begin{table}
 \centering
@@ -324,11 +327,12 @@ From Fig.~\ref{topics_geo}, the topics themselves are not necessarily meaningful
 On the other hand, it can be clearly seen from Fig.~\ref{topics_year} that the distribution of topics does not change much from year to year. It basically stays the same throughout the whole period under consideration in this paper. It should be noted that the overall number of patents in solar energy field is growing from year to year and this is most likely caused by more incentives to move towards renewable energy sources coupled with rising prices of conventional energy sources. However, there seems to be no possibility of measuring knowledge spillover across the years using topic modeling methods, apart from the fact that there is similar distribution of topics from year to year and establishing what this distribution is.
 
 \begin{figure}[h]
-	\center
+	\centering
 	\includegraphics[width=0.75\textwidth]{fig/year_geo_treemap.png}
-	\caption{A treemap to illustrate patent population over geographical location and year. We can see that almost one third of the patent population is dominated by the Bay Area, Germany and New York, while years are mostly concentrated in 2010-2012 (the darker means more recent.)
+	\caption{A treemap to illustrate patent population over geographical location and year. We can see that almost one third of the patent population is dominated by the Bay Area, Germany and New York, while years are mostly concentrated in 2010--2012 (the darker means more recent.)}
 	\label{year_geo_treemap}
 \end{figure}
+
 
 
 \section{Conclusion}
@@ -433,6 +437,5 @@ Wang, C. and Blei, D. Decoupling sparsity and smoothness in the discrete hierarc
 Doyle, G. and Elkan, C. Accounting for burstiness in topic models. In International Conference on Machine Learning, pages 281-288. ACM, 2009.
 
 \end{thebibliography}
-%
 
 \end{document}  
