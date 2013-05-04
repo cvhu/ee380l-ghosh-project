@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  4 MAY 2013 11:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  4 MAY 2013 17:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -255,7 +255,7 @@ Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
 \c@subfigure=\count107
 \c@subtable=\count108
 )
-No file final4.aux.
+(./final4.aux)
 \openout1 = `final4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -271,7 +271,7 @@ LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 37.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -399,26 +399,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
-
-Package natbib Warning: Citation `us_patent' on page 1 undefined on input line 
-50.
-
 [1
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `TLY07' on page 2 undefined on input line 64.
-
-
-Package natbib Warning: Citation `TLY03' on page 2 undefined on input line 64.
-
-
-Package natbib Warning: Citation `MM10' on page 2 undefined on input line 64.
-
-
-Package natbib Warning: Citation `geography' on page 2 undefined on input line 
-66.
-
 [2]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 72.
  (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -429,10 +412,6 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
  [3]
 Missing character: There is no Õ in font ptmr7t!
 
-
-Package natbib Warning: Citation `blei2011' on page 4 undefined on input line 9
-6.
-
 <fig/pat007.png, id=16, 998.73125pt x 165.61874pt>
 File: fig/pat007.png Graphic file (type png)
  <use fig/pat007.png>
@@ -442,28 +421,12 @@ Package pdftex.def Info: fig/pat007.png used on input line 105.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `sample_patent' on page 4 undefined on input line 110.
-
-
-
-LaTeX Warning: Reference `sample_patent' on page 4 undefined on input line 110.
-
-
 [4]
-
-Package natbib Warning: Citation `lda2003' on page 5 undefined on input line 11
-8.
-
-
-LaTeX Warning: Reference `topic_proportion' on page 5 undefined on input line 1
-18.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
-<fig/pat8_topics.png, id=20, 561.09625pt x 420.57124pt>
+ <fig/pat8_topics.png, id=20, 561.09625pt x 420.57124pt>
 File: fig/pat8_topics.png Graphic file (type png)
 
 <use fig/pat8_topics.png>
@@ -483,19 +446,7 @@ Package pdftex.def Info: fig/gm.png used on input line 147.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `graphical_model' on page 6 undefined on input line 16
-3.
-
 [6 <./fig/pat8_topics.png (PNG copy)>]
-
-Package natbib Warning: Citation `lda2003' on page 7 undefined on input line 16
-9.
-
-
-Package natbib Warning: Citation `bach2010' on page 7 undefined on input line 1
-69.
-
 <fig/topics.png, id=34, 565.11125pt x 638.385pt>
 File: fig/topics.png Graphic file (type png)
  <use fig/topics.png>
@@ -505,93 +456,19 @@ Package pdftex.def Info: fig/topics.png used on input line 173.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package natbib Warning: Citation `wallach2006' on page 7 undefined on input lin
-e 186.
-
-
-Package natbib Warning: Citation `griffiths2005' on page 7 undefined on input l
-ine 186.
-
 [7 <./fig/gm.png>]
-
-LaTeX Warning: Reference `graphical_model' on page 8 undefined on input line 18
-7.
-
-
-Package natbib Warning: Citation `blei2006' on page 8 undefined on input line 1
-87.
-
-
-Package natbib Warning: Citation `blei2006' on page 8 undefined on input line 1
-88.
-
-
-Package natbib Warning: Citation `teh2006' on page 8 undefined on input line 18
-8.
-
-
-Package natbib Warning: Citation `rosen-zvi2004' on page 8 undefined on input l
-ine 189.
-
-
-Package natbib Warning: Citation `blei2010' on page 8 undefined on input line 1
-89.
-
-
-Package natbib Warning: Citation `mimno2008' on page 8 undefined on input line 
-189.
-
-
-Package natbib Warning: Citation `blei2007' on page 8 undefined on input line 1
-89.
-
-
 Overfull \vbox (3.26918pt too high) has occurred while \output is active []
 
 
-[8 <./fig/topics.png>]
-
-Package natbib Warning: Citation `blei2007a' on page 9 undefined on input line 
-190.
-
-
-Package natbib Warning: Citation `li2006' on page 9 undefined on input line 190
-.
-
-
-Package natbib Warning: Citation `reisinger2010' on page 9 undefined on input l
-ine 190.
-
-
-Package natbib Warning: Citation `wang2009' on page 9 undefined on input line 1
-90.
-
-
-Package natbib Warning: Citation `doyle2009' on page 9 undefined on input line 
-190.
-
-
-Package natbib Warning: Citation `mallet' on page 9 undefined on input line 194
-.
-
-[9]
+[8 <./fig/topics.png>] [9]
 Missing character: There is no Õ in font ptmr7t!
-
-
-LaTeX Warning: Reference `sample_topics' on page 10 undefined on input line 212
-.
-
-[10] <fig/sample_topics.png, id=48, 886.31125pt x 270.00874pt>
+ [10]
+<fig/sample_topics.png, id=48, 886.31125pt x 270.00874pt>
 File: fig/sample_topics.png Graphic file (type png)
 
 <use fig/sample_topics.png>
 Package pdftex.def Info: fig/sample_topics.png used on input line 216.
 (pdftex.def)             Requested size: 469.75502pt x 143.10806pt.
-
-
-LaTeX Warning: Reference `geo_histogram' on page 11 undefined on input line 228
-.
 
 <fig/geo_histogram.png, id=49, 811.03pt x 405.515pt>
 File: fig/geo_histogram.png Graphic file (type png)
@@ -603,92 +480,62 @@ Package pdftex.def Info: fig/geo_histogram.png used on input line 232.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `year_histogram' on page 11 undefined on input line 23
-8.
-
 [11 <./fig/sample_topics.png>]
 <fig/year_histogram.png, id=53, 741.77126pt x 384.43625pt>
 File: fig/year_histogram.png Graphic file (type png)
 
 <use fig/year_histogram.png>
 Package pdftex.def Info: fig/year_histogram.png used on input line 243.
-(pdftex.def)             Requested size: 469.75502pt x 243.46317pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12 <./fig/geo_histogram.png>]
-
-LaTeX Warning: Reference `results_table' on page 13 undefined on input line 254
-.
-
-
-LaTeX Warning: Reference `ta_results_matrix' on page 13 undefined on input line
- 254.
-
+(pdftex.def)             Requested size: 352.31625pt x 182.59738pt.
+ [12 <./fig/geo_histogram.png> <./fig/year_histogram.png>]
 Missing character: There is no Õ in font ptmr7t!
-<fig/ta_results_matrix.png, id=57, 730.73pt x 404.51125pt>
+ <fig/ta_results_matrix.png, id=57, 730.73pt x 404.51125pt>
 File: fig/ta_results_matrix.png Graphic file (type png)
 
 <use fig/ta_results_matrix.png>
-Package pdftex.def Info: fig/ta_results_matrix.png used on input line 275.
+Package pdftex.def Info: fig/ta_results_matrix.png used on input line 276.
 (pdftex.def)             Requested size: 352.31625pt x 195.0335pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./fig/year_histogram.png>]
 
-LaTeX Warning: Reference `original_ta_geo' on page 14 undefined on input line 2
-83.
+Overfull \vbox (1.73491pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: Reference `our_ta_geo' on page 14 undefined on input line 283.
-
-<fig/original_ta_geo.png, id=62, 973.6375pt x 491.8375pt>
+[13] <fig/original_ta_geo.png, id=62, 973.6375pt x 491.8375pt>
 File: fig/original_ta_geo.png Graphic file (type png)
 
 <use fig/original_ta_geo.png>
-Package pdftex.def Info: fig/original_ta_geo.png used on input line 288.
+Package pdftex.def Info: fig/original_ta_geo.png used on input line 289.
 (pdftex.def)             Requested size: 234.8775pt x 118.64378pt.
 
-Underfull \hbox (badness 1117) in paragraph at lines 289--289
+Underfull \hbox (badness 1117) in paragraph at lines 290--290
 []\OT1/ptm/m/n/12 Figure 9: |The orig-i-nal tech-nol-ogy area dis-
  []
 
 <fig/our_ta_geo.png, id=63, 962.59625pt x 507.8975pt>
 File: fig/our_ta_geo.png Graphic file (type png)
  <use fig/our_ta_geo.png>
-Package pdftex.def Info: fig/our_ta_geo.png used on input line 294.
+Package pdftex.def Info: fig/our_ta_geo.png used on input line 295.
 (pdftex.def)             Requested size: 234.8775pt x 123.92836pt.
 
-Overfull \hbox (18.7864pt too wide) in paragraph at lines 287--298
+Overfull \hbox (18.7864pt too wide) in paragraph at lines 288--299
 [][]   [] 
  []
 
 [14 <./fig/ta_results_matrix.png> <./fig/original_ta_geo.png> <./fig/our_ta_geo
-.png>]
-
-LaTeX Warning: Reference `topics_geo' on page 15 undefined on input line 302.
-
-<fig/topics_geo.png, id=67, 969.6225pt x 482.80376pt>
+.png>] <fig/topics_geo.png, id=67, 969.6225pt x 482.80376pt>
 File: fig/topics_geo.png Graphic file (type png)
- <use fig/topics_geo.png>
-Package pdftex.def Info: fig/topics_geo.png used on input line 306.
+
+<use fig/topics_geo.png>
+Package pdftex.def Info: fig/topics_geo.png used on input line 307.
 (pdftex.def)             Requested size: 234.8775pt x 116.95084pt.
-
-
-LaTeX Warning: Reference `topics_geo' on page 15 undefined on input line 311.
-
-
-LaTeX Warning: Reference `topics_year' on page 15 undefined on input line 313.
-
-<fig/topics_year.png, id=68, 1148.29pt x 579.16376pt>
+ <fig/topics_year.png, id=68, 1148.29pt x 579.16376pt>
 File: fig/topics_year.png Graphic file (type png)
 
 <use fig/topics_year.png>
-Package pdftex.def Info: fig/topics_year.png used on input line 319.
+Package pdftex.def Info: fig/topics_year.png used on input line 320.
 (pdftex.def)             Requested size: 352.31625pt x 177.69191pt.
 
 
@@ -697,45 +544,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [15 <./fig/topics_geo.png>]
 Missing character: There is no Õ in font ptmr7t!
  [16 <./fig/topics_year.png>] [17]
-
-Package natbib Warning: Citation `blei2007' on page 18 undefined on input line 
-346.
-
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-[18]
-Underfull \hbox (badness 1430) in paragraph at lines 368--369
+ [18]
+Underfull \hbox (badness 1430) in paragraph at lines 369--370
 []\OT1/ptm/m/n/12 Yuen-Hsien Tseng, Chi-Jen Lin, Yu-I Lin. Text min-ing tech-ni
 ques for patent anal-y-
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 368--369
+Underfull \hbox (badness 1502) in paragraph at lines 369--370
 \OT1/ptm/m/n/12 sis. In-for-ma-tion Pro-cess-ing and Man-age-ment, Vol-ume 43, 
 Is-sue 5, Septem-ber 2007.
  []
 
 Missing character: There is no ¿ in font ptmr7t!
-[19] [20]
-
-Package natbib Warning: There were undefined citations.
-
-[21] (./final4.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+[19] [20] (./final4.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.55997pt have occurred.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (\end occurred inside a group at level 1)
@@ -743,13 +571,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### semi simple group (level 1) entered at line 42 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4645 strings out of 493488
- 69291 string characters out of 3141326
- 120738 words of memory out of 3000000
+ 4647 strings out of 493488
+ 69313 string characters out of 3141326
+ 121197 words of memory out of 3000000
  7814 multiletter control sequences out of 15000+200000
  63214 words of font info for 153 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,14n,38p,1137b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,38p,1137b,364s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -761,10 +589,10 @@ texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/201
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on final4.pdf (21 pages, 609116 bytes).
+Output written on final4.pdf (20 pages, 607819 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

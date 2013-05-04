@@ -235,25 +235,26 @@ The distribution of patents by countries can be seen on Fig.~\ref{geo_histogram}
 \end{figure}
 
 
-Similarly, we divided patents by years and subsequently classified them into topics to observe patterns of topics trending over time. This task was more challenging in that the solar technology innovation field is relatively new, and thus the distribution over the years was rather not uniform. In Fig.~\ref{year_histogram}, we can see all patents grouped by year and the technology areaa.
+Similarly, we divided patents by years and subsequently classified them into topics to observe trending patterns over time. This task was more challenging in that the solar technology innovation field is relatively new, and thus the distribution over the years was rather not uniform (in Fig.~\ref{year_histogram}, we can see all patents grouped by year and the technology area.)
 
 
 \begin{figure}[h]
 	\center
-	\includegraphics[width=\textwidth]{fig/year_histogram.png}
+	\includegraphics[width=0.75\textwidth]{fig/year_histogram.png}
 	\caption{A distribution of patents by years and technology areas}
 	\label{year_histogram}
 \end{figure}
-Following the procedures above, we measured our topic modeling results by comparing how they are mapped by the CPC classes within the groups. This step was performed to ensure that our topic models, even when patents are divided into groups by geographies or years, still make sense and represent the actual topics that patents relate to.
+Following the procedures above, we measured our topic modeling results by comparing how they mapped to the CPC classes within spatial and temporal groups. This step was performed to ensure that our topic models, even when patents are divided into groups by geographies or years, still make sense and represent the actual topics that the patents relate to.
 
-Finally, the last step was to visualize the data to notice any patterns in knowledge spillover in the field of solar energy. It is much easier to see these patterns visually than in numerical and textual form. This allowed us to find any trends in the distribution of the topics and possibly to find out whether we can use data mining techniques to see whether and to what extent there is knowledge spillover in solar energy technology field. Next part of this paper will attempt to analyze the results that we have arrived with and to evaluate these results.
+
+\subsection{Visualization}
+Finally, we visualize the data to discover patterns of knowledge spillovers in the field of solar energy. It is much easier to see these patterns visually than in numerical and textual forms. This allowed us to find any trends in the distribution of topics and to see whether or to what extent there is knowledge spillover in solar energy technology field. The next part of this paper will analyze and evaluate the results we have arrived with.
 
 \section{Results}
-We have run MALLET topic modeling on the solar energy patents data (claims and abstracts) carefully handpicked and crawled from the USPTO website. The objective was to determine whether data mining techniques could be used to predict and see knowledge spillover patterns in the field of solar power technology. The method we used consisted of running topic modeling on the patents then evaluating topic models by analysing whether they overlap with CPC classes to which each patent is assigned by the USPTO at the point of filing the patent application. Grouping the patents by geographies and years allowed us to see whether there appear to be any patterns in the development of patents that would imply knowledge spillover. This section of the paper is presenting the results that we have obtained.
+We have run MALLET topic modeling on the solar energy patents data (restricted to claims and abstracts), carefully handpicked and crawled from the USPTO website. The objective was to determine whether data mining techniques could be used to predict and see knowledge spillover patterns in the field of solar power technology. The method we used consisted of running topic modeling on the patents and analyzing whether they overlap with CPC classes to which each patent is assigned by the USPTO. Grouping the patents by geographical locations and years allowed us to see whether there appear to be patterns in the development of patents that would imply knowledge spillover.
 
-The first question that is crucial to any further consideration of the results is whether we can use topic modeling to classify patents in the first place. This could be evaluated by computing whether patent topics obtained through topic modeling overlap with either technology area or/and CPC classes. There are 4 broad technology areas that patents cover: Solar Monitoring, Solar Mounting/Rack, Solar Inverter and Site Assessments. There are 23 CPC classes that patents composing our data represented. The overlap between the true class and modelled class obtained for topic modeling is presented in Table~\ref{results_table}. Fig.~\ref{ta_results_matrix} is a graphic representation of the confusion matrix of patents’ classification using topic modeling and technology areas.
+To see whether we can use topic modeling to classify patents in the first place, we evaluate our results from topic model by computing how the topics agree with either technology area or/and the CPC classes. There are 4 broad technology areas our patents covered: Solar Monitoring, Solar Mounting/Rack, Solar Inverter and Site Assessments. There are 23 CPC classes that our patent data represented. The overlap between the true class and modeled class obtained from topic modeling is presented in Table~\ref{results_table}. Fig.~\ref{ta_results_matrix} is a graphic representation of the confusion matrix of patents’ classification using topic modeling and technology areas, which confirms our assumption that topic modeling is capable of a simple classification task that aligned with our meta-data.
 
-\-\\
 \begin{table}
 \centering
 \begin{tabular}{|l|l|}
@@ -273,14 +274,14 @@ Exact match & Match 1-out-of-3 predicted to top 3\\
 \begin{figure}[h]
 	\center
 	\includegraphics[width=0.75\textwidth]{fig/ta_results_matrix.png}
-	\caption{The confusion matrix of our predicted technology area results.}
+	\caption{The confusion matrix of our predicted technology area results. The data suggests that the classification of patents based on topic modeling is good and we can say with confidence that topic modeling can be used for the purpose of patent classification.
+}
 	\label{ta_results_matrix}
 \end{figure}
 
 
-The above data suggests that the classification of patents based on topic modeling is good and we can say with a significant degree of confidence that topic modeling can be used for the purpose of patent classification.
 
-Next step is evaluating whether patents are associated with specific geographies and can topic modeling predict these associations. To answer these questions patents were divided into geographies and then classification based on topic models was performed on the patents. In Fig.~\ref{original_ta_geo} and Fig.~\ref{our_ta_geo} respectively we can see the most popular actual technology area and the most popular predicted technology area using topic modeling. Both seem to overlap almost completely and therefore, we can confidently give a positive answer to this problem.
+Next, we evaluate whether patents are associated with specific geographical locations, and that topic modeling can successfully predict these associations. To answer these questions, patents were sliced by the geographical locations before running the topic modeling algorithms over these location slices. In Fig.~\ref{original_ta_geo} and Fig.~\ref{our_ta_geo}, we can see the most popular original technology area and the most popular predicted technology area using topic modeling. Both seem to overlap almost completely. Therefore, we can confidently give a positive answer to this problem.
 
 \begin{figure}[ht]
 %	\center
@@ -297,9 +298,9 @@ Next step is evaluating whether patents are associated with specific geographies
 	\end{minipage}
 \end{figure}
 
-As we observed above there are patents associated with specific geographies and topic modeling can identify that quite accurately. This result assures us that topic modeling is a valid method of classifying patents.
+As we observed above, there are patents associated with specific geographical locations, and topic modeling can identify that quite accurately. This result assures us that topic modeling is a valid method to classify our selected patents.
 
-However, the real question that we are interested in for the purpose of this paper is whether we can detect knowledge spillovers in the field of solar energy using data mining techniques. For this part we have focused mostly on the data pertaining to the United States, since there is simply not enough data from other countries and if there is then there is not enough granularity in the geographical location data. To answer the question of detecting knowledge spillovers, it will be very helpful to visualize the results in the form of a US map that is color-coded by different topics that are the most popular in each state. This graph can be seen in the Fig.~\ref{topics_geo}
+However, the real question that we are interested in for the purpose of this paper is to detect knowledge spillovers in the field of solar energy using data mining techniques. We have focused mostly on the data pertaining to the United States since patents from other countries simply don't have the ideal granularities we need to generalize our analysis. To detect knowledge spillovers, it will be very helpful to visualize the results in the form of a US map that is color-coded by different topics that are the most popular in each state. This graph can be seen in the Fig.~\ref{topics_geo}
 
 \begin{figure}[h]
 	\center
