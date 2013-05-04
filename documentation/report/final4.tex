@@ -300,7 +300,7 @@ Next, we evaluate whether patents are associated with specific geographical loca
 
 As we observed above, there are patents associated with specific geographical locations, and topic modeling can identify that quite accurately. This result assures us that topic modeling is a valid method to classify our selected patents.
 
-However, the real question that we are interested in for the purpose of this paper is to detect knowledge spillovers in the field of solar energy using data mining techniques. We have focused mostly on the data pertaining to the United States since patents from other countries simply don't have the ideal granularities we need to generalize our analysis. To detect knowledge spillovers, it will be very helpful to visualize the results in the form of a US map that is color-coded by different topics that are the most popular in each state. This graph can be seen in the Fig.~\ref{topics_geo}
+However, the real question that we are interested in for the purpose of this paper is to detect knowledge spillovers in the field of solar energy using data mining techniques. We have focused mostly on the data pertaining to the United States since patents from other countries simply don't have the ideal granularities we need to generalize our analysis. To detect knowledge spillovers, we visualized our results by plotting the most popular topics of each states on the US map in Fig.~\ref{topics_geo}.
 
 \begin{figure}[h]
 	\center
@@ -309,9 +309,8 @@ However, the real question that we are interested in for the purpose of this pap
 	\label{topics_geo}
 \end{figure}
 
-Each color in Fig.~\ref{topics_geo} represents the topic that is the most popular in each state. We can see that on the graph above topics themselves are not directly very meaningful when it comes to geographical distribution of the patents. The colors in general are distributed all over the place. However, we can see that purple-pink color is more popular in the South and East while blue is more popular in the West and green in the North. These assumptions are, however very weak and based on subjective heuristic perceptions. In overall, although we can see some patterns forming to some degree, we cannot see a clear pattern of knowledge spillover that would clearly support any thesis on knowledge spillover in solar energy field. Therefore, we concluded that although it looks like it would be possible to use topic modeling to mine for knowledge spillovers, we are not yet there and some further iterations and more complex models would need to be applied in order to obtain an acceptably meaningful and refined solution.
+From Fig.~\ref{topics_geo}, the topics themselves are not necessarily meaningful when it comes to geographical distribution of the patents. The colors in general are distributed all over the place. However, we can see that purple-pink color is more popular in the South and East, while blue is more popular in the West and green in the North. However, these qualitative discoveries are subjective to heuristics and individual perspectives. Although there are some patterns, we cannot find a quantitative evidence to support a concrete relation to knowledge spillovers in the field of solar energy. Therefore, we concluded that although it might be possible to use topic modeling to mine for knowledge spillovers, further iterations and more complex models are required to obtain a meaningful and solid conclusion.
 
-Another question that we are trying to find an answer to is whether we can mine for knowledge spillover across different years. This is whether there are any topics that become especially popular after given years or in given time periods. We can see the distribution of topics among years in Fig.~\ref{topics_year}
 
 
 
@@ -321,7 +320,16 @@ Another question that we are trying to find an answer to is whether we can mine 
 	\caption{The topics population over years}
 	\label{topics_year}
 \end{figure}
-On the graph it can be clearly seen that the distribution of topics does not change much from year to year. It basically stays the same throughout the whole period under consideration in this paper. It should be noted that the overall number of patents in solar energy field is growing from year to year and this is most likely caused by more incentives to move towards renewable energy sources coupled with rising prices of conventional energy sources. However, there seems to be no possibility of measuring knowledge spillover across the years using topic modeling methods, apart from the fact that there is similar distribution of topics from year to year and establishing what this distribution is.
+
+On the other hand, it can be clearly seen from Fig.~\ref{topics_year} that the distribution of topics does not change much from year to year. It basically stays the same throughout the whole period under consideration in this paper. It should be noted that the overall number of patents in solar energy field is growing from year to year and this is most likely caused by more incentives to move towards renewable energy sources coupled with rising prices of conventional energy sources. However, there seems to be no possibility of measuring knowledge spillover across the years using topic modeling methods, apart from the fact that there is similar distribution of topics from year to year and establishing what this distribution is.
+
+\begin{figure}[h]
+	\center
+	\includegraphics[width=0.75\textwidth]{fig/year_geo_treemap.png}
+	\caption{A treemap to illustrate patent population over geographical location and year. We can see that almost one third of the patent population is dominated by the Bay Area, Germany and New York, while years are mostly concentrated in 2010-2012 (the darker means more recent.)
+	\label{year_geo_treemap}
+\end{figure}
+
 
 \section{Conclusion}
 
