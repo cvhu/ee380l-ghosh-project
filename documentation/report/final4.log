@@ -1,0 +1,770 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  4 MAY 2013 11:10
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**final4.tex
+(./final4.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2007/10/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+\big@size=\dimen102
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen104
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+LaTeX Info: Redefining \boldsymbol on input line 54.
+\pmbraise@=\dimen105
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks16
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks17
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count99
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip48
+\LTright=\skip49
+\LTpre=\skip50
+\LTpost=\skip51
+\LTchunksize=\count101
+\LTcapwidth=\dimen115
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks20
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip52
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen116
+\captionmargin@=\dimen117
+\captionwidth=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
+)
+\c@ContinuedFloat=\count106
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
+\c@subfigure=\count107
+\c@subtable=\count108
+)
+No file final4.aux.
+\openout1 = `final4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 37.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen122
+\scratchbox=\box32
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen123
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 40
+.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 40
+.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 40
+.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 40
+.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 40.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 40.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Calculating math sizes for size <7.4> on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.47603> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <4.44003> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <5.47603> not available
+(Font)              size <5> substituted on input line 40.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <4.44003> not available
+(Font)              size <5> substituted on input line 40.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+
+Package natbib Warning: Citation `us_patent' on page 1 undefined on input line 
+50.
+
+[1
+
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `TLY07' on page 2 undefined on input line 64.
+
+
+Package natbib Warning: Citation `TLY03' on page 2 undefined on input line 64.
+
+
+Package natbib Warning: Citation `MM10' on page 2 undefined on input line 64.
+
+
+Package natbib Warning: Citation `geography' on page 2 undefined on input line 
+66.
+
+[2]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 72.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+ [3]
+Missing character: There is no Õ in font ptmr7t!
+
+
+Package natbib Warning: Citation `blei2011' on page 4 undefined on input line 9
+6.
+
+<fig/pat007.png, id=16, 998.73125pt x 165.61874pt>
+File: fig/pat007.png Graphic file (type png)
+ <use fig/pat007.png>
+Package pdftex.def Info: fig/pat007.png used on input line 105.
+(pdftex.def)             Requested size: 469.75502pt x 77.89894pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `sample_patent' on page 4 undefined on input line 110.
+
+
+
+LaTeX Warning: Reference `sample_patent' on page 4 undefined on input line 110.
+
+
+[4]
+
+Package natbib Warning: Citation `lda2003' on page 5 undefined on input line 11
+8.
+
+
+LaTeX Warning: Reference `topic_proportion' on page 5 undefined on input line 1
+18.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
+<fig/pat8_topics.png, id=20, 561.09625pt x 420.57124pt>
+File: fig/pat8_topics.png Graphic file (type png)
+
+<use fig/pat8_topics.png>
+Package pdftex.def Info: fig/pat8_topics.png used on input line 122.
+(pdftex.def)             Requested size: 258.36668pt x 193.65764pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./fig/pat007.png>] <fig/gm.png, id=28, 791.95876pt x 218.8175pt>
+File: fig/gm.png Graphic file (type png)
+
+<use fig/gm.png>
+Package pdftex.def Info: fig/gm.png used on input line 147.
+(pdftex.def)             Requested size: 352.31625pt x 97.3451pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `graphical_model' on page 6 undefined on input line 16
+3.
+
+[6 <./fig/pat8_topics.png (PNG copy)>]
+
+Package natbib Warning: Citation `lda2003' on page 7 undefined on input line 16
+9.
+
+
+Package natbib Warning: Citation `bach2010' on page 7 undefined on input line 1
+69.
+
+<fig/topics.png, id=34, 565.11125pt x 638.385pt>
+File: fig/topics.png Graphic file (type png)
+ <use fig/topics.png>
+Package pdftex.def Info: fig/topics.png used on input line 173.
+(pdftex.def)             Requested size: 234.8775pt x 265.3242pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `wallach2006' on page 7 undefined on input lin
+e 186.
+
+
+Package natbib Warning: Citation `griffiths2005' on page 7 undefined on input l
+ine 186.
+
+[7 <./fig/gm.png>]
+
+LaTeX Warning: Reference `graphical_model' on page 8 undefined on input line 18
+7.
+
+
+Package natbib Warning: Citation `blei2006' on page 8 undefined on input line 1
+87.
+
+
+Package natbib Warning: Citation `blei2006' on page 8 undefined on input line 1
+88.
+
+
+Package natbib Warning: Citation `teh2006' on page 8 undefined on input line 18
+8.
+
+
+Package natbib Warning: Citation `rosen-zvi2004' on page 8 undefined on input l
+ine 189.
+
+
+Package natbib Warning: Citation `blei2010' on page 8 undefined on input line 1
+89.
+
+
+Package natbib Warning: Citation `mimno2008' on page 8 undefined on input line 
+189.
+
+
+Package natbib Warning: Citation `blei2007' on page 8 undefined on input line 1
+89.
+
+
+Overfull \vbox (3.26918pt too high) has occurred while \output is active []
+
+
+[8 <./fig/topics.png>]
+
+Package natbib Warning: Citation `blei2007a' on page 9 undefined on input line 
+190.
+
+
+Package natbib Warning: Citation `li2006' on page 9 undefined on input line 190
+.
+
+
+Package natbib Warning: Citation `reisinger2010' on page 9 undefined on input l
+ine 190.
+
+
+Package natbib Warning: Citation `wang2009' on page 9 undefined on input line 1
+90.
+
+
+Package natbib Warning: Citation `doyle2009' on page 9 undefined on input line 
+190.
+
+
+Package natbib Warning: Citation `mallet' on page 9 undefined on input line 194
+.
+
+[9]
+Missing character: There is no Õ in font ptmr7t!
+
+
+LaTeX Warning: Reference `sample_topics' on page 10 undefined on input line 212
+.
+
+[10] <fig/sample_topics.png, id=48, 886.31125pt x 270.00874pt>
+File: fig/sample_topics.png Graphic file (type png)
+
+<use fig/sample_topics.png>
+Package pdftex.def Info: fig/sample_topics.png used on input line 216.
+(pdftex.def)             Requested size: 469.75502pt x 143.10806pt.
+
+
+LaTeX Warning: Reference `geo_histogram' on page 11 undefined on input line 228
+.
+
+<fig/geo_histogram.png, id=49, 811.03pt x 405.515pt>
+File: fig/geo_histogram.png Graphic file (type png)
+
+<use fig/geo_histogram.png>
+Package pdftex.def Info: fig/geo_histogram.png used on input line 232.
+(pdftex.def)             Requested size: 352.31625pt x 176.16246pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `year_histogram' on page 11 undefined on input line 23
+8.
+
+[11 <./fig/sample_topics.png>]
+<fig/year_histogram.png, id=53, 741.77126pt x 384.43625pt>
+File: fig/year_histogram.png Graphic file (type png)
+
+<use fig/year_histogram.png>
+Package pdftex.def Info: fig/year_histogram.png used on input line 243.
+(pdftex.def)             Requested size: 469.75502pt x 243.46317pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12 <./fig/geo_histogram.png>]
+
+LaTeX Warning: Reference `results_table' on page 13 undefined on input line 254
+.
+
+
+LaTeX Warning: Reference `ta_results_matrix' on page 13 undefined on input line
+ 254.
+
+Missing character: There is no Õ in font ptmr7t!
+<fig/ta_results_matrix.png, id=57, 730.73pt x 404.51125pt>
+File: fig/ta_results_matrix.png Graphic file (type png)
+
+<use fig/ta_results_matrix.png>
+Package pdftex.def Info: fig/ta_results_matrix.png used on input line 275.
+(pdftex.def)             Requested size: 352.31625pt x 195.0335pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13 <./fig/year_histogram.png>]
+
+LaTeX Warning: Reference `original_ta_geo' on page 14 undefined on input line 2
+83.
+
+
+LaTeX Warning: Reference `our_ta_geo' on page 14 undefined on input line 283.
+
+<fig/original_ta_geo.png, id=62, 973.6375pt x 491.8375pt>
+File: fig/original_ta_geo.png Graphic file (type png)
+
+<use fig/original_ta_geo.png>
+Package pdftex.def Info: fig/original_ta_geo.png used on input line 288.
+(pdftex.def)             Requested size: 234.8775pt x 118.64378pt.
+
+Underfull \hbox (badness 1117) in paragraph at lines 289--289
+[]\OT1/ptm/m/n/12 Figure 9: |The orig-i-nal tech-nol-ogy area dis-
+ []
+
+<fig/our_ta_geo.png, id=63, 962.59625pt x 507.8975pt>
+File: fig/our_ta_geo.png Graphic file (type png)
+ <use fig/our_ta_geo.png>
+Package pdftex.def Info: fig/our_ta_geo.png used on input line 294.
+(pdftex.def)             Requested size: 234.8775pt x 123.92836pt.
+
+Overfull \hbox (18.7864pt too wide) in paragraph at lines 287--298
+[][]   [] 
+ []
+
+[14 <./fig/ta_results_matrix.png> <./fig/original_ta_geo.png> <./fig/our_ta_geo
+.png>]
+
+LaTeX Warning: Reference `topics_geo' on page 15 undefined on input line 302.
+
+<fig/topics_geo.png, id=67, 969.6225pt x 482.80376pt>
+File: fig/topics_geo.png Graphic file (type png)
+ <use fig/topics_geo.png>
+Package pdftex.def Info: fig/topics_geo.png used on input line 306.
+(pdftex.def)             Requested size: 234.8775pt x 116.95084pt.
+
+
+LaTeX Warning: Reference `topics_geo' on page 15 undefined on input line 311.
+
+
+LaTeX Warning: Reference `topics_year' on page 15 undefined on input line 313.
+
+<fig/topics_year.png, id=68, 1148.29pt x 579.16376pt>
+File: fig/topics_year.png Graphic file (type png)
+
+<use fig/topics_year.png>
+Package pdftex.def Info: fig/topics_year.png used on input line 319.
+(pdftex.def)             Requested size: 352.31625pt x 177.69191pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./fig/topics_geo.png>]
+Missing character: There is no Õ in font ptmr7t!
+ [16 <./fig/topics_year.png>] [17]
+
+Package natbib Warning: Citation `blei2007' on page 18 undefined on input line 
+346.
+
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no ” in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+[18]
+Underfull \hbox (badness 1430) in paragraph at lines 368--369
+[]\OT1/ptm/m/n/12 Yuen-Hsien Tseng, Chi-Jen Lin, Yu-I Lin. Text min-ing tech-ni
+ques for patent anal-y-
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 368--369
+\OT1/ptm/m/n/12 sis. In-for-ma-tion Pro-cess-ing and Man-age-ment, Vol-ume 43, 
+Is-sue 5, Septem-ber 2007.
+ []
+
+Missing character: There is no ¿ in font ptmr7t!
+[19] [20]
+
+Package natbib Warning: There were undefined citations.
+
+[21] (./final4.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.55997pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 42 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 4645 strings out of 493488
+ 69291 string characters out of 3141326
+ 120738 words of memory out of 3000000
+ 7814 multiletter control sequences out of 15000+200000
+ 63214 words of font info for 153 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,14n,38p,1137b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on final4.pdf (21 pages, 609116 bytes).
+PDF statistics:
+ 125 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
