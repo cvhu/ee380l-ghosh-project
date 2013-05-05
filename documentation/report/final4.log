@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  4 MAY 2013 18:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  4 MAY 2013 20:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -544,24 +544,20 @@ File: fig/year_geo_treemap.png Graphic file (type png)
 Package pdftex.def Info: fig/year_geo_treemap.png used on input line 331.
 (pdftex.def)             Requested size: 352.31625pt x 149.51913pt.
 Missing character: There is no Õ in font ptmr7t!
- [16 <./fig/year_geo_treemap.png>] [17]
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no ” in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
- [18]
-Underfull \hbox (badness 1430) in paragraph at lines 381--382
+ [16 <./fig/year_geo_treemap.png>] [17] [18]
+Underfull \hbox (badness 1430) in paragraph at lines 382--383
 []\OT1/ptm/m/n/12 Yuen-Hsien Tseng, Chi-Jen Lin, Yu-I Lin. Text min-ing tech-ni
 ques for patent anal-y-
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 381--382
+Underfull \hbox (badness 1502) in paragraph at lines 382--383
 \OT1/ptm/m/n/12 sis. In-for-ma-tion Pro-cess-ing and Man-age-ment, Vol-ume 43, 
 Is-sue 5, Septem-ber 2007.
  []
 
 Missing character: There is no ¿ in font ptmr7t!
-[19] [20] [21] (./final4.aux)
+[19] [20] (./final4.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.55997pt have occurred.
@@ -590,10 +586,10 @@ texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/201
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on final4.pdf (21 pages, 750176 bytes).
+Output written on final4.pdf (20 pages, 749076 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
